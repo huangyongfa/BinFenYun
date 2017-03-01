@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/current/current.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+
+</head>
+<body class="bgfa">
+<!-- 头部 -->
+
+
+<div id="content" class="current_content">
+    <img class="content-img" src="static/images/bg_biglogin.jpg" width="1920" height="891">
+    <div class="header-log">
+        <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+    </div>
+    <div class="get-back_password">
+        <h3>找回密码</h3>
+        <div class="get-back_password-1th">
+            <div class="get-back_password-1 radius45 bge61">1</div>
+            <div class="get-back_password-line-1 bgccc"></div>
+            <div class="get-back_password-2 radius45 bgccc">2</div>
+            <div class="get-back_password-line-2 bgccc"></div>
+            <div class="get-back_password-3 radius45 bgccc">3</div>
+            <div><span>身份验证</span><span>修改密码</span><span class="span-last-child">完成</span></div>
+        </div>
+        <div class="border700"></div>
+        <form action="" id="get-back_password-1th-form" class="get-back_password-1th-form">
+            <label for="get-back_password-1th-form-text"> 账号：</label>
+            <input type="text" id="get-back_password-1th-form-text" class="get-back_password-1th-form-text"><br>
+            <label for="get-back_password-1th-form-num"> 短信验证码：</label>
+            <input type="text" id="get-back_password-1th-form-num" class="get-back_password-1th-form-num"><input type="button" class="get-back_password-1th-form-btn1" value="获取验证码">
+            <p>请把短信中的6位数字输入到上面的文本框中</p>
+            <input type="button" class="get-back_password-1th-form-btn2" value="下一步">
+        </form>
+        <form action="" id="get-back_password-2th-form" class="get-back_password-1th-form"style="display: none">
+            <label for="get-back_password-1th-form-text"> 新密码</label>
+            <input type="text" id="get-back_password-2th-form-text" class="get-back_password-1th-form-text"><br>
+            <label for="get-back_password-1th-form-num"> 确认新密码</label>
+            <input type="text" id="get-back_password-2th-form-num" class="get-back_password-1th-form-text">
+            <p></p>
+            <input type="button" class="get-back_password-2th-form-btn" value="下一步">
+        </form>
+        <div id="get-back_password-3th-form" style="display: none">
+            <h1><span>恭喜</span>,重置密码成功</h1><div class="get-back_password-footer"><a href="#" class="cle61">马上登陆</a><a href="#" class="cle61 a-last-child">去首页</a></div>
+        </div>
+    </div>
+</div>
+<!--[if lt IE 9]>
+<script src="static/js/html5shiv.min.js"></script>
+<![endif]-->
+<!--问题弹出-->
+<div class="public-box question-show">
+    <h2 class="show-title">
+        <span class="btn-close"></span>
+    </h2>
+    <div class="public-con">
+        <textarea class="txt-con"></textarea>
+        <p class="question-answer">
+            <i class="fl"></i>
+            <input type="button" class="btn-answer fr bge61" value="回复" />
+        </p>
+    </div>
+</div>
+<!---->
+<script type="text/javascript" src="static/js/public-2016.js"></script>
+<script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript">
+    $(function() {
+        var height=$(window).height();
+        $('.content-img').height(height);
+    })
+</script>
+<script>
+   $('.get-back_password-1th-form-btn2').bind('click',function () {
+            $('.get-back_password-line-1').css('background', ' #e61d4c');
+            $('.get-back_password-2').css('background', '#e61d4c');
+            $('#get-back_password-1th-form').css('display','none');
+            $('#get-back_password-2th-form').css('display','block');
+
+    });
+   $('.get-back_password-2th-form-btn').click(function(){
+       $('#get-back_password-2th-form').css('display','none');
+       $('#get-back_password-3th-form').css('display','block');
+       $('.get-back_password-line-2').css('background', ' #e61d4c');
+       $('.get-back_password-3').removeClass('get-back_password-3 radius45 bgccc').addClass('get-back_password-img').html('');
+   })
+</script>
+</body>
+</html>

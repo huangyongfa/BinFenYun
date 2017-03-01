@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" href="static/css/current/current.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+<!-- 头部 -->
+<div id="header">
+    <div class="header-hd">
+        <div class="w1200">
+            <div class="site-top-city">
+                <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                <!-- 未登录 start -->
+                <div class="site-top-log site-top-loging">
+                    <a href="#">登录</a>
+                    <a href="#" class="ml10">加入缤纷云</a>
+                </div>
+                <!-- end -->
+                <!-- 已登录  start -->
+                <div class="site-top-log site-top-logged">
+                    <span>欢迎您，</span>
+                    <div class="logged-user">梁志天
+                        <ul class="account">
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                </div>
+                <!-- end -->
+
+                <!-- 切换城市 弹出框 -->
+                <div class="site-top-city-pop">
+                    <div class="mt">
+                        <strong class="mr10">热门城市</strong>
+                        <a href="javascript:;" class="cle61">北京</a>
+                        <a href="javascript:;" class="cle61">上海</a>
+                        <a href="javascript:;" class="cle61">深圳</a>
+                        <a href="javascript:;" class="cle61">广州</a>
+                        共开通了<em class="cle61">250</em>个城市站
+                        <span class="btn-close"></span>
+                    </div>
+                    <div class="mc">
+                        <strong class="mr10">快速查找</strong>
+                        <select id="J_top-location-prov" class="br mr10">
+                            <option value="0">广东省</option>
+                        </select>
+                        <select id="J_top-location-city" class="br mr10">
+                            <option value="0">深圳市</option>
+                            <option value="1">广州市</option>
+                        </select>
+                        <p class="site-top-city-pop-ok">
+                            <input class="br bge61" type="button" value="确认" />
+                        </p>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+
+            <div class="site-top-user fr">
+
+                <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                <!-- 已登录 -->
+                <div class="site-top-logged">
+                    <a href="#">缤纷云首页</a>
+                    <span class="slash">|</span>
+                    <div class="my-manage">
+                        我的缤纷云
+                        <ul class="manage-list">
+                            <li><a href="#">我的预约</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">作品管理</a></li>
+                        </ul>               
+                    </div>
+                </div>
+                <a href="###" class="site-top-loging">进入格调网</a>
+                <span class="slash">|</span>
+                <a href="###">客服服务</a>
+                <span class="slash">|</span>
+                <a href="###">帮助中心</a>
+                <!-- 已登录 end -->
+            </div>
+        </div>
+    </div>
+    <div class="header-bd w1200">
+        <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+        <div class="font-family">
+            <img src="static/images/img/images/sy_06.jpg" >
+        </div>
+        <!-- 搜索 -->
+        <div class="head-ad"></div>
+        <!-- 搜索 end -->
+        <div class="font-ewm">
+            <img src="static/images/img/images/sy_03.jpg" alt="">
+            <p><a href="#">下载装修管家</a></p>
+        </div>
+    </div>
+    <div class="header-ft">
+        <div class="w1200">
+            <!-- 主导航 -->
+            <ul class="mainNav clearfix" id="J_mainNav">
+                <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+            </ul>
+            <!-- 主导航 end -->
+        </div>
+    </div>
+</div>
+<!-- 头部 end -->
+<!-- 内容区 -->
+<div id="content">
+    <div class="wrap w1200 mt20 pb20 clearfix">
+        <div class="user-left fl">
+            <h2 class="user-left-title user-left-title-manager">
+                项目经理的个人中心
+            </h2>
+
+            <ul class="user-left-ul">
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        施工投标
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">招标管理</a>
+                        </li>
+                        <li>
+                            <a href="#">投标记录</a>
+                        </li>
+                        <li>
+                            <a href="#">施工订单</a>
+                        </li>
+                        <li>
+                            <a href="#">施工报价</a>
+                        </li>
+                        <li>
+                            <a href="#">施工报价管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        案例管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">施工案例</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        信息管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">消息管理</a>
+                        </li>
+                        <li>
+                            <a href="#">短信管理</a>
+                        </li>
+                        <li>
+                            <a href="#">装修问答</a>
+                        </li>
+                        <li>
+                            <a href="#">投诉管理</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        账户管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">钱包管理</a>
+                        </li>
+                        <li>
+                            <a href="#">认证管理</a>
+                        </li>
+                        <li class="nav-left">
+                            <a href="#">安全中心</a>
+                        </li>
+                        <li>
+                            <a href="#">保证金管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        资料管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li class="nav-left">
+                            <a href="#">个人资料维护</a>
+                        </li>
+                        <li>
+                            <a href="#">域名申请</a>
+                        </li>
+                        <li>
+                            <a href="#">友情链接</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <script src="static/js/leftTelescopic.js"></script>
+        </div>
+        <div class="user-right fr">
+            <div class="business-top">
+                <div class="user-crumbs bgeb">
+                    <a href="#">账户管理 > </a>
+                    安全中心
+                </div>
+                <div class="SecurityCenter">
+                    <ul class="SecurCenterCont">
+                        <li>
+                            <h1>安全中心</h1>
+                        </li>
+                        <li class="SecurityLevel">
+                            <div>
+                                <p>当前安全等级：<span class="cle61 Level"> 低 </span><span class="cle61">(建议您开启全部安全设置，以保障账户及资金安全)</span></p>
+                            </div>
+                        </li>
+                        <li class="SetupVerificat">
+                            <ul class="ModifySet">
+                                <li>
+                                    <p class="cl80 imgTxtSet">修改密码</p>
+                                    <p class="cle61 safetProblem">互联网上账号存在风险，建议定期更换密码以保护账户安全</p>
+                                    <p class="safetModify MdfPasWord1"><a href="#" class="cl18c change-pass">修改</a></p>
+                                </li>
+                                <li>
+                                    <p class="cl80 imgTxtSet">手机验证</p>
+                                    <div class="safetProblem Verificat">
+                                        您验证的手机：
+                                        <span>13********628 </span>
+                                        <span>若已丢失或停用，请立即更换，</span>
+                                        <span class="cle61">避免账户被盗</span>
+                                    </div>
+                                    <p class="safetModify MdfPasWord2"><a href="#" class="cl18c change-phone">修改</a></p>
+                                </li>
+                                <li>
+                                    <p class="cl80 imgTxtSet MailboxVerificat">邮箱验证</p>
+                                    <p class="safetProblem">验证后可用邮箱快速找回密码</p>
+                                    <p class="safetModify IdtyVrf1"><a href="#" class="cl18c checkmail">立即验证</a></p>
+                                </li>
+                                <li>
+                                    <p class="cl80 imgTxtSet MailboxVerificat">支付密码</p>
+                                    <p class="safetProblem">设置支付密码后，在使用账户中余额时，需输入支付密码。</p>
+                                    <p class="safetModify IdtyVrf2"><a href="#" class="cl18c change-paypass">立即设置</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="SecureBinding">
+                            <ul class="SecureBind">
+                                <li>
+                                    <p class="cl80 ThirdAccount">您还可以绑定第三方账号</p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="WeChat cle61">解绑微信</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="BindQQ cl2b3">绑定QQ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="SafetyTips">
+                            <h2>安全提示</h2>
+                            <p>1，确认您登录的是格调装修网 ( http://www.gediaozx.com ) 注意防范钓鱼网站，不要亲信各种即使通讯工具发送的网站链接，
+                                谨防网络诈骗。
+                            </p>
+                            <p>
+                                2，建议您安装杀毒软件，并定期更新病毒库及操作系统等软件补丁，确保账户及交易安全。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 内容区 end -->
+<!-- 页脚 -->
+<div id="footer">
+    <!-- 装修服务 -->
+    <div class="site-bot-services w1200 clearfix">
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">格调网官方微博</p>
+                <p class="lh44">随时随地看装修</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">官方微信</p>
+                <p class="lh44">扫描二维码即可关注我们！</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl">
+            <p class="lh30">客服热线</p>
+            <p class="lh30">400-788-4288</p>
+            <p class="lh30">周一至周日: 9:00-22:00</p>
+        </div>
+    </div>
+    <!-- 装修服务 end -->
+    <!-- 底部导航 -->
+    <div class="site-bot-nav w1200">
+        <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+    </div>
+    <!-- copyright -->
+    <div class="site-bot-copyright w1200">
+        <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+    </div>
+    <!-- copyright end -->
+</div>
+<!-- 页脚 end-->
+<!--[if lt IE 9]>
+<script src="static/js/html5shiv.min.js"></script>
+<![endif]-->
+<!--问题弹出-->
+<div class="public-box question-show">
+    <h2 class="show-title">
+        <span class="btn-close"></span>
+    </h2>
+    <div class="public-con">
+        <textarea class="txt-con"></textarea>
+        <p class="question-answer">
+            <i class="fl"></i>
+            <input type="button" class="btn-answer fr bge61" value="回复" />
+        </p>
+    </div>
+</div>
+<!---->
+<!-- 修改密码 start-->
+<div class="layout-changepass">
+    <div class="head">
+        <h1>修改密码</h1>
+        <span class="h-close"></span>
+    </div>
+    <div class="l-body">
+        <form methon="" action="">
+            <div class="ch-row ">旧密码：<input type="text" class="ipt-txt" placeholder="请输入您的原密码"></div>
+            <div class="ch-row">新密码：<input type="text" class="ipt-txt" placeholder="密码长度6-16位"></div>
+            <div class="ch-row">确认密码：<input type="text" class="ipt-txt" placeholder="确认密码"></div>
+            <div class="ch-row"><input type="button" value="提交" class="ipt-sub"></div>
+        </form>
+    </div>
+    <div class="ipt-sub-success">
+        <p>
+            <img src="static/images/true.png" alt="提交成功" class="success-img">
+            <span class="success-msg">恭喜您，您的密码已修改成功！</span>
+        </p>
+        <input type="button" value="确定" class="suc-sure">
+    </div>
+</div>
+<!-- end -->
+<!-- 手机验证 start -->
+<div class="layout-changephone">
+    <div class="head">
+        <h1>手机验证</h1>
+        <span class="h-close"></span>
+    </div>
+    <div class="l-body">
+        <!-- 进度条 -->
+        <div class="lineing">
+            <ul>
+                <li class="first on"><span class="circle ch">1</span></li>
+                <li class="second bgcc plr104"><span class="circle">2</span></li>
+                <li class="third bgcc"><span class="circle">3</span></li>
+            </ul>
+            <ul class="mt20">
+                <li class="first txt-left ml-13">验证身份</li>
+                <li class="second txt-center pl20">绑定手机</li>
+                <li class="third txt-right">完成</li>
+            </ul>
+        </div>
+        <!-- 内容 -->
+        <!-- 第一步 -->
+        <div class="first-step">
+            <div class="inpt">
+                <div class="phnum">已验证的手机：137 ***** 487</div>
+                <div class="phcheck">
+                    请输入手机验证码：<input type="text" class="phone-ipt" placeholder="输入验证码"><input type="button" value="获取验证码" class="getmsg" style="width:115px;">
+                    <p class="check-msg">短信验证码已发送成功，您将在5s至3分钟内收到。</p>
+                </div>
+                <div class="checknum">
+                    验证码：<input type="text" placeholder="请输入验证码" class="checkipt"><span class="numimg"></span>&nbsp;&nbsp;看不清楚？<a href="#" class="changebtn">点击换一张</a>
+                </div>
+                <input type="submit" value="提交" class="checksubmit next">
+            </div>
+            <div class="cuemsg">
+                <p class="bold">为什么要进行身份验证？</p>
+                <p>1.为保障您的账户信息安全，在变更账户中的重要信息时需要进行身份验证，感谢您的理解和支持</p>
+            </div>
+        </div>
+        <!-- 第二步 -->
+        <div class="second-step">
+            <div class="bind-phone">
+                <div class="new-phone-num">
+                    请输入要绑定的手机号：<input type="text" placeholder="请输入您要绑定的手机号码" class="new-phone-ipt"><input type="button" value="获取验证码" class="getmsg" style="width:115px;">
+                    <p class="check-msg">短信验证码已发送成功，您将在5s至3分钟内收到。</p>
+                </div>
+                <div class="new-phone-checknum">
+                    输入手机效验码：<input type="text" placeholder="请输入手机效验码" class="new-phone-ipt">
+                </div>
+                <div class="checknum">
+                    验证码：<input type="text" placeholder="请输入验证码" class="checkipt"><span class="numimg"></span>&nbsp;&nbsp;看不清楚？<a href="#" class="changebtn">点击换一张</a>
+                </div>
+                <input type="submit" value="提交" class="checksubmit last">
+            </div>
+        </div>
+        <!-- 第三步 -->
+        <div class="ipt-sub-success third-step">
+            <p>
+                <img src="static/images/true.png" alt="提交成功" class="success-img">
+                <span class="success-msg">恭喜您，您的密码已修改成功！</span>
+            </p>
+            <input type="button" value="确定" class="suc-sure">
+        </div>
+    </div>
+</div>
+<!-- end -->
+<!-- 绑定邮箱 start -->
+<div class="layout-mail">
+    <div class="head">
+        <h1>绑定邮箱</h1>
+        <span class="h-close"></span>
+    </div>
+    <div class="l-body">
+        <!-- 进度条 -->
+        <div class="lineing">
+            <ul>
+                <li class="first on"><span class="circle ch">1</span></li>
+                <li class="second bgcc plr104"><span class="circle">2</span></li>
+                <li class="third bgcc"><span class="circle">3</span></li>
+            </ul>
+            <ul class="mt20">
+                <li class="first txt-left ml-13">验证身份</li>
+                <li class="second txt-center pl20">绑定邮箱</li>
+                <li class="third txt-right">完成</li>
+            </ul>
+        </div>
+        <!-- 内容 -->
+        <!-- 第一步 -->
+        <div class="first-step">
+            <div class="inpt">
+                <div class="phnum">已验证的手机：137 ***** 487</div>
+                <div class="phcheck">
+                    请输入手机验证码：<input type="text" class="phone-ipt" placeholder="输入验证码"><input type="button" value="获取验证码" class="getmsg" id="getm" style="width:115px;">
+                    <p class="check-msg">短信验证码已发送成功，您将在5s至3分钟内收到。</p>
+                </div>
+                <div class="checknum">
+                    验证码：<input type="text" placeholder="请输入验证码" class="checkipt"><span class="numimg"></span>&nbsp;&nbsp;看不清楚？<a href="#" class="changebtn">点击换一张</a>
+                </div>
+                <input type="submit" value="提交" class="checksubmit next">
+            </div>
+            <div class="cuemsg">
+                <p class="bold">为什么要进行身份验证？</p>
+                <p>1.为保障您的账户信息安全，在变更账户中的重要信息时需要进行身份验证，感谢您的理解和支持</p>
+            </div>
+        </div>
+         <!-- 第二步 -->
+        <div class="second-step">
+            <div class="bind-phone">
+                <div class="new-phone-num new-email">
+                    请输入要绑定的Email：<input type="text" placeholder="请输入您要绑定的手机号码" class="new-phone-ipt"><input type="button" value="获取验证码" class="getmsg" style="width:115px;">
+                    <p class="check-msg">短信验证码已发送成功，您将在5s至3分钟内收到。</p>
+                </div>
+                <div class="new-phone-checknum new-email-check">
+                    输入邮件效验码：<input type="text" placeholder="请输入邮件效验码" class="new-phone-ipt">
+                </div>
+                <div class="checknum email-checknum">
+                    输入验证码：<input type="text" placeholder="请输入验证码" class="checkipt"><span class="numimg"></span>&nbsp;&nbsp;看不清楚？<a href="#" class="changebtn">点击换一张</a>
+                </div>
+                <input type="submit" value="提交" class="checksubmit last">
+            </div>
+        </div>
+        <!-- 第三步 -->
+        <div class="ipt-sub-success third-step">
+            <p>
+                <img src="static/images/true.png" alt="提交成功" class="success-img">
+                <span class="success-msg">恭喜您，您的密码已修改成功！</span>
+            </p>
+            <input type="button" value="确定" class="suc-sure">
+        </div>
+    </div>
+</div>
+<!-- end -->
+<!-- 修改支付密码 start -->
+<div class="layout-changepaypass">
+    <div class="head">
+        <h1>修改支付密码</h1>
+        <span class="h-close"></span>
+    </div>
+    <div class="l-body">
+        <!-- 进度条 -->
+        <div class="lineing">
+            <ul>
+                <li class="first on"><span class="circle ch">1</span></li>
+                <li class="second bgcc plr104"><span class="circle">2</span></li>
+                <li class="third bgcc"><span class="circle">3</span></li>
+            </ul>
+            <ul class="mt20">
+                <li class="first txt-left ml-13">验证身份</li>
+                <li class="second txt-center pl20">设置支付密码</li>
+                <li class="third txt-right">完成</li>
+            </ul>
+        </div>
+        <!-- 第一步 -->
+        <div class="first-step">
+            <div class="inpt">
+                <div class="phnum">已验证的手机：137 ***** 487</div>
+                <div class="phcheck">
+                    请输入手机验证码：<input type="text" class="phone-ipt" placeholder="输入验证码"><input type="button" value="获取验证码" class="getmsg" style="width:115px;">
+                    <p class="check-msg">短信验证码已发送成功，您将在5s至3分钟内收到。</p>
+                </div>
+                <div class="checknum">
+                    验证码：<input type="text" placeholder="请输入验证码" class="checkipt"><span class="numimg"></span>&nbsp;&nbsp;看不清楚？<a href="#" class="changebtn">点击换一张</a>
+                </div>
+                <input type="submit" value="提交" class="checksubmit next">
+            </div>
+            <div class="cuemsg">
+                <p class="bold">为什么要进行身份验证？</p>
+                <p>1.为保障您的账户信息安全，在变更账户中的重要信息时需要进行身份验证，感谢您的理解和支持</p>
+            </div>
+        </div>
+        <!-- 第二步 -->
+        <div class="second-step">
+            <form methon="" action="">
+                <div class="usernam">账户名：&nbsp;ji **** ng</div>
+                <div class="ch-row ">密码：<input type="text" class="ipt-txt" placeholder="请输入您的原密码"></div>
+                <div class="ch-row">确认密码：<input type="text" class="ipt-txt" placeholder="确认密码"></div>
+                <div class="ch-row"><div class="ipt-sub last">提交</div></div>
+            </form>
+        </div>
+        <!-- 第三步 -->
+        <div class="ipt-sub-success third-step">
+            <p>
+                <img src="static/images/true.png" alt="提交成功" class="success-img">
+                <span class="success-msg">恭喜您，支付密码设置成功！</span>
+            </p>
+            <input type="button" value="确定" class="suc-sure">
+        </div>
+    </div>
+</div>
+<!-- end -->
+<!-- 接触绑定QQ -->
+<div class="layout-unbindQQ">
+    <div class="unbind-head">
+        <h1>解绑QQ</h1>
+        <span class="unbind-close"></span>
+    </div>
+    <div class="unbind-body">
+        <div class="unbind-ipt">
+            <p class="p-1">已验证的QQ号：250 **** 99</p>
+            <p>请输入QQ验证码：<input type="text" placeholder="输入验证码" class="unbind-checkipt"><span class="unbind-getchecknum">获取效验码</span></p>
+        </div>
+        <div class="unbind-surebtn">解除绑定</div>
+    </div>
+</div>
+<!-- end -->
+<!-- 接触绑定微信 -->
+<div class="layout-unbind-webchat">
+    <div class="unbind-head">
+        <h1>解绑微信</h1>
+        <span class="unbind-close"></span>
+    </div>
+    <div class="unbind-body">
+        <div class="unbind-webchat-ipt">
+            <p class="p-2">已验证手机：137 ***** 487</p>
+            <p>请输入手机验证码：<input type="text" placeholder="输入验证码" class="unbind-checkipt"><span class="unbind-getchecknum">获取效验码</span></p>
+        </div>
+        <div class="unbind-surebtn">解除绑定</div>
+    </div>
+</div>
+<!-- end -->
+<script type="text/javascript" src="static/js/public-2016.js"></script>
+<script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 修改密码
+        $(".change-pass").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-changepass"),
+                area:["800px","400px"],
+                closeBtn:0
+            })
+            $(".h-close").on("click",function(){
+                $(".layout-changepass .l-body").show();
+                $(".layout-changepass .ipt-sub-success").hide();
+                layer.closeAll();
+            })
+            $(".ipt-sub").on("click",function(){
+                $(".layout-changepass .l-body").hide();
+                $(".layout-changepass .ipt-sub-success").show();
+                $(".suc-sure").click(function(){
+                    $(".layout-changepass .l-body").show();console.log(1);
+                    $(".layout-changepass .ipt-sub-success").hide();console.log(2);
+                    layer.closeAll();console.log(3)
+                })
+            })
+        })
+        // 手机验证
+        $(".change-phone").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-changephone"),
+                area:["800px","430px"],
+                closeBtn:0
+            })
+            $(".h-close").on("click",function(){
+                $(".first-step").show();
+                $(".second-step").hide();
+                $(".third-step").hide();
+                $(".lineing ul:first li.second,.third").removeClass("on").find(".circle").removeClass("ch");
+                layer.closeAll();
+            })
+            // 第一步
+            $(".layout-changephone .phcheck .getmsg").on("click",function(){
+                $(".layout-changephone .phcheck .check-msg").css("display","block");
+                $(".layout-changephone .phcheck .getmsg").attr("disabled",true);
+                var tim=60;
+                var timer = setInterval(function(){
+                    tim--;
+                    $(".layout-changephone .phcheck .getmsg").val(""+tim+"s后重新获取");
+                    if(tim==0){
+                        clearInterval(timer);
+                        $(".layout-changephone .phcheck .getmsg").val("获取验证码");
+                        $(".layout-changephone .phcheck .getmsg").attr("disabled",false);
+                        $(".layout-changephone .phcheck .check-msg").css("display","none");
+                    }   
+                },1000)
+                $(".h-close").on("click",function(){
+                    clearInterval(timer);
+                    $(".phcheck .getmsg").val("获取验证码");
+                    $(".phcheck .getmsg").attr("disabled",false);
+                    $(".phcheck .check-msg").css("display","none");
+                    layer.closeAll();
+                })
+             })
+            // 下一步
+            $(".layout-changephone .next").click(function(){
+                $(".first-step").hide();
+                $(".second-step").show();
+                $(".layout-changephone .lineing ul:first li.second").addClass("on").find(".circle").addClass("ch");
+                $(".layout-changephone .new-phone-num .getmsg").on("click",function(){
+                    $(".layout-changephone .new-phone-num .check-msg").css("display","block");
+                    $(".layout-changephone .new-phone-num .getmsg").attr("disabled",true);
+                    var tim=60;
+                    var timer = setInterval(function(){
+                        tim--;
+                        $(".layout-changephone .new-phone-num .getmsg").val(""+tim+"s后重新获取");
+                        if(tim==0){
+                            clearInterval(timer);
+                            $(".layout-changephone .new-phone-num .getmsg").val("获取验证码");
+                            $(".layout-changephone .new-phone-num .getmsg").attr("disabled",false);
+                            $(".layout-changephone .new-phone-num .check-msg").css("display","none");
+                        }   
+                    },1000)
+                    $(".h-close").on("click",function(){
+                        clearInterval(timer);
+                        $(".new-phone-num .getmsg").val("获取验证码");
+                        $(".new-phone-num .getmsg").attr("disabled",false);
+                        $(".new-phone-num .check-msg").css("display","none");
+                        $(".first-step").show();
+                        $(".second-step").hide();
+                        layer.closeAll();
+                    })
+                })
+
+            })
+            //第三步
+            $(".layout-changephone .last").click(function(){
+                $(".second-step").hide();
+                $(".third-step").show();
+                $(".layout-changephone .lineing ul:first li.third").addClass("on").find(".circle").addClass("ch");
+                $(".third-step .suc-sure").click(function(){
+                    layer.closeAll();
+                    $(".first-step").show();
+                    $(".second-step").hide();
+                    $(".third-step").hide();
+                    $(".layout-changephone .lineing ul:first li.second,.third").removeClass("on").find(".circle").removeClass("ch");
+                })
+            })
+        })
+
+        // 绑定邮箱
+        $(".checkmail").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-mail"),
+                area:["800px","430px"],
+                closeBtn:0
+            })
+            $(".h-close").on("click",function(){
+                $(".first-step").show();
+                $(".second-step").hide();
+                $(".third-step").hide();
+                $(".lineing ul:first li.second,.third").removeClass("on").find(".circle").removeClass("ch");
+                layer.closeAll();
+            })
+            
+             // 第一步
+            $(".layout-mail .phcheck .getmsg").on("click",function(){
+                $(".layout-mail .phcheck .check-msg").css("display","block");
+                $(".layout-mail .phcheck .getmsg").attr("disabled",true);
+                var tim=60;
+                var timer = setInterval(function(){
+                    tim--;
+                    $(".layout-mail .phcheck .getmsg").val(""+tim+"s后重新获取");
+                    if(tim==0){
+                        clearInterval(timer);
+                        $(".layout-mail .phcheck .getmsg").val("获取验证码");
+                        $(".layout-mail .phcheck .getmsg").attr("disabled",false);
+                        $(".layout-mail .phcheck .check-msg").css("display","none");
+                    }   
+                },1000)
+                $(".h-close").on("click",function(){
+                    clearInterval(timer);
+                    $(".phcheck .getmsg").val("获取验证码");
+                    $(".phcheck .getmsg").attr("disabled",false);
+                    $(".phcheck .check-msg").css("display","none");
+                    layer.closeAll();
+                })
+             })
+            // 下一步
+            $(".layout-mail .next").click(function(){
+                $(".first-step").hide();
+                $(".second-step").show();
+                $(".layout-mail .lineing ul:first li.second").addClass("on").find(".circle").addClass("ch");
+                $(".new-phone-num .getmsg").on("click",function(){
+                    $(".layout-mail .new-phone-num .check-msg").css("display","block");
+                    $(".layout-mail .new-phone-num .getmsg").attr("disabled",true);
+                    var tim=60;
+                    var timer = setInterval(function(){
+                        tim--;
+                        $(".layout-mail .new-phone-num .getmsg").val(""+tim+"s后重新获取");
+                        if(tim==0){
+                            clearInterval(timer);
+                            $(".layout-mail .new-phone-num .getmsg").val("获取验证码");
+                            $(".layout-mail .new-phone-num .getmsg").attr("disabled",false);
+                            $(".layout-mail .new-phone-num .check-msg").css("display","none");
+                        }   
+                    },1000)
+                    $(".h-close").on("click",function(){
+                        clearInterval(timer);
+                        $(".new-phone-num .getmsg").val("获取验证码");
+                        $(".new-phone-num .getmsg").attr("disabled",false);
+                        $(".new-phone-num .check-msg").css("display","none");
+                        $(".first-step").show();
+                        $(".second-step").hide();
+                        layer.closeAll();
+                    })
+                })        
+            })
+            //第三步
+            $(".layout-mail .last").click(function(){
+                $(".second-step").hide();
+                $(".third-step").show();
+                $(".layout-mail .lineing ul:first li.third").addClass("on").find(".circle").addClass("ch");
+                $(".third-step .suc-sure").click(function(){
+                    layer.closeAll();
+                    $(".first-step").show();
+                    $(".second-step").hide();
+                    $(".third-step").hide();
+                    $(".layout-mail .lineing ul:first li.second,.third").removeClass("on").find(".circle").removeClass("ch");
+                })
+            })    
+        })
+
+        //修改支付密码
+        $(".change-paypass").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-changepaypass"),
+                area:["800px","430px"],
+                closeBtn:0
+            })
+            $(".h-close").on("click",function(){
+                layer.closeAll();
+            })
+            // 第一步
+            $(".layout-changepaypass .phcheck .getmsg").on("click",function(){
+                $(".layout-changepaypass .phcheck .check-msg").css("display","block");
+                $(".layout-changepaypass .phcheck .getmsg").attr("disabled",true);
+                var tim=60;
+                var timer = setInterval(function(){
+                    tim--;
+                    $(".layout-changepaypass .phcheck .getmsg").val(""+tim+"s后重新获取");
+                    if(tim==0){
+                        clearInterval(timer);
+                        $(".layout-changepaypass .phcheck .getmsg").val("获取验证码");
+                        $(".layout-changepaypass .phcheck .getmsg").attr("disabled",false);
+                        $(".layout-changepaypass .phcheck .check-msg").css("display","none");
+                    }   
+                },1000)
+                $(".h-close").on("click",function(){
+                    clearInterval(timer);
+                    $(".phcheck .getmsg").val("获取验证码");
+                    $(".phcheck .getmsg").attr("disabled",false);
+                    $(".phcheck .check-msg").css("display","none");
+                    layer.closeAll();
+                })
+             })
+            // 下一步
+            $(".layout-changepaypass .next").click(function(){
+                $(".first-step").hide();
+                $(".second-step").show();
+                $(".layout-changepaypass .lineing ul:first li.second").addClass("on").find(".circle").addClass("ch");
+                $(".layout-changepaypass .new-phone-num .getmsg").on("click",function(){
+                    $(".layout-changepaypass .new-phone-num .check-msg").css("display","block");
+                    $(".layout-changepaypass .new-phone-num .getmsg").attr("disabled",true);
+                    var tim=60;
+                    var timer = setInterval(function(){
+                        tim--;
+                        $(".layout-changepaypass .new-phone-num .getmsg").val(""+tim+"s后重新获取");
+                        if(tim==0){
+                            clearInterval(timer);
+                            $(".layout-changepaypass .new-phone-num .getmsg").val("获取验证码");
+                            $(".layout-changepaypass .new-phone-num .getmsg").attr("disabled",false);
+                            $(".layout-changepaypass .new-phone-num .check-msg").css("display","none");
+                        }   
+                    },1000)
+                    $(".h-close").on("click",function(){
+                        clearInterval(timer);
+                        $(".new-phone-num .getmsg").val("获取验证码");
+                        $(".new-phone-num .getmsg").attr("disabled",false);
+                        $(".new-phone-num .check-msg").css("display","none");
+                        $(".first-step").show();
+                        $(".second-step").hide();
+                        layer.closeAll();
+                    })
+                })
+
+            })
+            //第三步
+            $(".layout-changepaypass .last").click(function(){
+                $(".second-step").hide();
+                $(".third-step").show();
+                $(".layout-changepaypass .lineing ul:first li.third").addClass("on").find(".circle").addClass("ch");
+                $(".third-step .suc-sure").click(function(){
+                    layer.closeAll();
+                    $(".first-step").show();
+                    $(".second-step").hide();
+                    $(".third-step").hide();
+                    $(".layout-changepaypass .lineing ul:first li.second,.third").removeClass("on").find(".circle").removeClass("ch");
+                })
+            })
+        })
+
+        //解除绑定QQ
+        $(".BindQQ").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-unbindQQ"),
+                area:["500px","280px"],
+                closeBtn:0
+            })
+            $(".unbind-close").on("click",function(){
+                layer.closeAll();
+            })
+        })
+        //解除绑定微信
+        $(".WeChat").on("click",function(){
+            layer.open({
+                type:1,
+                title:false,
+                content:$(".layout-unbind-webchat"),
+                area:["500px","280px"],
+                closeBtn:0
+            })
+            $(".unbind-close").on("click",function(){
+                layer.closeAll();
+            })
+        })
+    })
+</script>
+</body>
+</html>

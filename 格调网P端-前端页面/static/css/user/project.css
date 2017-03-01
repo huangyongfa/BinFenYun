@@ -1,0 +1,271 @@
+/**
+	*common css
+	*Created time:2016-08-22
+	*Author:yw
+	*Modified time:2016-08-23
+	*Modified by:*/
+	
+
+.cl18c{color:#178dcd}
+.mr30{margin-right: 30px}
+.mb300{margin-bottom: 300px}
+.ml160{margin-left: 160px}
+.fw {font-weight: bold}
+.pl0{padding-left:0 }
+.pr0{padding-right: 0}
+.pt0{padding-top: 0}
+.pb0{padding-bottom: 0}
+.plr10{padding: 0 10px}
+.user-designer-head-name span a{float:right;color:#178dcd;margin-top:-11px;margin-right:20px}
+.user-left-title-manager{font-size:1.3em;font-weight: bold;color:#e61d4c}
+.user-right-groom{position: relative}
+.user-right-groom span{position: absolute;right:1px;width: 50px;text-align: center;color: #ffffff;border-bottom-left-radius:10px;border-top-left-radius:10px}
+.user-left-panel .user-left-list li:hover {background:#e61d4c}
+.user-left-panel .user-left-list li a:hover {color: #ffffff}
+.user-left-panel .user-left-list>.nav-left{background: #e61d4c}
+.user-left-panel .user-left-list>.nav-left>a{color: #ffffff}
+.user-left-ul>.user-left-panel>a{ display: block;  width: 100%;  margin: 0px;  padding: 0px 35px; background-color: rgb(204, 204, 204)}
+.bn0{border: none}
+
+
+/*****/
+	
+.designer-appoin-type{ padding:15px; line-height:22px;}
+.designer-appoin-type span{ height:22px; line-height:22px; padding:0px 5px; border-radius:5px; margin-right:30px;}
+.designer-appoin-type span:hover{ background:#e61d4c; color:#ffffff; cursor:pointer}
+.designer-appoin-type span.cur{ background:#e61d4c; color:#ffffff;}
+
+
+.designer-appoin-list{ width:930px;background:#ffffff}
+.designer-appoin-list .list-title{height:21px; border-bottom:1px solid #e5e5e5; line-height:20px; text-indent:10px; color:#666666}
+
+
+.designer-appoin-list .head{ width:930px; height:40px;display:table; background:#ebebeb; margin-bottom:12px;}
+.designer-appoin-list .head li{display:table-cell; text-align:center; vertical-align:middle; line-height:20px; color:#333333; font-weight:bold}
+.designer-appoin-list .body{}
+.designer-appoin-list .body ul{border-bottom:1px solid #e5e5e5; height:54px;display:table;}
+.designer-appoin-list .body ul li{display:table-cell; text-align:center; vertical-align:middle; line-height:16px; color:#666666;}
+.designer-appoin-list .body ul li a{color:#178dcd;}
+.designer-appoin-list .body ul li .fast{ background:#e61d4c; color:#ffffff; height:20px; border:none; margin-top:5px;}
+.designer-appoin-list .body ul li.w224{ color:#333333}
+/*预约地区设置*/
+.tender-install-title{line-height:40px;}
+
+.tender-install-region-label{ min-height:200px; padding:19px;}
+.tender-install-region-label ul li{ background:url(../../images/public/ico_redclose.png) no-repeat right 5px center; height:20px; border:1px solid #e61d4c; line-height:18px; padding:0px 25px 0px 10px; cursor:pointer; margin-right:20px; margin-bottom:20px; float:left}
+
+.tender-install-region-city{ padding-top:10px;}
+.tender-install-region-city ul li{ height:30px; line-height:30px; margin-right:30px; cursor:pointer; float:left}
+
+
+/*施工报价*/
+.tender-construction-search{ padding:20px; padding-left:0px;}
+.tender-construction-search .spanname{ width:85px; text-align:right; display:inline-block}
+.tender-construction-search input.btn-default{ height:30px; line-height:30px;}
+
+
+.tender-construction-list{ width:930px;}
+.tender-construction-list ul{ display:table}
+.tender-construction-list ul li{text-align:center; display:table-cell}
+.tender-construction-list ul li.li1{ width:325px;}
+.tender-construction-list ul li.li2{ width:121px;}
+.tender-construction-list ul li.li5{ width:96px;}
+.tender-construction-list ul.head{ height:40px;}
+.tender-construction-list ul.head li{ height:40px; line-height:40px; color:#333333; font-size:14px; font-weight:bold}
+.tender-construction-list ul.head li.tl{ text-align:left; padding-left:10px;}
+.tender-construction-list ul.head li.tl label{color:#333333; font-size:14px; font-weight:bold;  margin-right:90px;}
+.tender-construction-list ul.head li.tl input{ vertical-align:middle}
+
+.tender-construction-list-box{ background:#ffffff; margin-bottom:10px; border:1px solid #ebebeb;}
+.tender-construction-list-box .list-title{ height:30px;line-height:30px; text-indent:10px; background:#ebebeb; color:#666666}
+.tender-construction-list-box .list-title input{ vertical-align:middle; margin-right:10px;}
+.tender-construction-list-box .list-con{ padding:10px 0px;}
+.tender-construction-list-box .list-con ul{ padding:0px;}
+.tender-construction-list-box .list-con ul.body li{height:100px;line-height:20px; vertical-align:middle}
+.tender-construction-list-box .list-con ul.body li .price{ font-size:16px; font-weight:bold}
+.tender-construction-list-box .list-con ul.body li .edit{ color:#178dcd;}
+.tender-construction-list-box .list-con ul.body li.w328{ display:table; text-align:left}
+.tender-construction-list-box .list-con ul.body li.w328 img{ width:100px; display:table-cell;height:100px; margin-left:40px;}
+.tender-construction-list-box .list-con ul.body li.w328 .txt{ width:174px; padding-right:30px; vertical-align:middle; display:table-cell;color:#666666;}
+.tender-construction-list-box .list-con ul.body li.w328 .txt1{ width:174px; vertical-align:middle; display:table-cell;color:#333333; font-weight:bold; padding-left:30px;}
+
+
+/*施工报价编辑*/
+
+.offer-detail-constr-infor{ padding:20px; width:930px; display:table}
+.offer-detail-constr-infor .infor-img{ width:400px; height:260px; display:table-cell}
+.offer-detail-constr-infor .infor-txt{ width:490px; height:260px;display:table-cell; padding-left:20px; vertical-align:middle}
+.offer-detail-constr-infor .infor-txt p{ color:#666666; line-height:32px;}
+.offer-detail-constr-infor .infor-txt p span{ color:#333333; font-size:14px; font-weight:bold}
+/*填写合同信息*/
+.offer-detail-constr-contract{}
+.offer-detail-constr-contract .spanname{ width:85px; height:40px; line-height:40px; text-align:right; display:inline-block}
+
+.offer-detail-constr-plan{ padding:10px 20px 20px;}
+.offer-detail-constr-plan .plan-title{ line-height:32px; color:#333333;}
+.offer-detail-constr-plan .plan-title span{ font-size:14px;}
+.offer-detail-constr-plan .plan-ul{ padding:10px 0px;}
+.offer-detail-constr-plan .plan-ul li{ height:32px; line-height:32px; width:445px; color:#333333; float:left;}
+.offer-detail-constr-plan .plan-ul li span{ color:#666666; width:85px; display:inline-block}
+.tab-order-contract-infor td input{border: none;font-size: 12px;padding-left:5px }
+
+/*物料清单选择*/
+.offer-detail-constr-materiel{}
+.offer-detail-constr-materiel-left{ width:100px;}
+.offer-detail-constr-materiel-name{ height:51px; width:100px; border-bottom:1px solid #e5e5e5; line-height:50px; text-align:center;}
+.offer-detail-constr-materiel-leftcolumn{ width:80px; margin:20px 10px 0px 10px;}
+.offer-detail-constr-materiel-leftcolumn li{ width:80px; height:20px;line-height:18px; text-align:center; border:1px solid #e5e5e5; margin-bottom:10px;}
+.offer-detail-constr-materiel-leftcolumn li:hover{ background:#e61d4c; border-color:#e61d4c; color:#fff; cursor:pointer}
+.offer-detail-constr-materiel-leftcolumn li.dn{ display:none}
+
+.btn-constr-materiel-add{ width:80px !important; height:20px;line-height:20px;background:#e61d4c; border:none; margin:0px 10px 10px 10px; color:#fff;}
+.offer-detail-constr-materiel-right{ width:828px; padding-top:30px; border-left:1px solid #e5e5e5}
+
+
+.offer-detail-constr-materiel-right .cur{ display:block}
+.offer-detail-constr-materiel-list{ width:808px; margin-left:4px; margin-bottom:10px; display:none}
+.offer-detail-constr-materiel-list-title{ height:30px; line-height:30px; text-align:center;}
+.offer-detail-constr-materiel-list li{ text-align:center; border-right:1px solid #e5e5e5; float:left;}
+.offer-detail-constr-materiel-list li.li1{ width:101px}
+.offer-detail-constr-materiel-list li.li2{ width:201px}
+.offer-detail-constr-materiel-list li.li2 img{width:60px; height:60px; margin:13px; float:left}
+.offer-detail-constr-materiel-list li.li2 p{width:110px; height:60px; line-height:60px; margin:13px 0px; text-align:left; float:left}
+.offer-detail-constr-materiel-list li:last-child{ border-right:none}
+.offer-detail-constr-materiel-list-tr,.offer-detail-constr-materiel-list-tr{ display:table;}
+.offer-detail-constr-materiel-list-tr{ border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; height:32px; background:#fafafa;}
+.offer-detail-constr-materiel-list-tr li{ height:30px; line-height:30px;}
+.offer-detail-constr-materiel-list-td{border-bottom:1px solid #e5e5e5;}
+.offer-detail-constr-materiel-list-td li{ height:86px;}
+.offer-detail-constr-materiel-list-td li.li4{ line-height:21px; padding:22px 10px;}
+.offer-detail-constr-materiel-list-td .selectType,.offer-detail-constr-materiel-list-td .txtName,.offer-detail-constr-materiel-list-td .txtNum{height:20px; line-height:18px; margin-top:33px;}
+.offer-detail-constr-materiel-list-td .selectType{ width:80px; }
+.offer-detail-constr-materiel-list-td .txtName{ width:120px;}
+.offer-detail-constr-materiel-list-td .txtNum{ width:60px;}
+.offer-detail-constr-materiel-list-td .txtExplain{ width:200px; height:86px; max-width:200px; max-height:86px; border:none;}
+
+.offer-detail-constr-materiel-add{ height:30px; line-height:30px; text-align:center;}
+.offer-detail-constr-materiel-add a{color:#3aaae0; }
+
+.btn-offer-detail-constr-materiel-ok{ width:100px !important; height:40px; background:#e61d4c; border-radius:5px; color:#fff; margin:20px 364px;}
+.btn-materiel-project-add{ width:80px; height:30px; background:#e61d4c; margin:0px 140px; border-radius:5px;  color:#fff;}
+
+/*服务条款*/
+.offer-detail-constr-serve{ padding:10px 40px 0px;}
+.txt-aera-serve{ width:850px; height:200px; max-height:200px; max-width:850px; background:#fafafa; border:1px solid #ccc;}
+.offer-detail-constr-serve-btm{ padding:20px 0px; line-height:40px; color:#333333}
+.offer-detail-constr-serve-btm input{ vertical-align:middle;}
+
+
+
+/*施工图报价*/
+.offer-detail-house-price{ padding:20px; width:930px; display:table}
+.offer-detail-house-price .infor-img{ width:400px; height:260px; line-height:260px; text-align:center; display:table-cell}
+.offer-detail-house-price .infor-img img{ vertical-align:middle}
+.offer-detail-house-price .infor-txt{ width:490px; height:260px;display:table-cell; padding-left:20px; vertical-align:middle}
+.offer-detail-house-price .infor-txt p{ color:#666666; line-height:32px;}
+.offer-detail-house-price .infor-txt p span{ color:#333333; font-size:14px; font-weight:bold}
+
+
+/*订单状态*/
+.offer-constr-order-state{ height:72px; border-top:1px solid #e5e5e5; line-height:30px; color:#666666; border-bottom:1px solid #e5e5e5; padding:20px 0px;}
+.offer-constr-order-state span{ color:#333333; font-weight:bold; margin-left:20px;}
+.offer-constr-order-state input.btn-up-plan{ height:30px; line-height:30px;}
+
+
+/*订单详情*/
+.tab-offer-constr-detail{}
+.tab-offer-constr-detail td{ border-color:#e5e5e5; padding:25px 20px; line-height:20px; text-align:center;}
+.tab-offer-constr-detail td.w765,.tab-offer-constr-detail td.w930{ text-align:left}
+.tab-offer-constr-detail td a{ color:#178dcd;}
+
+
+/*施工管理*/
+.offer-constr-order-manage{ padding:20px;}
+.offer-constr-order-manage .manage-title{ height:20px; line-height:20px; color:#333333; font-weight:bold}
+.offer-constr-order-manage .manage-title a{ color:#178dcd; font-weight:normal}
+
+.offer-constr-order-manage .manage-con{ overflow:hidden; padding:10px 0px; border-bottom:1px dashed #e5e5e5}
+.offer-constr-order-manage .manage-text{ margin-left:90px; width:800px;}
+.offer-constr-order-manage .manage-text li{ width:150px; margin-right:50px; text-align:center; line-height:24px; color:#333333; float:left}
+.offer-constr-order-manage .manage-line{ padding-top:20px; width:650px; margin-left:140px; overflow:hidden}
+.offer-constr-order-manage .manage-progress-gray{background: #fafafa;   height: 4px;   margin-top: 9px;}
+.offer-constr-order-manage .manage-progress-brown{height: 4px;  margin-top: -4px; background:#e61d4c}
+.offer-constr-order-manage .manage-progress-ul {height: 50px; margin-top:-27px; width:800px;}
+.offer-constr-order-manage .manage-progress-ul li{color: #ffffff;background:url(../../images/public/bg_radius.png) no-repeat 0px -59px;float: left; height: 50px;line-height: 50px; margin-right: 150px; text-align: center;width: 50px;}
+.offer-constr-order-manage .manage-progress-ul li.cur{ background-position:0px 0px;}
+
+.manage-btm{ padding-top:20px; height:40px;}
+.manage-btm span{ width:60px; height:20px; line-height:20px; text-align:center; color:#FFFFFF; background-color:#e61d4c; display:inline-block;}
+.manage-btm span.ml1{ display:none}
+.manage-btm span.ml2{margin-left:338px;}
+.manage-btm span.ml3{margin-left:538px;}
+.manage-btm span.ml4{margin-left:738px;}
+
+
+
+
+/*填写合同信息*/
+.tab-order-contract-infor{ width:928px;}
+.tab-order-contract-infor td{ border-color:#e5e5e5; padding:10px 0px; line-height:20px; text-align:center; color:#666666}
+.tab-order-contract-infor td.w364{ text-align:left; padding:10px;}
+.tab-offer-constr-detail td.w100{ color:#333333}
+.tab-order-contract-infor td a{ color:#178dcd;}
+
+
+
+/*合同类型及附件*/
+.offer-constr-contract-file{ padding:20px;}
+.offer-constr-contract-file .contract-file-label{ line-height:30px;}
+.offer-constr-contract-file .contract-file-label input,.offer-constr-contract-file .contract-file-label label{ vertical-align:middle}
+
+
+/*工程报价*/
+.offer-constr-engin-price{}
+.offer-constr-engin-price .engin-price-title{padding-top:20px;}
+.offer-constr-engin-price .site-line-title span{ color:#333333; font-weight:normal}
+.offer-constr-engin-price .engin-price-model{ position:absolute; line-height:30px; right:0px; top:5px;}
+.offer-constr-engin-price .engin-price-model input.btn-default{ height:30px; line-height:30px; margin-left:20px;}
+.offer-constr-engin-price .engin-price-model .btn-filedown{ width:60px;}
+
+.offer-constr-engin-price .engin-price-tags{ height:20px;}
+.offer-constr-engin-price .engin-price-tags li{ padding:0px 10px; border-radius:10px; height:20px; line-height:20px; margin-right:35px; color:#333333; float:left}
+.offer-constr-engin-price .engin-price-tags li:hover{ background-color:#e61d4c; color:#ffffff; cursor:pointer}
+.offer-constr-engin-price .engin-price-tags li.cur{ background-color:#e61d4c; color:#ffffff;}
+
+
+.tab-order-engin-price{}
+.tab-order-engin-price td{ border-color:#ebebeb; padding:10px 0px; text-align:center; vertical-align:middle}
+.tab-order-engin-price td.bg{ background-color:#ebebeb; font-weight:bold; color:#333333;}
+
+
+
+
+.offer-constr-contract-title{ line-height:32px; margin-top:10px; text-align:center; font-weight:bold; color:#333333;}
+.txt-area-contract{ width:930px; max-width:930px; height:100px; max-height:100px; min-height:100px; min-width:930px; padding:9px 19px; line-height:20px; color:#666666; border:none;}
+
+.offer-constr-contract-check{ line-height:30px;}
+.offer-constr-contract-check input{ vertical-align:middle}
+
+
+/**/
+.constr-bidrecord-list{ width:930px;}
+.constr-bidrecord-list .head{ width:930px; height:40px;display:table;margin-bottom:12px; background:#ffffff; }
+.constr-bidrecord-list .head li{display:table-cell; text-align:center; vertical-align:middle; line-height:20px; color:#333333; font-weight:bold}
+.constr-bidrecord-list .head li:first-child input{ vertical-align:middle}
+.constr-bidrecord-list .head li:first-child label{font-weight:bold}
+.constr-bidrecord-list .list-title{height:40px; background-color:#ebebeb; line-height:40px; text-indent:20px; color:#666666}
+.constr-bidrecord-list .body{}
+.constr-bidrecord-list .body ul{ height:108px;display:table; background-color:#ffffff; margin-bottom:10px;}
+.constr-bidrecord-list .body ul li{display:table-cell; text-align:center; vertical-align:middle; line-height:16px; color:#666666;}
+.constr-bidrecord-list .body ul li a{color:#178dcd;}
+.constr-bidrecord-list .body ul li .price{ font-size:16px; color:#e61d4c}
+.constr-bidrecord-list .body ul li .fast{color:#ffffff; height:20px; border:none; margin-top:5px;}
+
+#U_D_Materiel_Choice .show-info-box{ height:200px; width:400px;}
+#U_D_Materiel_Choice .show-info-box ul{ width:397px; height:160px; padding:20px 18px; overflow:hidden}
+#U_D_Materiel_Choice .show-info-box ul li{width:80px; height:20px;line-height:18px; text-align:center; border:1px solid #e5e5e5; margin-bottom:10px; margin-right:10px; float:left;}
+#U_D_Materiel_Choice .show-info-box li:hover{ background:#e61d4c; border-color:#e61d4c; color:#fff; cursor:pointer}
+#U_D_Materiel_Choice .show-info-box li.cur{ background:#e61d4c; border-color:#e61d4c; color:#fff;}
+#U_D_Materiel_Choice .show-info-box li.dn{ display:none;}
+
+.user-right-groom-b{display: inline-block;width:120px;text-overflow: ellipsis;  white-space: nowrap;overflow: hidden; }

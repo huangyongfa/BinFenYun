@@ -1,0 +1,150 @@
+/**
+	*common css
+	*Created time: 2016-07-27
+	*Author: yw
+	*Modified time: 2016-07-27
+	*Modified by: 
+*/
+table, td, th{ border:1px solid #999999; }
+.navigation-chip{ color:#808080;}
+.navigation-chip a{ color:#333333;}
+
+
+
+
+
+.tender-design-title{ height:40px; background:#fff;}
+.tender-design-title-ul{ padding-top:3px;}
+.tender-design-title-ul li{margin-left:40px; height:37px; line-height:34px; border-bottom:3px solid #fff; padding:0px 8px; color:#333333; font-size:16px; float:left}
+.tender-design-title-ul li:hover{ border-color:#e61d4c; color:#e61d4c; cursor:pointer}
+.tender-design-title-ul li.cur{ border-color:#e61d4c; color:#e61d4c; }
+
+.tender-design-box{ padding-bottom:30px;}
+.tender-design-screen{ padding:20px;}
+.tender-design-screen-list{ height:30px; line-height:30px; padding-left:40px;}
+.tender-design-screen-list em{ color:#e61d4c; margin:0px 10px;}
+.tender-design-screen-list select{ width:60px; height:20px; border:1px solid #cccccc; background-color:#fff; margin-right:10px;}
+.tender-design-screen-list span{ padding:3px 8px; margin-right:5px;}
+.tender-design-screen-list span:hover{background:#e61d4c; color:#fff; cursor:pointer}
+.tender-design-screen-list span.cur{ background:#e61d4c; color:#fff;}
+
+.tender-design-screen-style{ display:none}
+.tender-design-screen-style.show{ display:block}
+.tender-design-screen-hand{ background:#ffffff}
+.tender-design-screen-hand-list{ padding:20px;}
+.tender-design-screen-hand-list li.head{ height:30px;}
+.tender-design-screen-hand-list li.body{ height:61px; border-top:1px solid #cccccc; position:relative}
+.tender-design-screen-hand-list li span{ text-align:center; display:block; color:#333; float:left}
+.tender-design-screen-hand-list li .span1{ width:224px;}
+.tender-design-screen-hand-list li .span2{ width:128px;}
+.tender-design-screen-hand-list li .span3{ width:114px;}
+.tender-design-screen-hand-list li .span4{ width:152px;}
+.tender-design-screen-hand-list li .span5{ width:90px;}
+.tender-design-screen-hand-list li .span6{ width:156px;}
+.tender-design-screen-hand-list li .span7{ width:110px;}
+.tender-design-screen-hand-list li .span8{ width:186px; padding-left:46px;}
+.tender-design-screen-hand-list li.head span{ height:30px; line-height:30px;}
+.tender-design-screen-hand-list li.body span{ height:60px; line-height:60px;}
+.tender-design-screen-hand-list li a{ width:80px; height:20px; display:inline-block; line-height:20px; color:#fff;}
+.tender-design-screen-hand-list li .screen-hand{background:#e61d4c;}
+.tender-design-screen-hand-list li .screen-end{ background:#cccccc;}
+.tender-design-screen-hand-list li .screen-popup{ background:url(../../images/tender/bg_tenderPopup.png) no-repeat; width:210px; height:56px; position:absolute; top:30px; right:-35px; padding:16px 5px 0px 5px; line-height:16px; color:#ec292e; text-align:center; z-index:1}
+
+
+.tender-design-screen-end{ width:1200px; overflow:hidden;}
+.tender-design-screen-end-list{ width:1260px; margin-left:-60px;}
+.tender-design-screen-end-list li{ width:360px; height:220px; margin-left:60px; margin-bottom:20px; background:#ffffff; position:relative}
+.tender-design-screen-end-list li .screen-end-box{ width:320px; height:180px; background:#fafafa; margin:20px;}
+.tender-design-screen-end-list li .screen-end-title{ height:47px; line-height:46px; text-align:center; border-bottom:1px solid #e5e5e5; font-size:16px; color:#333333;}
+.tender-design-screen-end-list li .screen-end-content{ height:132px; padding-top:25px;color:#666666;}
+.tender-design-screen-end-list li .screen-end-content h2{ height:30px; line-height:30px; text-align:center; }
+.tender-design-screen-end-list li .screen-end-content h2 span{ color:#ec292c; font-size:16px;}
+.tender-design-screen-end-list li .screen-end-content p{ height:24px; padding:0px 
+10px; text-align:right; margin-top:20px;}
+.tender-design-screen-end-list li .bgbid{ background:url(../../images/tender/bg_tenderbid.png) no-repeat; width:86px; height:85px; position:absolute; z-index:1; top:0px; left:0px;}
+
+
+.tender-search-infor{ height:40px; line-height:40px; color:#333333; padding:0px 50px; text-align:right}
+.tender-search-infor span{ color:#e61d4c}
+
+.tender-detail{}
+.tender-detail-left{ background:#ffffff; width:800px;}
+.tender-detail-title{ height:64px; padding:7px 20px; position:relative}
+.tender-detail-title h2{ line-height:50px; color:#333333; font-size:16px; margin-right:20px; font-weight:bold}
+.tender-detail-title p{ line-height:22px;}
+.tender-detail-title .tender-detail-num{ background:url(../../images/tender/bg_bidnum.png) no-repeat; width:100px; height:50px; position:absolute; right:-10px; top:10px; color:#ffffff; padding:3px 0px; text-align:center}
+.tender-detail-title .tender-detail-num p{ font-size:16px; line-height:18px;}
+.tender-detail-tab{ padding-left:20px;}
+.tender-detail-tab .renovparam td{ width:100px; height:40px; line-height:40px; text-align:center; color:#666666;}
+.tender-detail-tab td.bgfa{ color:#33333;}
+.tender-detail-tab .renovparam{ margin-bottom:20px; width:600px;}
+.tender-detail-tab .renovdemand{ margin-bottom:30px;}
+.tender-detail-tab .renovdemand td{ line-height:20px; padding:10px;}
+.tender-detail-tab .renovdemand td.bgfa{ text-align:center;}
+.tender-detail-state{ width:120px; margin-right:30px;}
+.tender-detail-state p{ width:120px; height:40px; line-height:40px; text-align:center; color:#ffffff; cursor:pointer}
+
+
+
+.tender-detail-right{ background:#ffffff; width:380px; padding:8px 20px; margin-bottom:40px;}
+.tender-detail-right .site-title{ line-height:41px; height:40px; font-weight:bold; border-bottom:1px solid #ececec}
+.tender-detail-right .site-title i{ background:url(../../images/tender/ico_circular.png) no-repeat; width:25px; height:20px; display:inline-block; vertical-align:middle; margin-left:10px;}
+.tender-recommend-list{ height:110px; margin-top:15px;}
+.tender-recommend-list li{ background:#fafafa; width:340px; height:100px; margin-bottom:10px;}
+.tender-recommend-list li .recom-list-left{ width:260px; height:100px; padding:5px 10px;}
+.tender-recommend-list li .recom-list-left h2{ color:#333333; font-size:16px;}
+.tender-recommend-list li .recom-list-left p{ color:#666666; line-height:18px;}
+.tender-recommend-list li .recom-list-left .recom-label{ margin-top:4px;}
+.tender-recommend-list li .recom-list-left .recom-label span{ border-style:solid; border-width:1px; padding:3px 5px; margin-right:5px; border-radius:3px; cursor:pointer}
+.tender-recommend-list li .recom-list-left .recom-label span.span1{ border-color:#178dcd; color:#178dcd;}
+.tender-recommend-list li .recom-list-left .recom-label span.span2{ border-color:#e61d4c; color:#e61d4c;}
+.tender-recommend-list li .recom-list-right{ width:80px; height:100px;}
+.tender-recommend-list li .recom-list-right span{ background:#e61d4c; color:#ffffff; display:inline-block; width:60px; height:24px; line-height:24px; text-align:center; margin-left:20px;}
+.tender-recommend-list li .recom-list-right h2{ color:#ec292c; font-size:16px; font-weight:bold; margin-top:25px;}
+
+
+
+
+
+.tender-user-works{ width:920px; background:#ffffff}
+
+
+
+.tender-pro-list{ height:460px; width:880px; margin:20px;}
+.tender-pro-list .prev,.tender-pro-list .next{ width:42px; height:42px; margin-top:209px;z-index:999; display:none}
+.tender-pro-list .prev{ background:url(../../images/public/bg_prev1.png) no-repeat 13px center #333333; }
+.tender-pro-list .next{ background:url(../../images/public/bg_next1.png) no-repeat 13px center #333333;}
+.tender-pro-list .case-list-box{ width:880px;height:460px;position:absolute; left:0px;}
+.tender-pro-list .switch-reception-list{ width:99999px; height:460px; position:absolute; left:0px;}
+.tender-pro-list .switch-reception-list li{width:880px; height:460px;}
+.tender-pro-list .switch-reception-list li img{ height:460px; width:880px;}
+.tender-pro-list:hover .prev,.tender-pro-list:hover .next{ display:block}
+
+
+.tender-user-works-ul{ width:900px; margin-left:20px; padding-top:5px;}
+.tender-user-works-ul li{ width:205px; height:180px; margin-right:20px; margin-bottom:10px;}
+.tender-user-works-ul li img{ width:205px; height:150px;}
+.tender-user-works-ul li p{ width:205px; height:30px; line-height:30px; color:#666666; text-align:center;}
+.tender-user-infor{ width:260px; padding:0px 10px; background:#ffffff}
+.tender-user-infor-head{ border-bottom:1px dashed #cccccc; padding:20px 10px;}
+.tender-user-infor-head img{ width:100px; height:100px; border-radius:50%;}
+.tender-user-infor-head .text{ width:110px; height:66px; margin-top:17px;}
+.tender-user-infor-head .text p{ line-height:22px; color:#666666}
+.tender-user-infor-head .text p span{ color:#333333; font-weight:bold}
+
+.tender-user-infor-text{border-bottom:1px dashed #cccccc; padding:15px 10px;}
+.tender-user-infor-text p{ line-height:22px;color:#666666}
+.tender-user-title{ line-height:28px; color:#333333; font-weight:bold}
+
+.tender-user-infor-label{padding:15px 10px;}
+.tender-user-infor-label .label-list{ padding-top:10px;}
+.tender-user-infor-label .label-list a{ padding:0px 10px;height:20px; border:1px solid #e61d4c; line-height:18px; text-align:center; color:#e61d4c; margin-right:10px; margin-bottom:10px; display:inline-block}
+.tender-user-infor-label p{color:#666666}
+
+.tender-user-other-ul{ width:1220px; margin-left:-20px;}
+.tender-user-other-ul li{ width:285px; height:230px; margin-left:20px; margin-bottom:20px;}
+.tender-user-other-ul li img{ width:285px; height:200px;}
+.tender-user-other-ul li p{ width:285px; height:30px; line-height:30px; text-align:center; color:#808080 }
+
+
+

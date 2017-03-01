@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/designer.css">
+    <link rel="stylesheet" type="text/css" href="static/css/newchange/add-change.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header-hd">
+            <div class="w1200">
+                <div class="site-top-city">
+                    <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                    <!-- 未登录 start -->
+                    <div class="site-top-log site-top-loging">
+                        <a href="#">登录</a>
+                        <a href="#" class="ml10">加入缤纷云</a>
+                    </div>
+                    <!-- end -->
+                    <!-- 已登录  start -->
+                    <div class="site-top-log site-top-logged">
+                        <span>欢迎您，</span>
+                        <div class="logged-user">梁志天
+                            <ul class="account">
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 切换城市 弹出框 -->
+                    <div class="site-top-city-pop">
+                        <div class="mt">
+                            <strong class="mr10">热门城市</strong>
+                            <a href="javascript:;" class="cle61">北京</a>
+                            <a href="javascript:;" class="cle61">上海</a>
+                            <a href="javascript:;" class="cle61">深圳</a>
+                            <a href="javascript:;" class="cle61">广州</a>
+                            共开通了<em class="cle61">250</em>个城市站
+                            <span class="btn-close"></span>
+                        </div>
+                        <div class="mc">
+                            <strong class="mr10">快速查找</strong>
+                            <select id="J_top-location-prov" class="br mr10">
+                                <option value="0">广东省</option>
+                            </select>
+                            <select id="J_top-location-city" class="br mr10">
+                                <option value="0">深圳市</option>
+                                <option value="1">广州市</option>
+                            </select>
+                            <p class="site-top-city-pop-ok">
+                                <input class="br bge61" type="button" value="确认" />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="site-top-user fr">
+
+                    <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                    <!-- 已登录 -->
+                    <div class="site-top-logged">
+                        <a href="#">缤纷云首页</a>
+                        <span class="slash">|</span>
+                        <div class="my-manage">
+                            我的缤纷云
+                            <ul class="manage-list">
+                                <li><a href="#">我的预约</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">作品管理</a></li>
+                            </ul>               
+                        </div>
+                    </div>
+                    <a href="###" class="site-top-loging">进入格调网</a>
+                    <span class="slash">|</span>
+                    <a href="###">客服服务</a>
+                    <span class="slash">|</span>
+                    <a href="###">帮助中心</a>
+                    <!-- 已登录 end -->
+                </div>
+            </div>
+        </div>
+        <div class="header-bd w1200">
+            <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+            <div class="font-family">
+                <img src="static/images/img/images/sy_06.jpg" >
+            </div>
+            <!-- 搜索 -->
+            <div class="head-ad"></div>
+            <!-- 搜索 end -->
+            <div class="font-ewm">
+                <img src="static/images/img/images/sy_03.jpg" alt="">
+                <p><a href="#">下载装修管家</a></p>
+            </div>
+        </div>
+        <div class="header-ft">
+            <div class="w1200">
+                <!-- 主导航 -->
+                <ul class="mainNav clearfix" id="J_mainNav">
+                    <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                    <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+                </ul>
+                <!-- 主导航 end -->
+            </div>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 内容区 -->
+    <div id="content">
+        <div class="wrap w1200 mt20 pb20 clearfix">
+            <div class="user-left fl">
+                <h2 class="user-left-title user-left-title-manager">
+                    设计师的个人中心
+                </h2>
+                <ul class="user-left-ul">
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            订单管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">预约管理</a>
+                            </li>
+                            <li>
+                                <a href="#">预约记录</a>
+                            </li>
+                            <li class="nav-left">
+                                <a href="#">设计订单</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            作品管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">上传效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">管理效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">个人素材管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            信息管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">消息管理</a>
+                            </li>
+                            <li>
+                                <a href="#">短信管理</a>
+                            </li>
+                            <li>
+                                <a href="#">装修问答</a>
+                            </li>
+                            <li>
+                                <a href="#">评论管理</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            账户管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">钱包管理</a>
+                            </li>
+                            <li>
+                                <a href="#">认证管理</a>
+                            </li>
+                            <li>
+                                <a href="#">安全中心</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            资料管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">个人资料维护</a>
+                            </li>
+                            <li>
+                                <a href="#">域名申请</a>
+                            </li>
+                            <li>
+                                <a href="#">友情链接</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script src="static/js/leftTelescopic.js"></script>
+            </div>
+            <div class="user-right fr">
+            	<h2 class="user-crumbs bgeb">
+                	<a href="#">订单管理 ></a>
+                    <a href="#">设计订单 ></a>
+                    上传设计方案
+                </h2>
+                <!-- 方案基本信息 -->
+                <div class="mt20">
+                	<h2 class="user-plan-title">方案基本信息</h2>
+                    <table width="930" border="0" cellspacing="1" class="tab-user-plan" cellpadding="0">
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	楼盘：
+                        </td>                        
+                        <td class="w2">
+                        	<h2 class="mt20">
+                            	深圳
+                                <input type="text" class=" w300 br" value="" />
+                            </h2>
+                            <p class="cl999 pl30 lh30">楼盘名称长度至少3个字符，最长50个汉字</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	装修风格：
+                        </td>
+                        <td class="w2">
+                        	<select class="w150 mt20 mb20 br ml30">
+                            	<option value="0">现代简约</option>
+                            	<option value="1">现代简约</option>
+                            	<option value="2">现代简约</option>
+                            	<option value="3">现代简约</option>
+                            </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	设计预算：
+                        </td>
+                        <td class="w2">
+                        	<input type="text" class="w150 mt20 mb20 br ml30 mr10" value="" />万元
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	设计说明：
+                        </td>
+                        <td class="w2">
+                        	<p class="cl999">描述的业主需求越明确，设计理念越详细，预算说明越准确，越能增加其他业主预约装修设计服务的机会，请按以下格式填写。</p>
+                            <p class="cl999">请输入案例说明，50-2万个字以内，可包含“业主需求、设计理念、预算说明（预算方式、装修材料）等内容。</p>
+                            <textarea class="txtecplain mtb20"></textarea>
+                        </td>
+                      </tr>
+                    </table>
+
+                </div> 
+                <!-- 楼盘户型 -->
+                <div class="mt20">
+                	<h2 class="user-plan-title">楼盘户型</h2>
+                    <table width="930" border="0" cellspacing="1" class="tab-user-plan" cellpadding="0">
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	物业类型：
+                        </td>                        
+                        <td class="w2">
+                        	<ul class="mtb20 typeul">
+                        		<li><input id="typeli1" type="radio" name="type" value="住宅公寓" /><label for="typeli1">住宅公寓</label></li>
+                        		<li><input id="typeli2" type="radio" name="type" value="别墅" /><label for="typeli2">别墅</label></li>
+                                <li><input id="typeli3" type="radio" name="type" value="商铺" /><label for="typeli3">商铺</label></li>
+                                <li><input id="typeli4" type="radio" name="type" value="写字楼" /><label for="typeli4">写字楼</label></li>
+                                <li><input id="typeli5" type="radio" name="type" value="其他" /><label for="typeli5">其他</label></li>
+                            </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="w1">
+                        	<em>*</em>
+                        	选择户型图：
+                        </td>                        
+                        <td class="w2">
+                        	<ul class="mtb20 typeul">
+                        		<li>
+                                	<input id="houseli1" type="radio" name="house" value="选择户型" checked="checked"/><label class="mr10" for="houseli1">选择户型</label>
+                                	<p class="mt10">
+	                                	<div class="btnbox">
+	                                		<input type="button" class="bge61 btn-default" value="查找户型图" />
+	                                	</div>
+                                	</p>
+                                    <p class="cl999 mt10">通过平台查找并选择画册所对应的户型图。</p>
+                                    </li>
+                        		<li>
+                                	<input id="houseli2" type="radio" name="house" value="上传户型" /><label for="houseli2">上传户型</label>
+                                	<p class="mt10">
+										<div class="btnbox">
+                                			<input type="button" class="bge61 btn-default" value="上传户型图"  style="display:none;"/>
+                                		</div>
+                                	</p>
+                                <p class="cl999 mt10">设计师自行上传画册所对应的户型图。（只支持CAD格式）</p>
+                                </li>
+                                
+                            </ul>
+                        </td>
+                      </tr>
+                    </table>
+
+                </div> 
+                
+                <!-- 上传图片 -->
+                <div class="mt20">
+                	<h2 class="user-plan-title">
+                    	上传图片
+                    	<input class="imgfile br bgGradient upimg" type="button" value="批量上传" />
+                        <input type="file" class="hidefile" hidden="" />
+                        <input class="imgfile br bgGradient delimg" type="button" value="删除图片" />
+                        <span class="imgtxt">鼠标拖放图片模块，可改版图片顺序</span>
+                    </h2>
+                    <div class="user-plan-box mt10 oh">
+                    	<ul class="user-plan-list-ul clearfix">
+                        	<li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                        	<li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                        </ul>
+                        
+                        <div class="designer-plan-explain bgwrite pb10">
+                        	<p class="cle61">为保证业主浏览舒适度，观感度，格调网对效果图、设计案例及设计订单做以下硬性规定：</p>
+                        	<p class="cle61">提示：我们上传的图片质量越高，越规范，相关文字描述越详细，越贴切，就越能吸引用户的浏览，从而让我们的案例更加深入人心，赢得网友的喜爱。</p>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片数量:</span>
+                                <p class="fl w850 cl999">至少上传5张案例图片（4张：保证4张效果图/实景图必选 + 1张：此户型对应户型图必选，相关图片必须为同一案例）。建议：图片包含客厅、卧室、厨房、卫生 间等多个功能间图片以及户型图，同时实景图、手绘图会更加吸引业主关注；</p>
+                            </div>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片质量:</span>
+                                <p class="fl w850 cl999">所有图片要求高清无水印，无logo，无变形，无边框，无拼接，无盖章，无侵权、无广告、无旋转颠倒、无文字描述纯图片（横向图宽度800像素以上，纵向图宽度670像素以上），图片仅支持jpg、jpeg格式；
+								<br/>注1：第1张图片为封面图片，且不能为竖向图或户型图；<br/>注2：同一套案例禁止上传两张相似度90%以上或两张相同的图片；
+								</p>
+                            </div>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片标题:</span>
+                                <p class="fl w850 cl999">不得过于简单（例如：111，aaa等无任何意义的文字描述，必删）。</p>
+                            </div>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片描述:</span>
+                                <p class="fl w850 cl999">每张效果图需附有相关对应的简单文字描述，禁止出现装修公司简介及各种活动说明，案例中禁止出现各种形式的联络方式。</p>
+                            </div>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">预算:</span>
+                                <p class="fl w850 cl999">预算金额要符合户型逻辑（禁止出现：三居室全包5000元、80000万元）；</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                        
+                <!-- 上传施工图 -->
+                <div class="mt20">
+                	<h2 class="user-plan-title">
+                    	上传施工图
+                    	<input class="imgfile br bgGradient upimg" type="button" value="批量上传" />
+                        <input type="file" class="hidefile" hidden="" />
+                        <input class="imgfile br bgGradient delimg" type="button" value="删除图片" />
+                        <span class="imgtxt">鼠标拖放图片模块，可改版图片顺序</span>
+                    </h2>
+                    <div class="user-plan-box mt10 oh">
+                    	<ul class="user-plan-list-ul clearfix">
+                        	<li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                        	<li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                            <li>
+                            	<p class="txt-right">
+                            		<input type="checkbox" />
+                                </p>
+                                <img class="planimg" src="static/images/temp/img_designerplanli1.jpg" />
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>空间</span>
+                                    <select class="br">
+                                    	<option value="0">请选择</option>
+                                    </select>
+                                    <p>请选择功能间</p>
+                                </h2>
+                                <h2 class="imgtitle clearfix">
+                                	<em>*</em>
+                                    <span>图片标签</span>
+                                    <p>最多可选择5个</p>
+                                </h2>
+                                <div class="planlabel">
+                                	<div class="planlabel-content">
+                                		<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+	                                	<span>背景墙</span>
+	                                	<span>隔断</span>
+	                                	<span>吊顶</span>
+	                                	<span>走廊</span>
+	                                	<span>榻榻米</span>
+	                                	<span>橱柜</span>
+                                	</div>
+                                	<div class="line"></div>
+                                </div>
+                                <h2 class="imgname clearfix">
+                                	<em class="cle61">*</em>
+                                    图片名称
+                                    <input type="text" class="br" value="" />
+                                </h2>
+                                <textarea class="txtarea br">输入设计理念说明及描述图片描述必填项，请填写</textarea>
+                                <h3 class="imgset">
+                                	<label><input type="radio" value="设为封面" />设为封面</label>
+                                </h3>
+                            </li>
+                        </ul>
+                        
+                        <div class="designer-plan-explain bgwrite pb10">
+                        	<p class="cle61">为保证业主浏览舒适度，观感度，格调网对效果图、设计案例及设计订单做以下硬性规定：</p>
+                        	<p class="cle61">提示：我们上传的图片质量越高，越规范，相关文字描述越详细，越贴切，就越能吸引用户的浏览，从而让我们的案例更加深入人心，赢得网友的喜爱。</p>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片数量:</span>
+                                <p class="fl w850 cl999">至少上传5张案例图片（4张：保证4张效果图/实景图必选 + 1张：此户型对应户型图必选，相关图片必须为同一案例）。建议：图片包含客厅、卧室、厨房、卫生 间等多个功能间图片以及户型图，同时实景图、手绘图会更加吸引业主关注；</p>
+                            </div>
+                            <div class="clearfix mt5">
+                            	<span class="fl w60 cl666 txt-right">图片质量:</span>
+                                <p class="fl w850 cl999">所有图片要求高清无水印，无logo，无变形，无边框，无拼接，无盖章，无侵权、无广告、无旋转颠倒、无文字描述纯图片（横向图宽度800像素以上，纵向图宽度670像素以上），图片仅支持jpg、jpeg格式；
+								<br/>注1：第1张图片为封面图片，且不能为竖向图或户型图；<br/>注2：同一套案例禁止上传两张相似度90%以上或两张相同的图片；
+								</p>
+		                	</div>
+				            <div class="clearfix mt5">
+				            	<span class="fl w60 cl666 txt-right">图片标题:</span>
+				                <p class="fl w850 cl999">不得过于简单（例如：111，aaa等无任何意义的文字描述，必删）。</p>
+				            </div>
+				            <div class="clearfix mt5">
+				            	<span class="fl w60 cl666 txt-right">图片描述:</span>
+				                <p class="fl w850 cl999">每张效果图需附有相关对应的简单文字描述，禁止出现装修公司简介及各种活动说明，案例中禁止出现各种形式的联络方式。</p>
+				            </div>
+				            <div class="clearfix mt5">
+				            	<span class="fl w60 cl666 txt-right">预算:</span>
+				                <p class="fl w850 cl999">预算金额要符合户型逻辑（禁止出现：三居室全包5000元、80000万元）；</p>
+				            </div>
+				        </div> 
+                    </div>
+                </div>
+                
+                
+                
+                <div class=" txt-center mt20 mb20">
+                	<input type="button" class="next-relevancy bge61" value="下一步，关联商品" />
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- 内容区 end -->
+    <!-- 页脚 -->
+    <div id="footer">
+        <!-- 装修服务 -->
+        <div class="site-bot-services w1200 clearfix">
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">格调网官方微博</p>
+                    <p class="lh44">随时随地看装修</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">官方微信</p>
+                    <p class="lh44">扫描二维码即可关注我们！</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl">
+                <p class="footer-p1">400-788-4288</p>
+                <p class="footer-p2">周一至周日: 9:00-22:00</p>
+                <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+            </div>
+        </div>
+        <!-- 装修服务 end -->
+        <!-- 底部导航 -->
+        <div class="site-bot-nav w1200">
+            <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+        </div>
+        <!-- copyright -->
+        <div class="site-bot-copyright w1200">
+            <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+        </div>
+        <!-- copyright end -->
+    </div>
+    <!-- 页脚 end-->
+    <!--[if lt IE 9]>
+     <script src="static/js/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <!--添加一项-->
+    <div class="public-box cognate-show">
+    	<h2 class="show-title">
+        	选择商品
+    		<span class="btn-close"></span>
+        </h2>
+    	<div class="public-con">
+        	<div class="cognate-type">
+            	商品分类：
+                <select class="br mr10">
+                	<option value="0">分类选择</option>
+                </select>
+                <select class="br mr50">
+                	<option value="0">分类选择</option>
+                </select>
+                <input type="text" class="br w200 mr10" />
+                <input type="button" class="btn-default bge61" value="搜索" />
+            </div>
+            <div class="cognate-con">
+            	<ul class="cognate-ul clearfix">
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li>
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                	<li> 
+                    	<img src="static/images/temp/img_cognateproli1.jpg" />
+                        <h2>左右沙发</h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="txt-center mt20">
+                <input type="button" class="bge61 btn-default btn-cognate-ok" value="确定添加" />
+            </div>
+        </div>
+    </div>
+    <!---->
+    <!-- 关联DIV -->
+    <div class="layout-relevancy">
+        <h2 class="relevancy-title">
+            关联DIY商品清单
+            <span class="ico_clos1e"></span>
+        </h2>
+        <div class="bgwrite">
+            <div class="cognate-switch-tab">
+            	<div class="cognate-switch-tab-style show" id="casediy1">
+                	<img src="static/images/temp/img_Testcognatediyimg.jpg" width="890" class="mt20" />
+                	<div class="navbox">
+                		<ul class="cognate-title-tab">
+                            <li class="cur">客厅</li>
+                            <li>厨房</li>
+                            <li>主卧</li>
+                            <li>次卧</li>
+                            <li>儿童房</li>
+                            <li>厨房</li>
+                            <li>卫浴</li>
+                        </ul>
+                	</div>
+                	
+                    <table width="890" border="0" cellspacing="1" cellpadding="0" class="tab-cognate-diy">
+                        <thead>
+                        	<tr>
+                        		<td>序号</td>
+    	                        <td>产品图片</td>
+    	                        <td>产品名称</td>
+    	                        <td>品牌</td>
+    	                        <td>型号</td>
+    	                        <td>尺寸</td>
+    	                        <td>材质</td>
+    	                        <td>颜色</td>
+    	                        <td>数量</td>
+    	                        <td>是否标配</td>
+    	                        <td>价格（元）</td>
+    	                        <td>操作</td>
+    	                    </tr>
+                        </thead>
+                        <tbody>
+                       		<tr>
+                       			<td>1</td>
+                                <td>
+                                    <img src="static/images/temp/img_cognatediyli1.jpg" />
+                                </td>
+                                <td>莱茵米黄</td>
+                                <td>东鹏 </td>
+                                <td>FG605321</td>
+                                <td>600mm*600mm </td>
+                                <td>绒皮</td>
+                                <td>黄</td>
+                                <td>1件</td>
+                                <td>是</td>
+                                <td>1200</td>
+                                <td><span class="control-del">移除</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+					<h2 class="addcon txt-center">
+                    	<a href="javascript:;" onClick="layerPro('casediy1')">
+                        	添加一项
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+	<script type="text/javascript" src="static/js/public-2016.js"></script>
+	<script type="text/javascript" src="static/js/designer-2016.js"></script>
+    <script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+    <script type="text/javascript" src="static/js/newchange/add-change.js"></script>
+    <script>
+		$(".cognate-show .cognate-ul li").on("click",function(){
+			$(this).addClass("cur").siblings().removeClass("cur");
+		})
+		function addTro(tab){
+			var $tr=$("#"+tab+" .tab-cognate-diy tbody tr").eq(-1);
+			$tr.after("<tr><td>1</td><td><img src='static/images/temp/img_cognatediyli1.jpg' /></td><td>莱茵米黄</td><td>东鹏</td><td>FG605321</td><td>600mm*600mm</td><td>绒皮</td><td>黄</td><td>1件</td><td>是</td><td>1200</td><td><span class='control-del'>移除</span></td></tr>");
+		}
+		function layerPro(id){
+			var popWidth = 800; //弹框宽度
+			var $select = $(".public-box");
+			var ptitle=$(".cognate-show .show-title");
+			layer.open({
+				type: 1,
+				shade: .5,
+				title: false,
+				closeBtn: 0,
+				shadeClose: true,
+				area: [popWidth + 'px'],
+				content: $select,
+				success: function(layero, index) {
+					$select.find(".btn-close").one("click", function() {
+							layer.close(index);
+						})
+					$select.find(".btn-cognate-ok").one("click", function() {
+							addTro(id);
+							layer.close(index);
+				 })
+				}
+			});
+		}
+
+		// 选择户型 与上传户型、
+		$(".typeul li input[type='radio']").on("click",function(){
+			$(this).siblings().find("input[type='button']").css("display","block");
+			$(this).parent().siblings().find("input[type='button']").css("display","none")
+		})
+		
+    </script>
+</body>
+</html>

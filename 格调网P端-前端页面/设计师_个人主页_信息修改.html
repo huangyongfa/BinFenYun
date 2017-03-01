@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/designer.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header-hd">
+            <div class="w1200">
+                <div class="site-top-city">
+                    <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                    <!-- 未登录 start -->
+                    <div class="site-top-log site-top-loging">
+                        <a href="#">登录</a>
+                        <a href="#" class="ml10">加入缤纷云</a>
+                    </div>
+                    <!-- end -->
+                    <!-- 已登录  start -->
+                    <div class="site-top-log site-top-logged">
+                        <span>欢迎您，</span>
+                        <div class="logged-user">梁志天
+                            <ul class="account">
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 切换城市 弹出框 -->
+                    <div class="site-top-city-pop">
+                        <div class="mt">
+                            <strong class="mr10">热门城市</strong>
+                            <a href="javascript:;" class="cle61">北京</a>
+                            <a href="javascript:;" class="cle61">上海</a>
+                            <a href="javascript:;" class="cle61">深圳</a>
+                            <a href="javascript:;" class="cle61">广州</a>
+                            共开通了<em class="cle61">250</em>个城市站
+                            <span class="btn-close"></span>
+                        </div>
+                        <div class="mc">
+                            <strong class="mr10">快速查找</strong>
+                            <select id="J_top-location-prov" class="br mr10">
+                                <option value="0">广东省</option>
+                            </select>
+                            <select id="J_top-location-city" class="br mr10">
+                                <option value="0">深圳市</option>
+                                <option value="1">广州市</option>
+                            </select>
+                            <p class="site-top-city-pop-ok">
+                                <input class="br bge61" type="button" value="确认" />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="site-top-user fr">
+
+                    <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                    <!-- 已登录 -->
+                    <div class="site-top-logged">
+                        <a href="#">缤纷云首页</a>
+                        <span class="slash">|</span>
+                        <div class="my-manage">
+                            我的缤纷云
+                            <ul class="manage-list">
+                                <li><a href="#">我的预约</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">作品管理</a></li>
+                            </ul>               
+                        </div>
+                    </div>
+                    <a href="###" class="site-top-loging">进入格调网</a>
+                    <span class="slash">|</span>
+                    <a href="###">客服服务</a>
+                    <span class="slash">|</span>
+                    <a href="###">帮助中心</a>
+                    <!-- 已登录 end -->
+                </div>
+            </div>
+        </div>
+        <div class="header-bd w1200">
+            <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+            <div class="font-family">
+                <img src="static/images/img/images/sy_06.jpg" >
+            </div>
+            <!-- 搜索 -->
+            <div class="head-ad"></div>
+            <!-- 搜索 end -->
+            <div class="font-ewm">
+                <img src="static/images/img/images/sy_03.jpg" alt="">
+                <p><a href="#">下载装修管家</a></p>
+            </div>
+        </div>
+        <div class="header-ft">
+            <div class="w1200">
+                <!-- 主导航 -->
+                <ul class="mainNav clearfix" id="J_mainNav">
+                    <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                    <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+                </ul>
+                <!-- 主导航 end -->
+            </div>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 内容区 -->
+    <div id="content">
+        <div class="wrap w1200 mt20 pb20 clearfix">
+            <div class="user-left fl">
+                <h2 class="user-left-title user-left-title-manager">
+                    设计师的个人中心
+                </h2>
+                <ul class="user-left-ul">
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            订单管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">预约管理</a>
+                            </li>
+                            <li>
+                                <a href="#">预约记录</a>
+                            </li>
+                            <li>
+                                <a href="#">设计订单</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            作品管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">上传效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">管理效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">个人素材管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            信息管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">消息管理</a>
+                            </li>
+                            <li>
+                                <a href="#">短信管理</a>
+                            </li>
+                            <li>
+                                <a href="#">装修问答</a>
+                            </li>
+                            <li>
+                                <a href="#">评论管理</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            账户管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">钱包管理</a>
+                            </li>
+                            <li>
+                                <a href="#">认证管理</a>
+                            </li>
+                            <li>
+                                <a href="#">安全中心</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            资料管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">个人资料维护</a>
+                            </li>
+                            <li>
+                                <a href="#">域名申请</a>
+                            </li>
+                            <li>
+                                <a href="#">友情链接</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script src="static/js/leftTelescopic.js"></script>
+            </div>
+            <div class="user-right fr">
+            	<h2 class="user-title mb10">个人主页维护</h2>
+                <div class="bgwrite user-infor-box br">
+                    <!--头部 start-->
+                    <div class="user-designer-infor-head clearfix">
+                        <div class="user-designer-infor-head-img fl">
+                            <img src="static/images/user/img_headdefaultuser.jpg" />
+                            <span>
+                                <a href="javascript:;">修改头像</a>
+                            </span>
+                        </div>
+                        <div class="user-designer-infor-head-name fl">
+                            <h2 class="mt10">135**********</h2>
+                        </div>
+                        <div class="user-designer-infor-head-info fr">
+                            <ul class="clearfix">
+                                
+                            </ul>
+                            
+                            <p>资料完善度：<span>62%</span></p>
+                        </div>
+                    </div>
+                    <!--头部 end-->
+                    <!--进度条 start-->
+                    <div class="user-designer-infor-progress" style="width:62%"></div>
+                    <!--进度条 end-->
+                    
+                    
+                    
+                    <!--主题资料 start-->
+                    <div class="user-designer-infor-main">
+                        <h2 class="site-title">
+                        	<span></span>
+                            基本资料
+                        </h2>
+                        <ul class="user-designer-infor-info">
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    姓      名：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtName" />
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    性      别：
+                                </span>
+                                <div class="text fl">
+                                    <input id="secrecy" name="sex" type="radio" checked  value="保密" />
+                                    <label for="secrecy">保密</label>
+                                    <input id="man" name="sex" type="radio"  value="帅哥" />
+                                    <label for="man">帅哥</label>
+                                    <input id="woman" name="sex" type="radio"  value="美女" />
+                                    <label for="woman">美女</label>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    手机号码：
+                                </span>
+                                <div class="text fl">
+                                    <span class="phone-text">135XXXXXXX</span>
+                                    <a href="#">修改</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    邮      箱：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtName" />
+                                    <a href="#">立即认证</a>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    QQ号码：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtName" />
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    地      区：
+                                </span>
+                                <div class="text fl">
+                                    <select class="txtSelect">
+                                        <option value="0">省/市</option>
+                                    </select>
+                                    <select class="txtSelect">
+                                        <option value="0">市/地</option>
+                                    </select>
+                                    <select class="txtSelect">
+                                        <option value="0">区/县</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    详细地址：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtAddress" placeholder="精确到楼栋房号" />
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        
+                        
+                        <h2 class="site-title">
+                        	<span></span>
+                            实名认证
+                        </h2>
+                        </div>
+                        <ul class="user-designer-infor-info">
+                            
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    <em>*</em>
+                                    身份证号：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtName" />
+                                </div>
+                            </li>
+                            
+                            <li class="clearfix">
+                                <span class="name fl">
+                                    半身照：
+                                </span>
+                                <div class="text fl" id="id_infor">
+                                    <div class="clearfix id-half">
+                                    	<div class="fl img-default">
+                                    		<img src="static/images/user/img_userhalfdefaultimg.jpg" />
+                                        </div>
+                                    	<div class="fl img-show">
+                                        	案例：
+                                    		<img src="static/images/user/img_Testuserhalfdefaultimg.jpg" />
+                                        </div>
+                                    	<div class="fl text">
+                                    		1、请手持相关证件，临时身份证有效期15天以上。<br/>
+                                            2、照片需免冠，建议未化妆。需身份证本人手持证件。<br/>
+                                            3、必须看清身份证证件号且证件号不能被遮挡。<br/>
+                                            4、照片支持jpg、jpeg、brmp格式，最多不超过5M<br/>
+                                            <a href="#">帮助>></a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix id-whole">
+                                    	<div class="fl img-default">
+                                    		<img src="static/images/user/img_userwholedefaultimg.jpg" />
+                                        </div>
+                                    	<div class="fl img-show">
+                                        	案例：
+                                    		<img src="static/images/user/img_Testuserwholedefaultimg.jpg" />
+                                        </div>
+                                    	<div class="fl text">
+                                    		1、半身照与手持证件照需在同一场景拍摄。<br/>
+                                            2、大头照和一寸照不可作为半身照使用。<br/>
+                                            3、照片不能进行软件处理，包括裁剪，涂改。<br/>
+                                            4、照片支持jpg、jpeg、brmp格式，最多不超过5M<br/>
+                                            <a href="#">帮助>></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    选择银行：
+                                </span>
+                                <div class="text fl">
+                                    <select class="txtName">
+                                        <option value="0">选择银行</option>
+                                        <option value="1">中国建设银行</option>
+                                    </select>
+                                    绑定银行卡需要先开通网银
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    银行卡号：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtName" />
+                                    银行卡开户名必须与身份证姓名一致
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        
+                        
+                        <h2 class="site-title">
+                        	<span></span>
+                        	装修需求
+                        </h2>
+                        <ul class="user-designer-infor-info">
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    设计经验：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtExperience" />
+                                    年
+                                </div>
+                                <span class="name fl">
+                                	<em>*</em>
+                                    作品：
+                                </span>
+                                <div class="text fl">
+                                    <input type="text" class="txtExperience" />
+                                    个
+                                </div>
+                            </li>
+                            
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    职      称：
+                                </span>
+                                <div class="text fl">
+                                    <select class="txtName">
+                                        <option value="0">选择职位</option>
+                                        <option value="1">首席设计师</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    专业技能：
+                                </span>
+                                <div class="text fl">
+                                    <ul class="romm-type clearfix">
+                                        <li>3DMAX</li>
+                                        <li>PS</li>
+                                        <li>效果图设计</li>
+                                        <li>CAD</li>
+                                        <li>VR</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    擅长风格：
+                                </span>
+                                <div class="text fl">
+                                    <ul class="romm-type clearfix">
+                                        <li>地中海</li>
+                                        <li>中式</li>
+                                        <li>现代简约</li>
+                                        <li>欧式</li>
+                                        <li>田园</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    擅长空间：
+                                </span>
+                                <div class="text fl">
+                                    <ul class="romm-type clearfix">
+                                        <li>家居</li>
+                                        <li>住宅</li>
+                                        <li>文化空间</li>
+                                        <li>豪宅</li>
+                                        <li>餐厅</li>
+                                        <li>咖啡厅</li>
+                                        <li>会所</li>
+                                        <li>医院</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    专业技能：
+                                </span>
+                                <div class="text fl">
+                                    <ul class="romm-type clearfix">
+                                        <li>0~60元/㎡</li>
+                                        <li>60~100元/㎡</li>
+                                        <li>100~150元/㎡</li>
+                                        <li>150~200元/㎡</li>
+                                        <li>200~300元/㎡</li>
+                                        <li>300~600元/㎡</li>
+                                        <li>600元/㎡以上</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    荣获奖项：
+                                </span>
+                                <div class="text fl">
+                                    
+                                    <textarea class="txtArea">用心做设计让家与心灵更靠近一些！全国住宅装饰装   修行业优秀设计师，新浪网推荐设计师365HOUSE首推设计国建
+筑学会室内设计会员及亚太设计会员</textarea>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <span class="name fl">
+                                	<em>*</em>
+                                    个人简介：
+                                </span>
+                                <div class="text fl">
+                                    <textarea class="txtArea">用心做设计让家与心灵更靠近一些！全国住宅装饰装   修行业优秀设计师，新浪网推荐设计师365HOUSE首推设计国建
+筑学会室内设计会员及亚太设计会员</textarea>
+									<p class="check">
+										<input type="checkbox" id="CheckClause" />
+                                    	<label for="CheckClause">阅读并同意<a href="#">设计师入驻服务条款</a></label>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <input type="submit" class="btn-infor-ok" value="保存" />
+                    </div>
+                    <!--主题资料 end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容区 end -->
+    <!-- 页脚 -->
+    <div id="footer">
+        <!-- 装修服务 -->
+        <div class="site-bot-services w1200 clearfix">
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">格调网官方微博</p>
+                    <p class="lh44">随时随地看装修</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">官方微信</p>
+                    <p class="lh44">扫描二维码即可关注我们！</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl">
+                <p class="footer-p1">400-788-4288</p>
+                <p class="footer-p2">周一至周日: 9:00-22:00</p>
+                <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+            </div>
+        </div>
+        <!-- 装修服务 end -->
+        <!-- 底部导航 -->
+        <div class="site-bot-nav w1200">
+            <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+        </div>
+        <!-- copyright -->
+        <div class="site-bot-copyright w1200">
+            <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+        </div>
+        <!-- copyright end -->
+    </div>
+    <!-- 页脚 end-->
+    <!--[if lt IE 9]>
+     <script src="static/js/html5shiv.min.js"></script>
+    <![endif]-->
+	<script type="text/javascript" src="static/js/public-2016.js"></script>
+    <script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+</body>
+</html>

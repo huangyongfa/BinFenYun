@@ -1,0 +1,86 @@
+/**
+	*common css
+	*Created time: 2016-08-01
+	*Author: yw
+	*Modified time: 2016-08-01
+	*Modified by: 
+*/
+.site-top-search-select a:hover{ cursor:pointer}
+.site-top-search-select a:hover i:before,.site-top-user div:hover i:before{content:'\f0d8'}
+
+
+#topBanner{ position:relative; width:100%; height:340px; overflow:hidden}
+#topBanner .wrapper{ left:50%; position:absolute;}
+#topBanner .wrapper img{margin-left: -50%; max-width: 1920px; width:1920px; height:340px; }
+
+
+.index-tender-infor{ width:800px; height:400px;}
+.tender-infor-title{ height:110px; padding:10px 20px;}
+.tender-infor-title .site-title{ border-bottom:1px solid #e6e6e6; height:37px; line-height:36px;}
+.tender-infor-title .site-title span{ margin:10px 5px }
+.tender-infor-title .filter-criteria{ height:44px; padding:10px 0px; line-height:24px;}
+.tender-infor-title .filter-criteria select{ height:24px; line-height:24px; width:80px;}
+.tender-infor-title .filter-criteria input{ width:60px; height:20px; margin:2px 20px; background:#e61d4c; line-height:20px; text-align:center; color:#ffffff; border:none}
+.tender-infor-box{ height:290px; overflow:hidden}
+.tender-design-screen-hand-list{ padding-top:14px;}
+.tender-design-screen-hand-list li.head{ height:30px;}
+.tender-design-screen-hand-list li.body{ height:41px; border-top:1px solid #cccccc; position:relative}
+.tender-design-screen-hand-list li span{ text-align:center; display:block; color:#333; float:left}
+.tender-design-screen-hand-list li .span1{ width:204px;}
+.tender-design-screen-hand-list li .span2{ width:110px;}
+.tender-design-screen-hand-list li .span3{ width:124px;}
+.tender-design-screen-hand-list li .span4{ width:96px;}
+.tender-design-screen-hand-list li .span5{ width:92px;}
+.tender-design-screen-hand-list li .span6{ width:174px; padding-left:54px;}
+.tender-design-screen-hand-list li.head span{ height:30px; line-height:30px;}
+.tender-design-screen-hand-list li.body span{ height:40px; line-height:40px;}
+.tender-design-screen-hand-list li a{ width:80px; height:20px; display:inline-block; line-height:20px; color:#fff;}
+.tender-design-screen-hand-list li .screen-hand{background:#e61d4c;}
+.tender-design-screen-hand-list li .screen-end{ background:#cccccc;}
+.tender-design-screen-hand-list li .screen-popup{ background:url(../images/tender/bg_tenderPopup.png) no-repeat; width:210px; height:56px; position:absolute; top:30px; right:-35px; padding:16px 5px 0px 5px; line-height:16px; color:#ec292e; text-align:center; z-index:1}
+.index-tender-notice{ width:380px; height:400px; padding:10px 20px;}
+.index-tender-notice .site-title{ border-bottom:1px solid #e6e6e6; height:37px; line-height:36px;}
+.index-tender-notice .site-title span{ margin:10px 5px;}
+.index-tender-notice .site-title i{ background:url(../images/tender/ico_circular.png) no-repeat; width:25px; height:20px; display:inline-block; vertical-align:middle; margin-left:10px;}
+
+.tender-notice-list{ padding-top:15px; height:330px; overflow:hidden;}
+.tender-notice-list li{ width:340px; height:100px; padding:5px 10px; margin-bottom:5px; background:#fafafa}
+.tender-notice-list li h3{ height:20px; line-height:20px; text-align:right; color:#808080;}
+.tender-notice-list li h2{ height:28px; line-height:28px; font-size:16px; color:#333333; overflow:hidden}
+.tender-notice-list li h4{ height:32px;}
+.tender-notice-list li h4 p{ width:150px; height:32px; line-height:16px; color:#808080; overflow:hidden}
+.tender-notice-list li h4 span{ color:#ec292c; font-size:16px; font-weight:bold;}
+
+
+.index-plate-title{ height:50px; line-height:50px; text-align:center; font-size:16px; color:#333333; font-weight:bold;}
+.index-plate-title span{color:#e61d4c; font-weight:bold;}
+
+
+.index-hot-plate{ width:1200px; padding:20px 0px;}
+.index-hot-plate .hot-plate-list{ width:300px; height:450px;}
+.index-hot-plate .hot-plate-list .plate-list-title{ height:56px; padding-top:20px; padding-right:30px; border-bottom:1px solid #cccccc; }
+.index-hot-plate .hot-plate-list .plate-list-title p{ width:100px; height:37px; line-height:34px; color:#000000; font-size:16px; font-weight:bold; border-bottom:3px solid #e61d4c;}
+.index-hot-plate .hot-plate-list .plate-list-title p i{ background:url(../images/ico_index.png) no-repeat; width:22px; height:20px; display:inline-block; vertical-align:middle; margin-right:5px;}
+.index-hot-plate .hot-plate-list .plate-list-title p i.i1{ background-position:-1px 0px}
+.index-hot-plate .hot-plate-list .plate-list-title p i.i2{ background-position:-1px -24px}
+.index-hot-plate .hot-plate-list .plate-list-title p i.i3{ background-position:-1px -50px}
+.index-hot-plate .hot-plate-list .plate-list-title p i.i4{ background-position:-1px -76px}
+.index-hot-plate .hot-plate-list .plate-list-title a{ line-height:36px;}
+.index-hot-plate .hot-plate-list .plate-list-ul{ height:390px;}
+.index-hot-plate .hot-plate-list .plate-list-ul li{ width:270px; height:120px; margin-top:10px; background:#ffffff;}
+.index-hot-plate .hot-plate-list .plate-list-ul li img{ width:120px; height:100px; margin:10px;}
+.index-hot-plate .hot-plate-list .plate-list-ul li .txt{ width:100px;}
+.index-hot-plate .hot-plate-list .plate-list-ul li .txt h2{ color:#000000; font-size:16px; margin-top:40px;}
+.index-hot-plate .hot-plate-list .plate-list-ul li .txt h3{ background:url(../images/public/ico_mes.png) no-repeat; line-height:16px; text-indent:20px; height:16px; width:100px; margin-top:25px; color:#666666}
+
+
+.index-pro-box{ width:1200px; margin-top:20px; overflow:hidden}
+.index-pro-ul{ width:1220px;margin-left:-20px;}
+.index-pro-ul li{ width:285px; height:230px; margin-left:20px; margin-bottom:10px;}
+.index-pro-ul li img{ width:285px; height:200px;}
+.index-pro-ul li p{ height:30px; line-height:30px; text-align:center}
+.index-pro-ul li p a{ color:#666666;}
+.index-pro-box .index-pro-default{ height:720px; overflow:hidden}
+
+.index-pro-more{ height:80px; line-height:80px; text-align:center; margin-bottom:80px;}
+.index-pro-more a{ border:1px solid #e61d4c; color:#e61d4c; width:120px; height:40px; line-height:38px; text-align:center; display:inline-block}

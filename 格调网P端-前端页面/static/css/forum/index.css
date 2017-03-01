@@ -1,0 +1,186 @@
+/**
+	*common css
+	*Created time: 2016-08-01
+	*Author: yw
+	*Modified time: 2016-08-01
+	*Modified by: 
+*/
+.site-top-search-select a:hover{ cursor:pointer}
+.site-top-search-select a:hover i:before,.site-top-user div:hover i.fa:before{content:'\f0d8'}
+
+
+.index-tender-infor{ width:600px; height:286px; padding:5px 10px;}
+.index-tender-infor .site-title a{ color:#178dcd; font-size:12px;}
+.tender-infor-list{ padding:10px 0px; height:236px; overflow:hidden}
+.tender-infor-list li.head{ height:40px; background:#ebebeb; margin-bottom:12px;}
+.tender-infor-list li.body{ height:41px; border-top:1px solid #cccccc; position:relative}
+.tender-infor-list li:last-child{ border-bottom:1px solid #cccccc}
+.tender-infor-list li span{ text-align:center; height:40px; line-height:40px; display:block; color:#333; float:left}
+.tender-infor-list li .span1{ width:262px; padding-right:56px;}
+.tender-infor-list li .span2{ width:96px;}
+.tender-infor-list li .span3{ width:80px; padding-right:12px;}
+.tender-infor-list li .span4{ width:78px;}
+.tender-infor-list li .span5{ width:64px;}
+.tender-infor-list li.head span{ color:#000000; font-weight:bold}
+.tender-infor-list li.body span.span2{ color:#e61d4c}
+.tender-infor-list li a{ width:60px; height:20px; display:inline-block; line-height:20px; color:#fff;}
+.tender-infor-list li .screen-hand{background:#e61d4c;}
+.tender-infor-list li .screen-end{ background:#cccccc;}
+.tender-infor-list li .screen-popup{ background:url(../../images/tender/bg_tenderPopup.png) no-repeat; width:210px; height:56px; position:absolute; top:30px; right:-75px; padding:16px 5px 0px 5px; line-height:16px; color:#ec292e; text-align:center; z-index:1}
+.index-forum-infor{ width:580px; height:286px; padding:5px 10px;}
+.forum-infor-list{ padding-top:14px; width:520px; border-top:1px solid #cccccc; margin:5px 20px; height:215px; overflow:hidden}
+.forum-infor-list li{ line-height:20px; color:#333333;}
+.forum-infor-list li a{ color:#666666}
+
+
+
+.index-section-title{ height:40px; line-height:38px; border:1px solid #e5e5e5; padding:4px 19px;}
+.index-section-title .section-num{ line-height:30px; font-size:14px; color:#e61d4c; font-weight:bold; padding-right:30px;}
+.index-section-title .join-section{ width:100px; height:30px; line-height:30px; text-align:center; color:#ffffff; background:#e61d4c;}
+
+.section-column-box{ width:1200px; overflow:hidden}
+.section-column-title{ height:60px; line-height:60px; background:#ebebeb; margin-bottom:10px; padding:0px 30px; color:#000000; font-size:16px; font-weight:bold;}
+.section-column-title i{ background:url(../../images/ico_index.png) no-repeat;width:22px; height:20px; margin-top:20px; margin-right:5px; float:left}
+.section-column-title i.i1{background-position:-1px 0px}
+.section-column-title i.i2{background-position:-1px -24px}
+.section-column-title i.i3{background-position:-1px -50px}
+.section-column-title i.i4{background-position:-1px -76px}
+.section-column-ul{ width:1240px; margin-left:-40px;}
+.section-column-ul li{ width:270px; height:120px; margin-bottom:10px; margin-left:40px; background:#ffffff;}
+.section-column-ul li img{ width:120px; height:100px; margin:10px;}
+.section-column-ul li .txt{ width:120px;}
+.section-column-ul li .txt h2{ color:#000000; font-size:16px; margin-top:40px;}
+.section-column-ul li .txt h3{ background:url(../../images/public/ico_mes.png) no-repeat; line-height:16px; text-indent:20px; height:16px; width:100px; margin-top:25px; color:#666666}
+
+
+
+
+
+
+
+/**/
+
+.section-top-mes{ padding:20px; text-align:right}
+.section-top-mes .section-mes-title{ height:60px; line-height:40px; padding-bottom:20px; text-align:left}
+.section-top-mes .txt-mes-title{}
+.section-top-mes .txt-section-mes{ height:200px; padding:10px; width:1160px; max-height:200px; max-width:1160px; border:1px  solid #e5e5e5; background:#fafafa; line-height:18px; color:#666666}
+.section-top-mes .btn-section-mes{ margin-top:20px;}
+
+.section-list-box ul{ padding:0px 10px;}
+.section-list-box ul li{ text-align:center;color:#333;float:left}
+.section-list-box ul.head{ height:40px; background:#ebebeb; margin-bottom:12px; }
+.section-list-box ul.head li{ color:#333333; line-height:40px; font-weight:bold}
+.section-list-box ul.head li.li1{ text-indent:130px;}
+.section-list-box ul.body{ height:51px; position:relative} 
+.section-list-box ul.body li.li1{color:#333333; font-weight:bold;}
+.section-list-box ul.body li.li1 a{ font-weight:normal}
+.section-list-box ul.body li.li1 input[type="checkbox"]{ float:left; margin-top:20px;}
+.section-list-box ul.body li h2{ color:#333333;line-height:18px; margin-top:7px;}
+.section-list-box ul.body li p{ color:#666666;line-height:18px;}
+.section-list-box ul.body li.li4 a{ color:#178dcd; margin:0px 8px;}
+.section-list-box ul.body li{ height:51px; line-height:50px;border-bottom:1px solid #cccccc;}
+.section-list-box ul .li1{ width:690px; padding-right:56px; text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.section-list-box ul .li2{ width:175px;}
+.section-list-box ul .li3{ width:105px;}
+.section-list-box ul .li4{ width:210px; padding-right:10px;}
+
+.section-list-type{ height:40px; line-height:40px; margin-top:20px; padding:0px 10px;}
+.section-list-type input[type="checkbox"]{ float:left; margin-top:15px;}
+.section-list-type input[type="button"]{ margin-left:10px;}
+
+
+/*个人中心*/
+.forum-user-top{ background:url(../../images/forum/bg_usertop.png) no-repeat #ebebeb; padding:108px 100px 0px;}
+.forum-user-top .forum-user-top-img{ width:160px; height:160px; border-radius:50%;}
+.forum-user-top .forum-user-top-txt{ margin-top:52px; margin-left:10px; width:830px}
+.forum-user-top .forum-user-top-title{ height:30px; width:150px; border-radius:5px; background:rgba(0,0,0,0.5);}
+.forum-user-top .forum-user-top-title p{ color:#ffffff; line-height:30px; text-indent:10px;}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .forum-user-top .forum-user-top-title{
+    background-color:#000000;
+    filter:Alpha(opacity=50);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+  .forum-user-top .forum-user-top-title p{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+.forum-user-top input.ipt-remind{ height:30px; line-height:30px; margin-left:10px;}
+.forum-user-top-p{ line-height:24px; color:#666666}
+.forum-user-top-p span{ color:#333333; font-size:14px; font-weight:bold}
+.forum-user-top-p a{ color:#178dcd;}
+
+.section-list-title{ height:52px; padding:10px; 20px;}
+.section-list-title span{ height:32px; line-height:30px; font-size:16px; color:#333333; border-bottom:2px solid #fafafa; margin-right:30px; font-weight:bold}
+.section-list-title span.cur{ border-bottom-color:#e61d4c; color:#e61d4c;}
+.section-list-title span:hover{ border-bottom-color:#e61d4c; color:#e61d4c; cursor:pointer}
+
+/*详情*/
+.forum-detail-reply{ display:none}
+.forum-detail-reply .show-box{ padding:0px 50px;}
+.forum-detail-reply .reply-title{height:32px; line-height:32px; text-align:center; color:#333333}
+.forum-detail-reply .reply-textarea{width:500px; height:160px; border:none; background:#eaeaea;}
+
+.forum-detail-report{ display:none}
+.forum-detail-report .show-title{ background:#ebebeb; color:#333333}
+.forum-detail-report .show-title i{ background:url(../../images/public/ico-showclose1.png) no-repeat;}
+.forum-detail-report .show-box{ padding:0px 20px;}
+.forum-detail-report .report-title{height:50px; line-height:50px; text-align:left}
+.forum-detail-report .report-ul{ padding-bottom:20px;}
+.forum-detail-report .report-ul li{ height:22px; line-height:22px; text-align:left}
+.forum-detail-report .report-ul li input{ vertical-align:middle}
+.forum-detail-report .report-textarea{width:500px; height:160px; border:none; background:#eaeaea;}
+
+
+.forum-detail-title{ height:40px; line-height:40px; color:#333333; font-size:16px; text-align:center; font-weight:bold; background:#ebebeb;}
+.forum-detail-title .detail-num{ font-size:12px; right:20px; top:0px;}
+.forum-detail-infor-left{ width:240px;}
+.forum-detail-user{ padding:20px; padding-bottom:10px;}
+.forum-detail-user img{ width:200px;}
+.forum-detail-user h2{ height:34px; line-height:34px; color:#333333; font-size:16px;}
+.forum-detail-user h2 span{ font-size:12px; vertical-align:middle; padding:2px 5px; color:#ffffff; background:#e61d4c; cursor:pointer}
+.forum-detail-user h2 span.on{ background:#999999}
+.forum-detail-user ul{ padding:5px 0px;}
+.forum-detail-user ul li{ text-align:center;}
+.forum-detail-infor-right{ width:950px;}
+.forum-detail-infor-title{ height:40px; line-height:40px; text-align:center; color:#333333; font-size:16px; font-weight:bold; margin:30px auto;}
+.detail-infor-time{ line-height:18px; font-size:12px; width:140px; text-align:center; right:0px; top:-10px;}
+.forum-detail-infor-con{ padding:20px;}
+
+.forum-detail-comment-title{ height:40px; line-height:40px; font-size:16px; color:#ff7300; font-weight:bold; text-indent:20px; background:#ebebeb}
+.forum-detail-comment-list{ height:320px; margin-top:10px; background:#ffffff;}
+.detail-comment-list-left{ height:320px; width:240px;}
+.detail-comment-list-right{ width:960px; padding:20px 10px 20px 19px; margin:20px 0px; border-left:1px solid #cccccc; height:280px;}
+.detail-comment-list-right .txt{ height:200px; width:920px; line-height:20px;overflow:hidden;}
+.detail-comment-list-right .time{ line-height:40px; text-align:right;}
+
+
+.forum-follow-list{ padding:20px 40px 20px 60px;}
+.forum-follow-list ul{ width:1100px;}
+.forum-follow-list ul li{ width:200px; height:260px; margin-right:20px;}
+.forum-follow-list ul li img{ width:200px; height:200px;}
+.forum-follow-list ul li input{ width:60px; margin:0px 70px;}
+.forum-follow-list ul li a p{ line-height:30px; height:30px; text-align:center; color:#333333;}
+.forum-follow-list ul li a:hover p{ color:#e61d4c;}
+
+
+
+
+.swicth-box .show{ display:block}
+.swicth-section-infor{ display:none}
+.section-infor-box{ padding:0px 20px;}
+.section-infor-box ul{ height:51px; border-bottom:1px solid #e5e5e5;}
+.section-infor-box ul li{ height:50px; line-height:50px; float:left}
+.section-infor-box ul li.w850{ width:840px; color:#333333}
+.section-infor-box ul li.w200{ width:200px; color:#666666}
+.section-infor-box ul li.w130{ width:120px;}
+.section-infor-box ul li input{ vertical-align:middle}
+.section-infor-box ul li a{ color:#178dcd; margin-right:10px;}
+
+
+#P_Forum_section_infor{ display:none}
+#P_Forum_section_infor .show-box{}
+#P_Forum_section_infor .show-box .infor-con{padding:20px 0px 20px 60px;}
+#P_Forum_section_infor .show-box p{ line-height:30px;}
+#P_Forum_section_infor .show-box .show-close{ color:#333333}

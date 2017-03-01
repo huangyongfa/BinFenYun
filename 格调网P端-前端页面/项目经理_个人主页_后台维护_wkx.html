@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/project.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+<!-- 头部 -->
+<div id="header">
+    <div class="header-hd">
+        <div class="w1200">
+            <div class="site-top-city">
+                <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                <!-- 未登录 start -->
+                <div class="site-top-log site-top-loging">
+                    <a href="#">登录</a>
+                    <a href="#" class="ml10">加入缤纷云</a>
+                </div>
+                <!-- end -->
+                <!-- 已登录  start -->
+                <div class="site-top-log site-top-logged">
+                    <span>欢迎您，</span>
+                    <div class="logged-user">梁志天
+                        <ul class="account">
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                </div>
+                <!-- end -->
+
+                <!-- 切换城市 弹出框 -->
+                <div class="site-top-city-pop">
+                    <div class="mt">
+                        <strong class="mr10">热门城市</strong>
+                        <a href="javascript:;" class="cle61">北京</a>
+                        <a href="javascript:;" class="cle61">上海</a>
+                        <a href="javascript:;" class="cle61">深圳</a>
+                        <a href="javascript:;" class="cle61">广州</a>
+                        共开通了<em class="cle61">250</em>个城市站
+                        <span class="btn-close"></span>
+                    </div>
+                    <div class="mc">
+                        <strong class="mr10">快速查找</strong>
+                        <select id="J_top-location-prov" class="br mr10">
+                            <option value="0">广东省</option>
+                        </select>
+                        <select id="J_top-location-city" class="br mr10">
+                            <option value="0">深圳市</option>
+                            <option value="1">广州市</option>
+                        </select>
+                        <p class="site-top-city-pop-ok">
+                            <input class="br bge61" type="button" value="确认" />
+                        </p>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+
+            <div class="site-top-user fr">
+
+                <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                <!-- 已登录 -->
+                <div class="site-top-logged">
+                    <a href="#">缤纷云首页</a>
+                    <span class="slash">|</span>
+                    <div class="my-manage">
+                        我的缤纷云
+                        <ul class="manage-list">
+                            <li><a href="#">我的预约</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">作品管理</a></li>
+                        </ul>               
+                    </div>
+                </div>
+                <a href="###" class="site-top-loging">进入格调网</a>
+                <span class="slash">|</span>
+                <a href="###">客服服务</a>
+                <span class="slash">|</span>
+                <a href="###">帮助中心</a>
+                <!-- 已登录 end -->
+            </div>
+        </div>
+    </div>
+    <div class="header-bd w1200">
+        <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+        <div class="font-family">
+            <img src="static/images/img/images/sy_06.jpg" >
+        </div>
+        <!-- 搜索 -->
+        <div class="head-ad"></div>
+        <!-- 搜索 end -->
+        <div class="font-ewm">
+            <img src="static/images/img/images/sy_03.jpg" alt="">
+            <p><a href="#">下载装修管家</a></p>
+        </div>
+    </div>
+    <div class="header-ft">
+        <div class="w1200">
+            <!-- 主导航 -->
+            <ul class="mainNav clearfix" id="J_mainNav">
+                <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+            </ul>
+            <!-- 主导航 end -->
+        </div>
+    </div>
+</div>
+<!-- 头部 end -->
+<!-- 内容区 -->
+<div id="content">
+    <div class="wrap w1200 mt20 pb20 clearfix">
+        <div class="user-left fl">
+            <h2 class="user-left-title user-left-title-manager">
+                项目经理个人中心
+            </h2>
+
+            <ul class="user-left-ul">
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        施工投标
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">招标管理</a>
+                        </li>
+                        <li>
+                            <a href="#">投标记录</a>
+                        </li>
+                        <li>
+                            <a href="#">施工订单</a>
+                        </li>
+                        <li>
+                            <a href="#">施工报价</a>
+                        </li>
+                        <li>
+                            <a href="#">施工报价管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        案例管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">施工案例</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        信息管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">消息管理</a>
+                        </li>
+                        <li>
+                            <a href="#">短信管理</a>
+                        </li>
+                        <li>
+                            <a href="#">装修问答</a>
+                        </li>
+                        <li>
+                            <a href="#">投诉管理</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        账户管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">钱包管理</a>
+                        </li>
+                        <li>
+                            <a href="#">认证管理</a>
+                        </li>
+                        <li>
+                            <a href="#">安全中心</a>
+                        </li>
+                        <li>
+                            <a href="#">保证金管理</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        资料管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li class="nav-left">
+                            <a href="#">个人资料维护</a>
+                        </li>
+                        <li>
+                            <a href="#">域名申请</a>
+                        </li>
+                        <li>
+                            <a href="#">友情链接</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <script src="static/js/leftTelescopic.js"></script>
+        </div>
+        <div class="user-right fr mb20">
+            <h2 class="user-title mb10">个人主页维护</h2>
+            <div class="user-designer-head-infor bgwrite clearfix">
+                <img class="head-img fl" src="static/images/temp/img_forummesuserhead.jpg" />
+                <div class="head-txt fl">
+                    <h2 class="title mb20">李如玉</h2>
+                    <ul>
+                        <li class="clearfix">
+                            <span class="spanname">设计经验：</span>
+                            <span class="spannum">12年</span>
+                            <span class="spanname">团队成员：</span>
+                            <span class="spannum">23个</span>
+                            <span class="spanname">成功案例：</span>
+                            <span class="spannum">25个</span>
+                        </li>
+                        <li class="clearfix">
+                            <span class="spanname">专业技能：</span>
+                            <div>项目经理PMP、建造师、CAD</div>
+                        </li>
+                        <li class="clearfix">
+                            <span class="spanname">个人介绍：</span>
+                            <div>
+                                用心做设计让家与心灵更近一些！全国住宅装饰装修行业优秀设计师、新浪网推荐设计师、365HOUSE首推设计师、中国建筑协会室内设计会员及亚太设计会员。
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <span class="spanname">荣获奖项：</span>
+                            <div class="honor">
+                                <p>2008年荣获中国建筑装饰协会“高级住宅室内设计师”</p>
+                                <p>2009年荣获国际设计艺术博览会“08-09年度室内设计创新人物奖”</p>
+                                <p>2009-2011连续三年获得国家家居设计大奖</p>
+                                <p>2012年获得时尚家居全国年度十佳作品大奖</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="head-up fr">
+                    <input type="button" class="btn-default bge61 btn-up-infor" value="修改资料" />
+                </div>
+            </div>
+
+            <h2 class="site-title mt20 ml10 fw">
+                <span></span>
+                推荐位管理
+            </h2>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">1号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">2号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">3号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom">
+                <span class="bge61">4号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">5号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">6号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">7号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b><a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom">
+                <span class="bge61">8号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div><div class="dib mt20 user-right-groom mr30">
+            <span class="bge61">9号位</span>
+            <img src="static/images/temp/img_tenderuserli4.jpg"/>
+            <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b><a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+        </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">10号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b><a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom mr30">
+                <span class="bge61">11号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b> <a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+            <div class="dib mt20 user-right-groom">
+                <span class="bge61">12号位</span>
+                <img src="static/images/temp/img_tenderuserli4.jpg"/>
+                <p class="mt10"><b class="user-right-groom-b">深圳南山区电力花园</b><a class="fr ml10 cl18c" href="#">删除</a><a class="fr cl18c" href="#">编辑</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 内容区 end -->
+<!-- 页脚 -->
+<div id="footer">
+    <!-- 装修服务 -->
+    <div class="site-bot-services w1200 clearfix">
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">格调网官方微博</p>
+                <p class="lh44">随时随地看装修</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">官方微信</p>
+                <p class="lh44">扫描二维码即可关注我们！</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl">
+            <p class="footer-p1">400-788-4288</p>
+            <p class="footer-p2">周一至周日: 9:00-22:00</p>
+            <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+        </div>
+    </div>
+    <!-- 装修服务 end -->
+    <!-- 底部导航 -->
+    <div class="site-bot-nav w1200">
+        <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+    </div>
+    <!-- copyright -->
+    <div class="site-bot-copyright w1200">
+        <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+    </div>
+    <!-- copyright end -->
+</div>
+<!-- 页脚 end-->
+<!--[if lt IE 9]>
+<script src="static/js/html5shiv.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="static/js/public-2016.js"></script>
+<script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+</body>
+</html>

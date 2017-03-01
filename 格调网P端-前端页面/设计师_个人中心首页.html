@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header-hd">
+            <div class="w1200">
+                <div class="site-top-city">
+                    <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                    <!-- 未登录 start -->
+                    <div class="site-top-log site-top-loging">
+                        <a href="#">登录</a>
+                        <a href="#" class="ml10">加入缤纷云</a>
+                    </div>
+                    <!-- end -->
+                    <!-- 已登录  start -->
+                    <div class="site-top-log site-top-logged">
+                        <span>欢迎您，</span>
+                        <div class="logged-user">梁志天
+                            <ul class="account">
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 切换城市 弹出框 -->
+                    <div class="site-top-city-pop">
+                        <div class="mt">
+                            <strong class="mr10">热门城市</strong>
+                            <a href="javascript:;" class="cle61">北京</a>
+                            <a href="javascript:;" class="cle61">上海</a>
+                            <a href="javascript:;" class="cle61">深圳</a>
+                            <a href="javascript:;" class="cle61">广州</a>
+                            共开通了<em class="cle61">250</em>个城市站
+                            <span class="btn-close"></span>
+                        </div>
+                        <div class="mc">
+                            <strong class="mr10">快速查找</strong>
+                            <select id="J_top-location-prov" class="br mr10">
+                                <option value="0">广东省</option>
+                            </select>
+                            <select id="J_top-location-city" class="br mr10">
+                                <option value="0">深圳市</option>
+                                <option value="1">广州市</option>
+                            </select>
+                            <p class="site-top-city-pop-ok">
+                                <input class="br bge61" type="button" value="确认" />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="site-top-user fr">
+
+                    <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                    <!-- 已登录 -->
+                    <div class="site-top-logged">
+                        <a href="#">缤纷云首页</a>
+                        <span class="slash">|</span>
+                        <div class="my-manage">
+                            我的缤纷云
+                            <ul class="manage-list">
+                                <li><a href="#">我的预约</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">作品管理</a></li>
+                            </ul>               
+                        </div>
+                    </div>
+                    <a href="###" class="site-top-loging">进入格调网</a>
+                    <span class="slash">|</span>
+                    <a href="###">客服服务</a>
+                    <span class="slash">|</span>
+                    <a href="###">帮助中心</a>
+                    <!-- 已登录 end -->
+                </div>
+            </div>
+        </div>
+        <div class="header-bd w1200">
+            <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+            <div class="font-family">
+                <img src="static/images/img/images/sy_06.jpg" >
+            </div>
+            <!-- 搜索 -->
+            <div class="head-ad"></div>
+            <!-- 搜索 end -->
+            <div class="font-ewm">
+                <img src="static/images/img/images/sy_03.jpg" alt="">
+                <p><a href="#">下载装修管家</a></p>
+            </div>
+        </div>
+        <div class="header-ft">
+            <div class="w1200">
+                <!-- 主导航 -->
+                <ul class="mainNav clearfix" id="J_mainNav">
+                    <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                    <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+                </ul>
+                <!-- 主导航 end -->
+            </div>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 内容区 -->
+    <div id="content">
+        <div class="wrap w1200 mt20 pb20 clearfix">
+            <div class="user-left fl">
+                <h2 class="user-left-title user-left-title-manager">
+                    设计师的个人中心
+                </h2>
+                <ul class="user-left-ul">
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            订单管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">预约管理</a>
+                            </li>
+                            <li>
+                                <a href="#">预约记录</a>
+                            </li>
+                            <li>
+                                <a href="#">设计订单</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            作品管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">上传效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">管理效果图</a>
+                            </li>
+                            <li>
+                                <a href="#">个人素材管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            信息管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">消息管理</a>
+                            </li>
+                            <li>
+                                <a href="#">短信管理</a>
+                            </li>
+                            <li>
+                                <a href="#">装修问答</a>
+                            </li>
+                            <li>
+                                <a href="#">评论管理</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            账户管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">钱包管理</a>
+                            </li>
+                            <li>
+                                <a href="#">认证管理</a>
+                            </li>
+                            <li>
+                                <a href="#">安全中心</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            资料管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">个人资料维护</a>
+                            </li>
+                            <li>
+                                <a href="#">域名申请</a>
+                            </li>
+                            <li>
+                                <a href="#">友情链接</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script src="static/js/leftTelescopic.js"></script>
+            </div>
+            <div class="user-right fr">
+            	<div class="user-designer-head bgwrite clearfix">
+                	<div class="user-designer-head-img fl">
+                        <a href="#">
+                            <img src="static/images/temp/img_UserDesignHead.jpg" />
+                        </a>
+                    </div>
+                    <div class="user-designer-head-name fl">
+                    	<h2>艾米</h2>
+                        <p>身份类型：<span class="cl666">设计师</span> </p>
+                        <p>账户余额：<span class="cle61">8200</span> </p>
+                        <h3>
+                        	<a href="#">
+                        		<i></i>
+                            	我的钱包
+                        	</a>
+                        </h3>
+                    </div>
+                    <div class="user-designer-head-order fl">
+                    	<a href="#">
+                    		<i class="i1"></i>
+	                        设计预约
+	                        <span class="cle61">（2）</span>
+                    	</a>
+                    </div>
+                    <div class="user-designer-head-order fr">
+                    	<a href="#">
+                    		<i class="i2"></i>
+	                        设计订单
+	                        <span class="cle61">（3）</span>
+                    	</a>
+                    </div>
+                </div>
+                
+                
+                <div class="user-designer-notice clearfix">
+                	<ul class="fl">
+                    	<li>
+                        	最新公告：
+                            <a href="#">年度盛典，七月家装季火热报名中……</a>
+                        </li>
+                    	<li>
+                        	最新公告：
+                            <a href="#">年度盛典，七月家装季火热报名中……</a>
+                        </li>
+                    	<li>
+                        	最新公告：
+                            <a href="#">年度盛典，七月家装季火热报名中……</a>
+                        </li>
+                    	<li>
+                        	最新公告：
+                            <a href="#">年度盛典，七月家装季火热报名中……</a>
+                        </li>
+                    	<li>
+                        	最新公告：
+                            <a href="#">年度盛典，七月家装季火热报名中……</a>
+                        </li>
+                    </ul>
+                    <p class="fr">
+                    	<a href="#">消息<span class="cle61 mr10">（21）</span></a>
+                    	<a href="#">私信<span class="cle61">（3）</span></a>
+                    </p>
+                </div>
+                
+                <div class="mb10 mt10">
+                	<img src="static/images/temp/img_userdeginerimg1.jpg" width="930" />
+                </div>
+                
+                <div class="clearfix">
+                	<div class="user-designer-myorder fl">
+                    	<h2 class="site-title">
+                        	<span></span>
+                            我的订单
+                            <a href="#" class="fr">查看全部订单</a>
+                        </h2>
+                        <div class="user-user-myorder-list">
+                        	<ul class="head bgwrite mb10 clearfix">
+                            	<li class="li1">订单名称</li>
+                                <li class="li2">业主</li>
+                                <li class="li3">订单金额</li>
+                                <li class="li4">订单状态</li>
+                                <li class="li5">操作</li>
+                            </ul>
+                            <div class="user-user-myorder-list-box">
+                            	<h2 class="list-title">订单编号：23252146  2016-7-17</h2>
+                                <div class="list-con">
+                                	<ul class="clearfix body">
+                                        <li class="li1 clearfix">
+                                        	<img src="static/images/temp/img_Testmyorderli1.jpg" class="fl" />
+                                            <div class="txt fl brr">广东深圳现代简约180m2kl;jl;kjkl;jaslfdsafhudiospahfidsophjkls;afiopash</div>
+                                        </li>
+                                        <li class="li2 brr">
+                                        	李小闹
+                                        </li>
+                                        <li class="li3 brr">
+                                        	8000.00
+                                        </li>
+                                        <li class="li4 brr">
+                                        	待付款
+                                        </li>
+                                        <li class="li5">
+                                        	<a class="select" href="javascript:;">查看</a>
+                                        	<a class="remind" href="javascript:;">提醒付款</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="user-user-myorder-list-box">
+                            	<h2 class="list-title">订单编号：23252146  2016-7-17</h2>
+                                <div class="list-con">
+                                	<ul class="clearfix body">
+                                        <li class="li1 clearfix">
+                                        	<img src="static/images/temp/img_Testmyorderli1.jpg" class="fl" />
+                                            <div class="txt fl brr">广东深圳现代简约180m2</div>
+                                        </li>
+                                        <li class="li2 brr">
+                                        	李小闹
+                                        </li>
+                                        <li class="li3 brr">
+                                        	8000.00
+                                        </li>
+                                        <li class="li4 brr">
+                                        	待付款
+                                        </li>
+                                        <li class="li5">
+                                        	<a class="select" href="javascript:;">查看</a>
+                                        	<a class="remind" href="javascript:;">提醒付款</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="user-user-myorder-list-box">
+                            	<h2 class="list-title">订单编号：23252146  2016-7-17</h2>
+                                <div class="list-con">
+                                	<ul class="clearfix body">
+                                        <li class="li1 clearfix">
+                                        	<img src="static/images/temp/img_Testmyorderli1.jpg" class="fl" />
+                                            <div class="txt fl brr">广东深圳现代简约180m2</div>
+                                        </li>
+                                        <li class="li2 brr">
+                                        	李小闹
+                                        </li>
+                                        <li class="li3 brr">
+                                        	8000.00
+                                        </li>
+                                        <li class="li4 brr">
+                                        	待付款
+                                        </li>
+                                        <li class="li5">
+                                        	<a class="select" href="javascript:;">查看</a>
+                                        	<a class="upfile" href="javascript:;">上传设计方案</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                	<div class="fr bgwrite user-designer-question">
+                    	<h2 class="site-title">
+                        	<span></span>
+                            装修问答
+                        </h2>
+                        <ul class="user-designer-question-ul">
+                        	<li class="clearfix">
+                            	<img class="fl" src="static/images/temp/img_Testquestionli1.jpg" />
+                                <div class="title fl">
+                                	<p>
+                                    	<a href="#">软饰应该怎么和房间搭配才更好？</a>
+                                    </p>
+                                </div>
+                                <div class="time fr">
+                                	<h2>2016-7-14</h2>
+                                    <a href="javascript:;">回复</a>
+                                </div>
+                            </li>
+                        	<li class="clearfix">
+                            	<img class="fl" src="static/images/temp/img_Testquestionli1.jpg" />
+                                <div class="title fl">
+                                	<p>
+                                    	<a href="#">软饰应该怎么和房间搭配才更好？</a>
+                                    </p>
+                                </div>
+                                <div class="time fr">
+                                	<h2>2016-7-14</h2>
+                                    <a href="javascript:;">回复</a>
+                                </div>
+                            </li>
+                        	<li class="clearfix">
+                            	<img class="fl" src="static/images/temp/img_Testquestionli1.jpg" />
+                                <div class="title fl">
+                                	<p>
+                                    	<a href="#">软饰应该怎么和房间搭配才更好？</a>
+                                    </p>
+                                </div>
+                                <div class="time fr">
+                                	<h2>2016-7-14</h2>
+                                    <a href="javascript:;">回复</a>
+                                </div>
+                            </li>
+                        	<li class="clearfix">
+                            	<img class="fl" src="static/images/temp/img_Testquestionli1.jpg" />
+                                <div class="title fl">
+                                	<p>
+                                    	<a href="#">软饰应该怎么和房间搭配才更好呢？</a>
+                                    </p>
+                                </div>
+                                <div class="time fr">
+                                	<h2>2016-7-14</h2>
+                                    <a href="javascript:;">回复</a>
+                                </div>
+                            </li>
+                        	<li class="clearfix">
+                            	<img class="fl" src="static/images/temp/img_Testquestionli1.jpg" />
+                                <div class="title fl">
+                                	<p>
+                                    	<a href="#">软饰应该怎么和房间搭配才更好？</a>
+                                    </p>
+                                </div>
+                                <div class="time fr">
+                                	<h2>2016-7-14</h2>
+                                    <a href="javascript:;">回复</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="user-designer-list">
+                	<div class="mt10 clearfix">
+                    	<div class="list-box user-list-width  fl">
+                        	<h2 class="site-title">
+                            	<span></span>
+                                我的预约
+                                <a class="fr" href="#">更多</a>
+                            </h2>
+                            <ul class="head">
+                            	<li class="w64">业主姓名</li>
+                            	<li class="w68">所在小区</li>
+                            	<li class="w72">预约来源</li>
+                            	<li class="w92">预约时间</li>
+                            	<li class="w70">状态</li>
+                            	<li class="w64">操作</li>
+                            </ul>
+                            <div class="body">
+                                <ul>
+                                    <li class="w64">
+                                    	李小闹
+                                    </li>
+                                    <li class="w68">
+                                    	龙光城
+                                    </li>
+                                    <li class="w72">
+                                    	业主预约
+                                    </li>
+                                    <li class="w92">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w70">
+                                    	待确认
+                                    </li>
+                                    <li class="w64">
+                                    	<a href="#">确认</a>
+                                    	<a href="#">拒绝</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w64">
+                                    	李小闹
+                                    </li>
+                                    <li class="w68">
+                                    	龙光城
+                                    </li>
+                                    <li class="w72">
+                                    	业主预约
+                                    </li>
+                                    <li class="w92">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w70">
+                                    	待确认
+                                    </li>
+                                    <li class="w64">
+                                    	<a href="#">确认</a>
+                                    	<a href="#">拒绝</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w64">
+                                    	李小闹
+                                    </li>
+                                    <li class="w68">
+                                    	龙光城
+                                    </li>
+                                    <li class="w72">
+                                    	业主预约
+                                    </li>
+                                    <li class="w92">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w70">
+                                    	待确认
+                                    </li>
+                                    <li class="w64">
+                                    	<a href="#">确认</a>
+                                    	<a href="#">拒绝</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w64">
+                                    	李小闹
+                                    </li>
+                                    <li class="w68">
+                                    	龙光城
+                                    </li>
+                                    <li class="w72">
+                                    	业主预约
+                                    </li>
+                                    <li class="w92">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w70">
+                                    	待确认
+                                    </li>
+                                    <li class="w64">
+                                    	<a href="#">确认</a>
+                                    	<a href="#">拒绝</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    	<div class="list-box user-list-width fr">
+                        	<h2 class="site-title">
+                            	<span></span>
+                                预约记录
+                                <a class="fr" href="#">更多</a>
+                            </h2>
+                            <ul class="head">
+                            	<li class="w70">业主姓名</li>
+                            	<li class="w82">所在小区</li>
+                            	<li class="w92">预约方式</li>
+                            	<li class="w112">预约时间</li>
+                            	<li class="w74">操作</li>
+                            </ul>
+                            <div class="body">
+                                <ul>
+                                    <li class="w70">
+                                    	李小闹
+                                    </li>
+                                    <li class="w82">
+                                    	龙光城
+                                    </li>
+                                    <li class="w92">
+                                    	业主预约
+                                    </li>
+                                    <li class="w112">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w64">
+                                    	已中标
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w70">
+                                    	李小闹
+                                    </li>
+                                    <li class="w82">
+                                    	龙光城
+                                    </li>
+                                    <li class="w92">
+                                    	业主预约
+                                    </li>
+                                    <li class="w112">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w64">
+                                    	已中标
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w70">
+                                    	李小闹
+                                    </li>
+                                    <li class="w82">
+                                    	龙光城
+                                    </li>
+                                    <li class="w92">
+                                    	业主预约
+                                    </li>
+                                    <li class="w112">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w64">
+                                    	已中标
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w70">
+                                    	李小闹
+                                    </li>
+                                    <li class="w82">
+                                    	龙光城
+                                    </li>
+                                    <li class="w92">
+                                    	业主预约
+                                    </li>
+                                    <li class="w112">
+                                    	2016-7-13 15：32
+                                    </li>
+                                    <li class="w64">
+                                    	已中标
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt10 clearfix">
+                    	<div class="list-box user-list-width fl">
+                        	<h2 class="site-title">
+                            	<span></span>
+                                我的作品
+                                <a class="fr" href="#">更多</a>
+                            </h2>
+                            <ul class="head">
+                            	<li class="w150">作品名称</li>
+                            	<li class="w150">设计风格</li>
+                            	<li class="w130">好评度</li>
+                            </ul>
+                            <div class="body">
+                                <ul>
+                                    <li class="w150">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w150">
+                                    	业主预约
+                                    </li>
+                                    <li class="w130">
+                                    	100%
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w150">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w150">
+                                    	业主预约
+                                    </li>
+                                    <li class="w130">
+                                    	100%
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w150">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w150">
+                                    	业主预约
+                                    </li>
+                                    <li class="w130">
+                                    	100%
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w150">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w150">
+                                    	业主预约
+                                    </li>
+                                    <li class="w130">
+                                    	100%
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    	<div class="list-box user-list-width fr">
+                        	<h2 class="site-title">
+                            	<span></span>
+                                查看设计需求
+                                <a class="fr" href="#">更多</a>
+                            </h2>
+                            <ul class="head">
+                            	<li class="w122">订单名称</li>
+                            	<li class="w76">设计预算</li>
+                            	<li class="w88">项目面积</li>
+                            	<li class="w80">设计风格</li>
+                            	<li class="w64">操作</li>
+                            </ul>
+                            <div class="body">
+                                <ul>
+                                    <li class="w122">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w76">
+                                    	<span class="cle61">￥10000.00</span>
+                                    </li>
+                                    <li class="w88">
+                                    	180m2
+                                    </li>
+                                    <li class="w80">
+                                    	现代简约
+                                    </li>
+                                    <li class="w64">
+                                    	<span class="fast">快速抢单</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w122">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w76">
+                                    	<span class="cle61">￥10000.00</span>
+                                    </li>
+                                    <li class="w88">
+                                    	180m2
+                                    </li>
+                                    <li class="w80">
+                                    	现代简约
+                                    </li>
+                                    <li class="w64">
+                                    	<span class="fast">快速抢单</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w122">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w76">
+                                    	<span class="cle61">￥10000.00</span>
+                                    </li>
+                                    <li class="w88">
+                                    	180m2
+                                    </li>
+                                    <li class="w80">
+                                    	现代简约
+                                    </li>
+                                    <li class="w64">
+                                    	<span class="fast">快速抢单</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="w122">
+                                    	<a href="#">深圳龙岗电力花园</a>
+                                    </li>
+                                    <li class="w76">
+                                    	<span class="cle61">￥10000.00</span>
+                                    </li>
+                                    <li class="w88">
+                                    	180m2
+                                    </li>
+                                    <li class="w80">
+                                    	现代简约
+                                    </li>
+                                    <li class="w64">
+                                    	<span class="fast">快速抢单</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="user-excellent-pro mt10 mb20">
+                	<h2 class="site-title ml10">
+                    	<span></span>
+                        优秀作品鉴赏
+                    </h2>
+                    <div class="user-photo-list excellent-pro-list" id="GetExcellent" num="3"  switch="275">
+                        <b class="prev" onClick="PrevCilcks(this)"></b>
+                        <b class="next" onClick="NextCilcks(this)"></b>
+                        <div class="switch-reception-box case-list-box oh">
+                            <ul class="switch-reception-list clearfix">
+                                <li class="fl">
+                                    <a href="#">
+                                        <img src="static/images/temp/img_excellentproli1.jpg" />
+                                        <p>二房一厅装修案例打造性价比</p>
+                                    </a>
+                                </li>
+                                <li class="fl">
+                                    <a href="#">
+                                        <img src="static/images/temp/img_excellentproli2.jpg" />
+                                        <p>二房一厅装修案例打造性价比</p>
+                                    </a>
+                                </li>
+                                <li class="fl">
+                                    <a href="#">
+                                        <img src="static/images/temp/img_excellentproli3.jpg" />
+                                        <p>二房一厅装修案例打造性价比</p>
+                                    </a>
+                                </li>
+                                <li class="fl">
+                                    <a href="#">
+                                        <img src="static/images/temp/img_excellentproli2.jpg" />
+                                        <p>二房一厅装修案例打造性价比</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script src="static/js/scrollAlbum.js"></script>
+                    <script>
+						Timers("GetExcellent",true);
+					</script>
+            	</div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容区 end -->
+    <!-- 页脚 -->
+    <div id="footer">
+        <!-- 装修服务 -->
+        <div class="site-bot-services w1200 clearfix">
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">格调网官方微博</p>
+                    <p class="lh44">随时随地看装修</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">官方微信</p>
+                    <p class="lh44">扫描二维码即可关注我们！</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl">
+                <p class="footer-p1">400-788-4288</p>
+                <p class="footer-p2">周一至周日: 9:00-22:00</p>
+                <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+            </div>
+        </div>
+        <!-- 装修服务 end -->
+        <!-- 底部导航 -->
+        <div class="site-bot-nav w1200">
+            <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+        </div>
+        <!-- copyright -->
+        <div class="site-bot-copyright w1200">
+            <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+        </div>
+        <!-- copyright end -->
+    </div>
+    <!-- 页脚 end-->
+    <!--[if lt IE 9]>
+     <script src="static/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--问题弹出-->
+    <div class="public-box question-show">
+    	<h2 class="show-title">
+    		<span class="btn-close"></span>
+        </h2>
+    	<div class="public-con">
+        	<textarea class="txt-con"></textarea>
+            <p class="question-answer">
+            	<i class="fl"></i>
+                <input type="button" class="btn-answer fr bge61" value="回复" />
+            </p>
+        </div>
+    </div>
+    <!---->
+	<script type="text/javascript" src="static/js/public-2016.js"></script>
+    <script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		   $(".user-designer-notice").textSlider({line:1,speed:500,timer:3000});
+	});
+	$(".user-designer-question-ul li .time a").on("click",function(){
+		var popWidth = 400; //弹框宽度
+		var titles="<p class='par'>"+$(this).parents().prev(".title").text()+"</p>";
+        var $select = $(".public-box");
+		var ptitle=$(".question-show .show-title");
+		ptitle.append(titles);
+        layer.open({
+            type: 1,
+            shade: .5,
+            title: false,
+            closeBtn: 0,
+            shadeClose: true,
+            area: [popWidth + 'px'],
+            content: $select,
+            success: function(layero, index) {
+                $select.find(".btn-close").one("click", function() {
+						$(".par").remove();
+                        layer.close(index);
+                    })
+				$select.find(".btn-answer").one("click", function() {
+						$(".par").remove();
+                        layer.close(index);
+                    })
+            }
+        });
+
+        
+
+	})
+    $(".body .li1").each(function(){
+            var liH = $(".body li:first").height();
+            var pH = $(this).find(".txt");
+            var ptxt = pH.text();
+            if(ptxt.length>14){
+                var x= ptxt.substring(13,ptxt.length);
+                pH.text(ptxt.replace(x,"..."));
+            }
+    });
+	</script>
+</body>
+</html>

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/project.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header-hd">
+            <div class="w1200">
+                <div class="site-top-city">
+                    <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                    <!-- 未登录 start -->
+                    <div class="site-top-log site-top-loging">
+                        <a href="#">登录</a>
+                        <a href="#" class="ml10">加入缤纷云</a>
+                    </div>
+                    <!-- end -->
+                    <!-- 已登录  start -->
+                    <div class="site-top-log site-top-logged">
+                        <span>欢迎您，</span>
+                        <div class="logged-user">梁志天
+                            <ul class="account">
+                                <li><a href="#">账号管理</a></li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 切换城市 弹出框 -->
+                    <div class="site-top-city-pop">
+                        <div class="mt">
+                            <strong class="mr10">热门城市</strong>
+                            <a href="javascript:;" class="cle61">北京</a>
+                            <a href="javascript:;" class="cle61">上海</a>
+                            <a href="javascript:;" class="cle61">深圳</a>
+                            <a href="javascript:;" class="cle61">广州</a>
+                            共开通了<em class="cle61">250</em>个城市站
+                            <span class="btn-close"></span>
+                        </div>
+                        <div class="mc">
+                            <strong class="mr10">快速查找</strong>
+                            <select id="J_top-location-prov" class="br mr10">
+                                <option value="0">广东省</option>
+                            </select>
+                            <select id="J_top-location-city" class="br mr10">
+                                <option value="0">深圳市</option>
+                                <option value="1">广州市</option>
+                            </select>
+                            <p class="site-top-city-pop-ok">
+                                <input class="br bge61" type="button" value="确认" />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end -->
+                </div>
+
+                <div class="site-top-user fr">
+
+                    <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                    <!-- 已登录 -->
+                    <div class="site-top-logged">
+                        <a href="#">缤纷云首页</a>
+                        <span class="slash">|</span>
+                        <div class="my-manage">
+                            我的缤纷云
+                            <ul class="manage-list">
+                                <li><a href="#">我的预约</a></li>
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">作品管理</a></li>
+                            </ul>               
+                        </div>
+                    </div>
+                    <a href="###" class="site-top-loging">进入格调网</a>
+                    <span class="slash">|</span>
+                    <a href="###">客服服务</a>
+                    <span class="slash">|</span>
+                    <a href="###">帮助中心</a>
+                    <!-- 已登录 end -->
+                </div>
+            </div>
+        </div>
+        <div class="header-bd w1200">
+            <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+            <div class="font-family">
+                <img src="static/images/img/images/sy_06.jpg" >
+            </div>
+            <!-- 搜索 -->
+            <div class="head-ad"></div>
+            <!-- 搜索 end -->
+            <div class="font-ewm">
+                <img src="static/images/img/images/sy_03.jpg" alt="">
+                <p><a href="#">下载装修管家</a></p>
+            </div>
+        </div>
+        <div class="header-ft">
+            <div class="w1200">
+                <!-- 主导航 -->
+                <ul class="mainNav clearfix" id="J_mainNav">
+                    <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                    <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                    <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+                </ul>
+                <!-- 主导航 end -->
+            </div>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 内容区 -->
+    <div id="content">
+        <div class="wrap w1200 mt20 pb20 clearfix">
+            <div class="user-left fl">
+                <h2 class="user-left-title user-left-title-manager">
+                    项目经理个人中心
+                </h2>
+
+                <ul class="user-left-ul">
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            施工投标
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">招标管理</a>
+                            </li>
+                            <li>
+                                <a href="#">投标记录</a>
+                            </li>
+                            <li>
+                                <a href="#">施工订单</a>
+                            </li>
+                            <li>
+                                <a href="#">施工报价</a>
+                            </li>
+                            <li class="nav-left">
+                                <a href="#">施工报价管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            案例管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">施工案例</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            信息管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">消息管理</a>
+                            </li>
+                            <li>
+                                <a href="#">短信管理</a>
+                            </li>
+                            <li>
+                                <a href="#">装修问答</a>
+                            </li>
+                            <li>
+                                <a href="#">投诉管理</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            账户管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">钱包管理</a>
+                            </li>
+                            <li>
+                                <a href="#">认证管理</a>
+                            </li>
+                            <li>
+                                <a href="#">安全中心</a>
+                            </li>
+                            <li>
+                                <a href="#">保证金管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="user-left-panel">
+                        <a href="javascript:;" class="user-left-panel-title ico_user">
+                            资料管理
+                        </a>
+                        <ul class="user-left-list">
+                            <li>
+                                <a href="#">个人资料维护</a>
+                            </li>
+                            <li>
+                                <a href="#">域名申请</a>
+                            </li>
+                            <li>
+                                <a href="#">友情链接</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script src="static/js/leftTelescopic.js"></script>
+            </div>
+            <div class="user-right fr">
+            	<h2 class="user-crumbs bgeb">
+                	<a href="#">施工投标 ></a>
+                	<a href="#">施工报价管理 ></a>
+                     施工报价管理
+                </h2>
+                <ul class="clearfix public-title-tab mt20">
+                	<li class="cur">施工报价</li>
+                	<li class="">户型图报价</li>
+                </ul>
+                <div class="public-switch-tab mt20">
+                	<div class="public-switch-tab-style show">
+                        <div class="bgwrite offer-detail-constr-infor">
+                        	<img class="infor-img" src="static/images/temp/img_constructiondetailimg.png" />
+                            <div class="infor-txt">
+                            	<p><span>名称：</span>现代简约家居效果图</p>
+                            	<p><span>价格：</span>68000元</p>
+                            	<p><span>地区：</span>深圳市 龙岗区 水岸新都</p>
+                            	<p><span>户型：</span>三室一厅一厨一卫</p>
+                            	<p><span>装修面积：</span>108.6㎡</p>
+                            </div>
+                        </div>
+                        
+                        <h2 class="site-title mt15 mb10">
+                        	<span></span>
+                            填写合同信息
+                        </h2>
+                        
+                        <div class="bgwrite offer-detail-constr-contract pb20">
+                        	<div class="pt20">
+                            	<span class="spanname">项目经理：</span>
+                                <input type="text" class="br ipt-txt h40 w150" />
+                                
+                            	<span class="spanname">手机：</span>
+                                <input type="text" class="br ipt-txt h40 w200" />
+                            </div>
+                        	<div class="pt20">
+                            	<span class="spanname">服务区域：</span>
+                                <select class="br h40 lh40 bgwrite w150">
+                                    <option value="0">省</option>
+                                </select>
+                                <select class="br h40 lh40 bgwrite w150">
+                                    <option value="0">市</option>
+                                </select>
+                                <select class="br h40 lh40 bgwrite w150">
+                                    <option value="0">区</option>
+                                </select>
+                            </div>
+                        	<div class="pt20">
+                            	<span class="spanname">施工工期：</span>
+                                <input type="text" class="br ipt-txt h40 w120" />
+                                天
+                            	<span class="spanname">承包方式：</span>
+                                <input type="text" class="br ipt-txt h40 w120" />
+                            </div>
+                        </div>
+                        
+                        
+                        <h2 class="site-title mt15 mb10">
+                        	<span></span>
+                            付款方式
+                        </h2>
+                        
+                        <div class="bgwrite offer-detail-constr-plan">
+                        	<h2 class="plan-title bbr">
+                            	工程总价：<span class="cle61">680000.00元</span> 分付款4次
+                            </h2>
+                            <ul class="plan-ul bbr clearfix">
+                            	<li>
+                                	  第一笔款： <span>工程首付款</span>   支付比例： <em class="cle61">50%</em>
+                                </li>
+                            	<li>
+                                	  第二笔款： <span>阶段验收款  </span>   支付比例： <em class="cle61">20%</em>
+                                </li>
+                            	<li>
+                                	  第三笔款： <span>竣工验收尾款 </span>   支付比例： <em class="cle61">25%</em>
+                                </li>
+                            	<li>
+                                	  第四笔款： <span>工程尾款  </span>   支付比例： <em class="cle61">5%</em>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        
+                        <h2 class="site-title mt15 mb10">
+                        	<span></span>
+                            报价清单
+                        </h2>
+                        <div class="offer-detail-constr-inventory">
+                        
+                        	<div class="design-materiel-project clearfix br bgwrite">
+                                <div class="offer-detail-constr-materiel-left fl">
+                                    <h2 class="offer-detail-constr-materiel-name">
+                                        房间与工程
+                                    </h2>
+                                    <ul class="offer-detail-constr-materiel-leftcolumn">
+                                        <li>公共</li>
+                                        <li>客厅</li>
+                                        <li class="dn">餐厅</li>
+                                        <li class="dn">主卧</li>
+                                        <li class="dn">次卧</li>
+                                        <li class="dn">厨房</li>
+                                        <li class="dn">阳台</li>
+                                        <li class="">卫生间</li>
+                                        <li class="dn">电子工程</li>
+                                    </ul>
+                                    <input type="button" value="添加+" class="btn-constr-materiel-add">
+                                </div>
+                                <div class="offer-detail-constr-materiel-right fr">
+                                    <!--公共 start-->
+                                    <div class="offer-detail-constr-materiel-list br cur">
+                                        <h2 class="offer-detail-constr-materiel-list-title">公共</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--公共 end-->
+                                    <!--客厅 start-->
+                                    <div class="offer-detail-constr-materiel-list br cur">
+                                        <h2 class="offer-detail-constr-materiel-list-title">客厅</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--客厅 end-->
+                                    <!--餐厅 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">餐厅</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--餐厅 end-->
+                                    <!--主卧 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">主卧</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--主卧 end-->
+                                    <!--次卧 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">次卧</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--次卧 end-->
+                                    <!--厨房 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">厨房</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--厨房 end-->
+                                    <!--阳台 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">阳台</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--阳台 end-->
+                                    <!--卫生间 start-->
+                                    <div class="offer-detail-constr-materiel-list br cur">
+                                        <h2 class="offer-detail-constr-materiel-list-title">卫生间</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--卫生间 end-->
+                                    <!--电子工程 start-->
+                                    <div class="offer-detail-constr-materiel-list br">
+                                        <h2 class="offer-detail-constr-materiel-list-title">电子工程</h2>
+                                        <ul class="offer-detail-constr-materiel-list-tr clearfix">
+                                            <li class="li1">类别</li>
+                                            <li class="li2">名称</li>
+                                            <li class="li1">数量</li>
+                                            <li class="li1">单价</li>
+                                            <li class="li1">总价</li>
+                                            <li class="li2">备注</li>
+                                        </ul>
+                                        <ul class="offer-detail-constr-materiel-list-td clearfix">
+                                            <li class="li1">
+                                                <select class="selectType br">
+                                                    <option value="0">主材</option>
+                                                </select>
+                                            </li>
+                                            <li class="li2">
+                                            	<img src="static/images/temp/img_constrmaterielimg1.jpg" />
+                                                <p>墙纸</p>
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li1">
+                                                <input type="text" class="txtNum br">
+                                            </li>
+                                            <li class="li2">
+                                                <textarea class="txtExplain">123</textarea>
+                                            </li>
+                                        </ul>
+                                        <h2 class="offer-detail-constr-materiel-add">
+                                            <a href="javascript:;">添加一项</a>
+                                        </h2>
+                                    </div>
+                                    <!--电子工程 end-->
+                                </div>
+                            </div>
+                        
+                        	<h2 class="site-title mt20 mb10">
+                            	<span></span>
+                                服务条款
+                            </h2>
+                            <div class="offer-detail-constr-serve bgwrite">
+                            	<textarea class="txt-aera-serve"></textarea>
+                                <h2 class="offer-detail-constr-serve-btm txt-right clearfix">
+                                	<label class="fl">
+                                    	<input type="checkbox" class="mr5" />同意线上签订合同相关协议
+                                    </label>
+                                    <input type="button" class="btn-default bge61" value="生成报价" />
+                                    <input type="button" class="btn-default bge61" value="报价预览" />
+                                </h2>
+                            </div> 
+                        </div>
+                        
+                        
+                	</div>
+                    <div class="public-switch-tab-style">
+                        <div class="offer-detail-house-price br bgwrite">
+                        	<div class="infor-img">
+                        		<img src="static/images/temp/img_houseli3.jpg" />
+                            </div>
+                            <div class="infor-txt">
+                            	<p><span>地区：</span>深圳市 龙岗区 水岸新都</p>
+                            	<p><span>户型结构：</span>三室一厅一厨一卫</p>
+                            	<p><span>建筑面积：</span>108.6㎡</p>
+                            	<p><span>套内面积：</span>108.6㎡</p>
+                            	<p><span>户型报价：</span><input type="text" class="ipt-txt br" /></p>
+                            	<input type="button" class="btn-default bge61 mt10" value="提高报价" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容区 end -->
+    <!-- 页脚 -->
+    <div id="footer">
+        <!-- 装修服务 -->
+        <div class="site-bot-services w1200 clearfix">
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">格调网官方微博</p>
+                    <p class="lh44">随时随地看装修</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl clearfix">
+                <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+                <div class="txt fl">
+                    <p class="lh44">官方微信</p>
+                    <p class="lh44">扫描二维码即可关注我们！</p>
+                </div>
+            </div>
+            <div class="site-bot-service fl">
+                <p class="footer-p1">400-788-4288</p>
+                <p class="footer-p2">周一至周日: 9:00-22:00</p>
+                <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+            </div>
+        </div>
+        <!-- 装修服务 end -->
+        <!-- 底部导航 -->
+        <div class="site-bot-nav w1200">
+            <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+        </div>
+        <!-- copyright -->
+        <div class="site-bot-copyright w1200">
+            <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+        </div>
+        <!-- copyright end -->
+    </div>
+    <!-- 页脚 end-->
+    <!--[if lt IE 9]>
+     <script src="static/js/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- 栏目列表弹出框 start-->
+    <div class="show-info" id="U_D_Materiel_Choice" style="display:none">
+        <div class="show-info-box">
+            <ul>
+                <li class="dn">公共</li>
+                <li class="dn">客厅</li>
+                <li>餐厅</li>
+                <li>主卧</li>
+                <li>次卧</li>
+                <li>厨房</li>
+                <li>阳台</li>
+                <li>卫生间</li>
+                <li>电子工程</li>
+            </ul>
+            <input type="button" class="btn-materiel-project-add br bgGradient w120" value="确定" />
+        </div>
+    </div>
+    <!-- 栏目列表弹出框 end-->
+	<script type="text/javascript" src="static/js/public-2016.js"></script>
+	<script type="text/javascript" src="static/js/project-2016.js"></script>
+    <script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+</body>
+</html>

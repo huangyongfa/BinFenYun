@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" href="static/css/current/current.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="static/js/jQuery.textSlider.js"></script>
+</head>
+<body class="bgfa">
+<!-- 头部 -->
+<div id="header">
+    <div class="header-hd">
+        <div class="w1200">
+            <div class="site-top-city">
+                <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                <!-- 未登录 start -->
+                <div class="site-top-log site-top-loging">
+                    <a href="#">登录</a>
+                    <a href="#" class="ml10">加入缤纷云</a>
+                </div>
+                <!-- end -->
+                <!-- 已登录  start -->
+                <div class="site-top-log site-top-logged">
+                    <span>欢迎您，</span>
+                    <div class="logged-user">梁志天
+                        <ul class="account">
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                </div>
+                <!-- end -->
+
+                <!-- 切换城市 弹出框 -->
+                <div class="site-top-city-pop">
+                    <div class="mt">
+                        <strong class="mr10">热门城市</strong>
+                        <a href="javascript:;" class="cle61">北京</a>
+                        <a href="javascript:;" class="cle61">上海</a>
+                        <a href="javascript:;" class="cle61">深圳</a>
+                        <a href="javascript:;" class="cle61">广州</a>
+                        共开通了<em class="cle61">250</em>个城市站
+                        <span class="btn-close"></span>
+                    </div>
+                    <div class="mc">
+                        <strong class="mr10">快速查找</strong>
+                        <select id="J_top-location-prov" class="br mr10">
+                            <option value="0">广东省</option>
+                        </select>
+                        <select id="J_top-location-city" class="br mr10">
+                            <option value="0">深圳市</option>
+                            <option value="1">广州市</option>
+                        </select>
+                        <p class="site-top-city-pop-ok">
+                            <input class="br bge61" type="button" value="确认" />
+                        </p>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+
+            <div class="site-top-user fr">
+
+                <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                <!-- 已登录 -->
+                <div class="site-top-logged">
+                    <a href="#">缤纷云首页</a>
+                    <span class="slash">|</span>
+                    <div class="my-manage">
+                        我的缤纷云
+                        <ul class="manage-list">
+                            <li><a href="#">我的预约</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">作品管理</a></li>
+                        </ul>               
+                    </div>
+                </div>
+                <a href="###" class="site-top-loging">进入格调网</a>
+                <span class="slash">|</span>
+                <a href="###">客服服务</a>
+                <span class="slash">|</span>
+                <a href="###">帮助中心</a>
+                <!-- 已登录 end -->
+            </div>
+        </div>
+    </div>
+    <div class="header-bd w1200">
+        <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+        <div class="font-family">
+            <img src="static/images/img/images/sy_06.jpg" >
+        </div>
+        <!-- 搜索 -->
+        <div class="head-ad"></div>
+        <!-- 搜索 end -->
+        <div class="font-ewm">
+            <img src="static/images/img/images/sy_03.jpg" alt="">
+            <p><a href="#">下载装修管家</a></p>
+        </div>
+    </div>
+    <div class="header-ft">
+        <div class="w1200">
+            <!-- 主导航 -->
+            <ul class="mainNav clearfix" id="J_mainNav">
+                <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+            </ul>
+            <!-- 主导航 end -->
+        </div>
+    </div>
+</div>
+<!-- 头部 end -->
+<!-- 内容区 -->
+<div id="content">
+    <div class="wrap w1200 mt20 pb20 clearfix">
+        <div class="user-left fl">
+            <h2 class="user-left-title user-left-title-manager">
+                设计师的个人中心
+            </h2>
+
+            <ul class="user-left-ul">
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        订单管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">预约管理</a>
+                        </li>
+                        <li>
+                            <a href="#">预约记录</a>
+                        </li>
+                        <li>
+                            <a href="#">设计订单</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        作品管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">上传效果图</a>
+                        </li>
+                        <li>
+                            <a href="#">管理效果图</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        信息管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">消息管理</a>
+                        </li>
+                        <li>
+                            <a href="#">短信管理</a>
+                        </li>
+                        <li>
+                            <a href="#">装修问答</a>
+                        </li>
+                        <li>
+                            <a href="#">评论管理</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        账户管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li class="nav-left">
+                            <a href="#">钱包管理</a>
+                        </li>
+                        <li>
+                            <a href="#">认证管理</a>
+                        </li>
+                        <li>
+                            <a href="#">安全中心</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="user-left-panel">
+                    <a href="javascript:;" class="user-left-panel-title ico_user">
+                        资料管理
+                    </a>
+                    <ul class="user-left-list">
+                        <li>
+                            <a href="#">个人资料维护</a>
+                        </li>
+                        <li>
+                            <a href="#">域名申请</a>
+                        </li>
+                        <li>
+                            <a href="#">友情链接</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <script src="static/js/leftTelescopic.js"></script>
+        </div>
+        <div class="user-right fr">
+            <div class="user-crumbs bgeb">
+                <a href="#">账户管理 > </a>
+                钱包管理
+            </div>
+            <div class="wallet-user-recharge br">
+                <div class="wallet-user-recharge-pay">
+                    <h2 class="currency-user-main-title">充值到余额</h2>
+                    <ul class="wallet-user-recharge-type clearfix">
+                        <li class="fl cur">
+                            <a href="javascript:;">储蓄卡</a>
+                        </li>
+                        <li class="fl">
+                            <a href="javascript:;">支付宝</a>
+                        </li>
+                        <li class="fl">
+                            <a href="javascript:;">微信</a>
+                        </li>
+                    </ul>
+                    <div class="wallet-user-zfb" style="display: none">
+                        <p class="wallet-user-zfb-p1"><span>充值金额：</span><input type="text"><span>元</span></p>
+                        <p class="wallet-user-zfb-p2"><span><input type="button" value="确认充值"></span></p>
+                    </div>
+                    <div class="wallet-user-wx" style="display: none">
+                        <p class="wallet-user-wx-p1"><span>充值金额：</span><input type="text"><span>元</span></p>
+                        <p class="wallet-user-wx-p2"><span><input type="button" value="确认充值"></span></p>
+                    </div>
+                    <div id="rechargeMethod">
+                        <div class="wallet-user-recharge-bank">
+                            <ul class="wallet-user-recharge-bankul clearfix">
+                                <li class="bankChose">
+                                    <input type="radio" name="bank" id="bankli1" class="showChose"/>
+                                    <label for="bankli1">
+                                        <img src="static/images/Withdrawals.png" />
+                                        <span>**5481</span>
+                                    </label>
+                                </li>
+                                <li class="bankChose">
+                                    <input type="radio" name="bank" id="bankli2" class="showChose"/>
+                                    <label for="bankli2">
+                                        <img src="static/images/img_rechargebank.png" />
+                                        <span>**5481</span>
+                                    </label>
+                                </li>
+                                <li class="bankChose">
+                                    <input type="radio" name="bank" id="bankli3" class="showChose"/>
+                                    <label for="bankli3">
+                                        <img src="static/images/img_rechargebank.png" />
+                                        <span>**6011</span>
+                                    </label>
+                                </li>
+                                <li class="bankChose">
+                                    <input type="radio" name="bank" id="bankli4" class="showChose"/>
+                                    <label for="bankli4">
+                                        <img src="static/images/img_rechargebank.png" />
+                                        <span>**6011</span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <div class="recharge-bank-more">
+                                <p>选择其他</p>
+                                <a class="fa icon-sort-down" href="javascript:;"></a>
+                            </div>
+                        </div>
+                        <input type="button" class="ipt-btn-y btn-bank-next br" value="下一步" />
+                    </div>
+                    <div id="rechargebalance" style="display:none">
+                        <ul class="wallet-user-recharge-balance">
+                            <li class="clearfix mb20">
+                                	<span class="balancename fl">
+                                    	付款银行：
+                                    </span>
+                                <div class="balancetext fr">
+                                    <div class="PayBank">
+                                        <img src="static/images/Withdrawals.png" />
+                                        <span>**5481</span>
+                                    </div>
+                                    <p class="blankExplain">快捷支付充值限额如下</p>
+                                    <div class="recharge-balance-table br ">
+                                        <ul class="head clearfix">
+                                            <li>单笔限额（元）</li>
+                                            <li>每日限额（元）</li>
+                                            <li>每月限额（元）</li>
+                                            <li class="last">备注</li>
+                                        </ul>
+                                        <ul class="body clearfix">
+                                            <li>1万</li>
+                                            <li>10万</li>
+                                            <li>10万</li>
+                                            <li class="last">客服热线：95588。</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="clearfix  mb20">
+                                	<span class="balancename fl">
+                                    	充值金额：
+                                    </span>
+                                <div class="balancetext fr">
+                                    <input type="text" class="txtPrice mr20 br" value="" />
+                                    元
+                                </div>
+                            </li>
+                            <li class="clearfix  mb20">
+                                	<span class="balancename fl">
+                                    	预留手机号码：
+                                    </span>
+                                <div class="balancetext fr">
+                                    <input type="text" class="txtPrice br" value="" />
+
+                                </div>
+                            </li>
+                            <li class="clearfix mb20">
+                                	<span class="balancename fl">
+                                    	验证码
+                                    </span>
+                                <div class="balancetext fr">
+                                    <input type="text" class="txtCode br mr10 fl" placeholder="请输入验证码" />
+                                    <input type="button" class="btnCode br" value="获取效验码" />
+                                </div>
+                            </li>
+                        </ul>
+                        <input type="button" class="ipt-btn-y btn-balance-ok br" value="确认充值" />
+                    </div>
+                </div>
+                <div id="rechargesucess" style="display:none">
+                    <div class="title">
+                        <p>恭喜您，成功充值<span>1.00</span>元！</p>
+                    </div>
+                    <a href="#">继续充值</a>
+                    <a href="#">返回我的钱包</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 内容区 end -->
+<!-- 页脚 -->
+<div id="footer">
+    <!-- 装修服务 -->
+    <div class="site-bot-services w1200 clearfix">
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">格调网官方微博</p>
+                <p class="lh44">随时随地看装修</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">官方微信</p>
+                <p class="lh44">扫描二维码即可关注我们！</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl">
+            <p class="footer-p1">400-788-4288</p>
+            <p class="footer-p2">周一至周日: 9:00-22:00</p>
+            <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+        </div>
+    </div>
+    <!-- 装修服务 end -->
+    <!-- 底部导航 -->
+    <div class="site-bot-nav w1200">
+        <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+    </div>
+    <!-- copyright -->
+    <div class="site-bot-copyright w1200">
+        <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+    </div>
+    <!-- copyright end -->
+</div>
+<!-- 页脚 end-->
+<!--[if lt IE 9]>
+<script src="static/js/html5shiv.min.js"></script>
+<![endif]-->
+<div class="show-info" id="U_D_ShowBank">
+    <div class="show-info-box">
+        <ul class="wallet-user-recharge-bankul clearfix choseBank">
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli0" class="showChose"/>
+                <label for="bankshowli0" class="banks">
+                    <img src="static/images/banks/Recovered_00.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli1" class="showChose"/>
+                <label for="bankshowli1" class="banks">
+                    <img src="static/images/banks/Recovered_03.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli2" class="showChose"/>
+                <label for="bankshowli2" class="banks">
+                    <img src="static/images/banks/Recovered_05.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli3" class="showChose" />
+                <label for="bankshowli3" class="banks">
+                    <img src="static/images/banks/Recovered_10.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli4" class="showChose"/>
+                <label for="bankshowli4" class="banks">
+                    <img src="static/images/banks/Recovered_12.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli5" class="showChose"/>
+                <label for="bankshowli5" class="banks">
+                    <img src="static/images/banks/Recovered_13.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli6" class="showChose"/>
+                <label for="bankshowli6" class="banks">
+                    <img src="static/images/banks/Recovered_17.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli7" class="showChose" />
+                <label for="bankshowli7" class="banks">
+                    <img src="static/images/banks/Recovered_18.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli8" class="showChose"/>
+                <label for="bankshowli8" class="banks">
+                    <img src="static/images/banks/Recovered_19.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli9" class="showChose"/>
+                <label for="bankshowli9" class="banks">
+                    <img src="static/images/banks/Recovered_23.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli10" class="showChose"/>
+                <label for="bankshowli10" class="banks">
+                    <img src="static/images/banks/Recovered_24.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli11" class="showChose" />
+                <label for="bankshowli11" class="banks">
+                    <img src="static/images/banks/Recovered_25.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli12" class="showChose"/>
+                <label for="bankshowli12" class="banks">
+                    <img src="static/images/banks/Recovered_29.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli13" class="showChose"/>
+                <label for="bankshowli13" class="banks">
+                    <img src="static/images/banks/Recovered_30.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli14" class="showChose"/>
+                <label for="bankshowli14" class="banks">
+                    <img src="static/images/banks/Recovered_31.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli15" class="showChose" />
+                <label for="bankshowli15" class="banks">
+                    <img src="static/images/banks/Recovered_35.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli16" class="showChose"/>
+                <label for="bankshowli8" class="banks">
+                    <img src="static/images/banks/Recovered_36.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli17" class="showChose"/>
+                <label for="bankshowli17" class="banks">
+                    <img src="static/images/banks/Recovered_36.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli18" class="showChose"/>
+                <label for="bankshowli18" class="banks">
+                    <img src="static/images/banks/Recovered_37.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli19" class="showChose"/>
+                <label for="bankshowli19" class="banks">
+                    <img src="static/images/banks/Recovered_41.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli20" class="showChose"/>
+                <label for="bankshowli20" class="banks">
+                    <img src="static/images/banks/Recovered_42.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli21" class="showChose"/>
+                <label for="bankshowli21" class="banks">
+                    <img src="static/images/banks/Recovered_43.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli23" class="showChose"/>
+                <label for="bankshowli23" class="banks">
+                    <img src="static/images/banks/Recovered_47.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli24" class="showChose"/>
+                <label for="bankshowli24" class="banks">
+                    <img src="static/images/banks/Recovered_48.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli25" class="showChose"/>
+                <label for="bankshowli25" class="banks">
+                    <img src="static/images/banks/Recovered_49.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli26" class="showChose"/>
+                <label for="bankshowli26" class="banks">
+                    <img src="static/images/banks/Recovered_53.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli27" class="showChose"/>
+                <label for="bankshowli27" class="banks">
+                    <img src="static/images/banks/Recovered_54.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli28" class="showChose"/>
+                <label for="bankshowli28" class="banks">
+                    <img src="static/images/banks/Recovered_55.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli29" class="showChose"/>
+                <label for="bankshowli29" class="banks">
+                    <img src="static/images/banks/Recovered_59.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli30" class="showChose"/>
+                <label for="bankshowli30" class="banks">
+                    <img src="static/images/banks/Recovered_60.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli31" class="showChose"/>
+                <label for="bankshowli31" class="banks">
+                    <img src="static/images/banks/Recovered_61.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli32" class="showChose"/>
+                <label for="bankshowli32" class="banks">
+                    <img src="static/images/banks/Recovered_65.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli33" class="showChose"/>
+                <label for="bankshowli33" class="banks">
+                    <img src="static/images/banks/Recovered_66.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli34" class="showChose"/>
+                <label for="bankshowli34" class="banks">
+                    <img src="static/images/banks/Recovered_67.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli35" class="showChose"/>
+                <label for="bankshowli35" class="banks">
+                    <img src="static/images/banks/Recovered_67.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli36" class="showChose"/>
+                <label for="bankshowli36" class="banks">
+                    <img src="static/images/banks/Recovered_71.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli37" class="showChose"/>
+                <label for="bankshowli37" class="banks">
+                    <img src="static/images/banks/Recovered_72.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli38" class="showChose"/>
+                <label for="bankshowli38" class="banks">
+                    <img src="static/images/banks/Recovered_73.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli39" class="showChose"/>
+                <label for="bankshowli39" class="banks">
+                    <img src="static/images/banks/Recovered_77.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                 <input type="radio" name="bank" id="bankshowli40" class="showChose"/>
+                <label for="bankshowli40" class="banks">
+                    <img src="static/images/banks/Recovered_78.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli41" class="showChose"/>
+                <label for="bankshowli41" class="banks">
+                    <img src="static/images/banks/Recovered_79.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli42" class="showChose"/>
+                <label for="bankshowli42" class="banks">
+                    <img src="static/images/banks/Recovered_83.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli43" class="showChose"/>
+                <label for="bankshowli43" class="banks">
+                    <img src="static/images/banks/Recovered_84.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli44" class="showChose"/>
+                <label for="bankshowli44" class="banks">
+                    <img src="static/images/banks/Recovered_85.jpg" />
+                </label>
+            </li>
+            <li class="bankChose">
+                <input type="radio" name="bank" id="bankshowli45" class="showChose"/>
+                <label for="bankshowli45" class="banks">
+                    <img src="static/images/banks/Recovered_89.jpg" />
+                </label>
+            </li>
+
+
+        </ul>
+    </div>
+    <input type="button" class="ipt-btn-y btn-bank-next br" value="下一步" />
+</div>
+<!--问题弹出-->
+<div class="public-box question-show">
+    <h2 class="show-title">
+        <span class="btn-close"></span>
+    </h2>
+    <div class="public-con">
+        <textarea class="txt-con"></textarea>
+        <p class="question-answer">
+            <i class="fl"></i>
+            <input type="button" class="btn-answer fr bge61" value="回复" />
+        </p>
+    </div>
+</div>
+<!---->
+<script type="text/javascript" src="static/js/public-2016.js"></script>
+<script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+<script type="text/javascript" src="static/js/current.js"></script>
+<script></script>
+</body>
+</html>

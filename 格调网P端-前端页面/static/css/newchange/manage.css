@@ -1,0 +1,136 @@
+#content{margin-top:0;min-height:0;overflow:hidden;}
+.advert-wrapper{width:100%;height:520px;margin-top:0;position:relative;}
+.advert{width:1920px;height:520px;position:absolute;top:0;left:50%;margin-left:-960px;}
+.advert-content-container{width:1200px;height:520px;position:absolute;top:0;left:50%;margin-left:-600px;}
+.advert-content-container p{width:640px;color:#fff;}
+.advert-content-container .cont-p1{font-size:38px;margin-top:155px;}
+.advert-content-container .cont-p2{font-size:55px;font-weight:bold;line-height:62px;margin-top:20px;}
+.center-content-d{margin-top:45px;}
+/*缤纷云的价值*/
+.value-wrapper-parent{background:#fff;padding-bottom:40px;}
+.value-wrapper{width:1200px;margin:0 auto;background:#fff;padding-top:30px;}
+.value-title{width:1200px;height:55px;line-height:55px;}
+.line-left{display:inline-block;width:430px;height:1px;background:#eaeaea;}
+.line-right{display:inline-block;width:430px;height:1px;background:#eaeaea;}
+.title-content{display:inline-block;font-size:50px;vertical-align:middle;margin:0 10px;}
+.spec-font{color:#e61d4e;}
+.value-content{width:1200px;margin-top:100px;}
+.value-content-container li{width:138px;height:160px;float:left;margin:0 30px;position:relative;}
+.value-content-container li span{display:inline-block;width:90px;font-size:15px;color:#fff;text-align:center;position:absolute;top:100px;left:50%;margin-left:-45px;}
+.why-join{padding-left:30px;}
+.why-join-title{font-size:25px;color:#e61d4e;font-weight:bold;margin-top:100px;}
+.why-join p{width:auto;font-size:16px;margin:20px 0;}
+.why-join p .bold{font-weight:bold;}
+
+/*八大优势成就金牌项目经理*/
+.advantage-wrapper{width:1200px;margin:100px auto 50px;}
+.advantage-title{width:1200px;height:55px;line-height: 55px;}
+.advantage-title .line-left{width:265px;}
+.advantage-title .line-right{width:265px;}
+.advantage-title-content{display: inline-block;font-size:50px;vertical-align: middle;margin:0 10px;}
+.gold-medal{display:inline-block;width:33px;height:41px;background:url("../../images/temp/gold-medal.png");vertical-align: middle;}
+.advantage-content{width:1200px;margin-top:50px;}
+.advantage-container li{float:left;width:300px;height:240px;position: relative;}
+.li1{background:#fa723c;}
+.li2{background:url("../../images/temp/ad-1.png");}
+.li2 .li-title{margin-top:30px;}
+.li3{background:#0bd0d3;}
+.li3 .li-title{margin-top:20px;}
+.li3 .direct-right{border-left-color:#0bd0d3;}
+.li4{background:url("../../images/temp/ad-2.png");}
+.li4 .li-title{margin-top:40px;}
+.li5{background:url("../../images/temp/ad-3.png");}
+.li5 .li-title{margin-top:50px;}
+.li6{background:#ff5077;}
+.li6 .li-title{width:260px;margin:50px 20px 0;}
+.li7{background:url("../../images/temp/ad-4.png");}
+.li7 .li-title{margin-top:20px;}
+.li-title{width:200px;font-size:25px;text-align: center;color:#fff;margin:60px 50px 0;position: relative;z-index:999;}
+.li-content{width:230px;color:#fff;margin:5px 35px 0;font-size:15px;position: relative;z-index:999;}
+.li-cover{width:300px;height:240px;opacity:0.8;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); /*IE6~IE8*/background: #333b51;position: absolute;top:0;left:0;z-index:1;}
+.direct-right{position:absolute;top:25px;right:-20px;z-index:9999;width:20px;height:20px;border-left:18px solid #fa723c;border-right:3px solid transparent;border-top:15px solid transparent;border-bottom:15px solid transparent;}
+.direct-left{position:absolute;bottom:25px;left:-20px;z-index:9999;width:20px;height:20px;border-right:18px solid #ff5077;border-left:3px solid transparent;border-top:15px solid transparent;border-bottom:15px solid transparent;}
+
+/*缤纷云入驻流程*/
+.enter-flow{width:100%;height:653px;margin-top:0;position:relative;}
+.bg-img{width:1920px;height:653px;background:url("../../images/temp/foot.png");position: absolute;top:0;left:50%;margin-left:-960px;;z-index:-1;}
+.flow-content{width:1200px;margin:0 auto;}
+.flow-content h2{font-size:50px;text-align:center;color:#fff;padding-top:35px;}
+.line-separation{width:1200px;height:30px;position: relative;}
+.line-separation .line-under{width:1200px;height:2px;background:#D8D1CA;position:absolute;top:14px;left:0;z-index:5;}
+.circle-separation{width:30px;height:30px;background:#B3A79D;border-radius:50%;vertical-align:middle;position:absolute;left:50%;top:0;margin-left:-15px;z-index:6;}
+.circle-separation-bottom{width:30px;height:30px;display:inline-block;background:#fff;opacity:0.5;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /*IE6~IE8*/position:absolute;top:0;left:0;z-index:10;border-radius:50%;}
+.circle-separation-top{width:20px;height:20px;display:inline-block;background:#fff;position:absolute;top:50%;left:50%;margin:-10px 0 0 -10px;border-radius:50%;}
+.flow-container{width:1200px;height:180px;position:relative;margin-top:60px;padding:0 90px;}
+.flow-container ul li{width:135px;height:180px;float:left;margin:0 5px;position: relative;}
+.circle-container{width:135px;height:135px;vertical-align:middle;position:relative;text-align:center;}
+.circle-container-bottom{width:135px;height:135px;display:inline-block;background:#fff;opacity:0.3;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30); /*IE6~IE8*/position:absolute;top:0;left:0;z-index:10;border-radius:50%;}
+.circle-container-top{width:115px;height:115px;display:inline-block;background:#fff;position:absolute;top:50%;left:50%;margin:-57.5px 0 0 -57.5px;border-radius:50%;}
+.icon-infor{padding-top:30px;position: relative;z-index:10;}
+.direct-r{position:absolute;left:50%;margin:53px 0 0 -37px;}
+.describe{width:135px;text-align:center;position:absolute;bottom:0;color:#0BD0D3;font-size:19px;font-weight:bold;}
+.apply-join{width:205px;height:60px;color:#fff;background:#e61d4e;border:none;border-radius:5px;font-size:25px;position:absolute;bottom:100px;left:50%;margin-left:-102.5px;}
+
+/*弹窗（项目经理设计师）*/
+.manager-constructor{;display:none;width: 500px;height: 320px;background-color: #ffffff;border-radius: 5px;}
+.manager,.constructor{width: 125px;display: inline-block;margin-top: 80px;margin-left: 75px}
+.manager img,.constructor img{border-radius: 50%}
+.manager p,.constructor p{text-align: center;font-size: 16px;margin-top: 10px}
+
+
+/*项目经理注册*/
+.register{position:absolute;right:0;top:50%;border-radius:5px;margin-top:-180px;width:420px;height:360px;background:#fff;border:1px solid transparent;}
+.register-content{width:300px;margin:20px auto;}
+.register-content h2{text-align:center;font-size:20px;color:#e61d4e;font-weight:bold;}
+.register-content hr{margin-bottom:20px;border-top-color:#e5e5e5;}
+
+.form-box a:hover{color:#ff7300}
+.form-box .form-welcome{height:53px;line-height:52px;border-bottom:1px solid #ccc;color:#333;font-size:14px;font-weight:700}
+.form-box .txt-ul{margin-top:5px}
+.form-box .txt-ul li{width:300px;height:40px;margin-bottom:20px;position:relative}
+.form-box .txt-ul li input{width:300px;border:1px solid #e5e5e5;padding:4px;padding-left:94px;height:40px;line-height:30px;color:#777}
+.ico-user-yz{margin-top: -2px;width:170px;border:1px solid #e5e5e5;padding:4px;text-indent:10px;height:40px;line-height:30px;color:#777}
+.form-box .txt-ul li input.ico-user{background-position:0 -528px}
+.form-box .txt-ul li input.ico-pwd{background-position:0 -568px}
+.ico{background: url("../../images/ico_login.png") no-repeat}
+.form-box .login-automatic input,#login-form .login-automatic label{display:inline-block;color:gray;vertical-align:middle}
+.form-box .login-automatic label{margin-left:8px}
+.form-box .login-automatic .forget-pwd{height:14px;line-height:14px}
+.form-box #btn-login-1th,#btn-login-2th{height:40px;width:100%;color:#fff;border:1px solid #e5e5e5;border-radius:5px;background:#e61d4c;margin-top:20px;display:block}
+.form-box #btn-login-1th:active,#btn-login-2th:active{background:#ec292c}
+.form-box .login-quick{margin-top:20px;line-height:14px;color:gray;font-size: 1.2em;font-weight: bold}
+.form-box .login-quick a{margin-left:22px;padding:11.5px 20px}
+.form-box .login-quick .login-ico-wx{background: url("../../images/user/ico_user_currency.png") no-repeat 0 -171px}
+.form-box .login-quick .login-ico-qq{background: url("../../images/user/ico_user_currency.png") no-repeat 0 -237px}
+.login-automatic button{height: 40px;width: 125px;border: none;background: #E5E5E5;color:#808080;}
+#login-form-2th>input[type=checkbox]{float: left; display: inline-block; margin-top: 17px; margin-right: 2px}
+#login-form-2th>label{margin-top: 13px; display: inline-block;}
+#login-form-2th>a{color: #e61d4c}
+
+#login-form-1th>input[type=checkbox]{float: left; display: inline-block; margin-top: 17px; margin-right: 2px}
+#login-form-1th>label{margin-top: 13px; display: inline-block;}
+#login-form-1th>a{color: #e61d4c}
+
+
+.txt-ul-d1{width: 55px;
+    height: 26px;
+    background: url("../../images/ico_login.png") no-repeat -14px -16px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    border-right: 1px solid #ccc;}
+.txt-ul-d2{width: 55px;
+    height: 26px;
+    background: url("../../images/ico_login.png") no-repeat -14px -63px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    border-right: 1px solid #ccc;}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}

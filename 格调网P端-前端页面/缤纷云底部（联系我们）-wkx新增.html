@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>格调装修网</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/public.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/index.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/designer.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/project.css">
+    <link rel="stylesheet" type="text/css" href="static/css/user/im.css">
+    <link rel="stylesheet" type="text/css" href="static/css/newchange/change-P.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.2.min.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<div id="header">
+    <div class="header-hd">
+        <div class="w1200">
+            <div class="site-top-city">
+                <i></i><span>深圳市</span><a href="###" class="site-top-city-cur" id="J_city-switch"><em class="ml5">【切换】</em></a>
+                <!-- 未登录 start -->
+                <div class="site-top-log site-top-loging">
+                    <a href="#">登录</a>
+                    <a href="#" class="ml10">加入缤纷云</a>
+                </div>
+                <!-- end -->
+                <!-- 已登录  start -->
+                <div class="site-top-log site-top-logged">
+                    <span>欢迎您，</span>
+                    <div class="logged-user">梁志天
+                        <ul class="account">
+                            <li><a href="#">账号管理</a></li>
+                            <li><a href="#">退出</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="ml10 logged-msg">消息（<span>2</span>）</a>
+                </div>
+                <!-- end -->
+
+                <!-- 切换城市 弹出框 -->
+                <div class="site-top-city-pop">
+                    <div class="mt">
+                        <strong class="mr10">热门城市</strong>
+                        <a href="javascript:;" class="cle61">北京</a>
+                        <a href="javascript:;" class="cle61">上海</a>
+                        <a href="javascript:;" class="cle61">深圳</a>
+                        <a href="javascript:;" class="cle61">广州</a>
+                        共开通了<em class="cle61">250</em>个城市站
+                        <span class="btn-close"></span>
+                    </div>
+                    <div class="mc">
+                        <strong class="mr10">快速查找</strong>
+                        <select id="J_top-location-prov" class="br mr10">
+                            <option value="0">广东省</option>
+                        </select>
+                        <select id="J_top-location-city" class="br mr10">
+                            <option value="0">深圳市</option>
+                            <option value="1">广州市</option>
+                        </select>
+                        <p class="site-top-city-pop-ok">
+                            <input class="br bge61" type="button" value="确认" />
+                        </p>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+
+            <div class="site-top-user fr">
+
+                <!-- <a href="###">登录</a><a href="###">注册</a> -->
+                <!-- 已登录 -->
+                <div class="site-top-logged">
+                    <a href="#">缤纷云首页</a>
+                    <span class="slash">|</span>
+                    <div class="my-manage">
+                        我的缤纷云
+                        <ul class="manage-list">
+                            <li><a href="#">我的预约</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">作品管理</a></li>
+                        </ul>               
+                    </div>
+                </div>
+                <a href="###" class="site-top-loging">进入格调网</a>
+                <span class="slash">|</span>
+                <a href="###">客服服务</a>
+                <span class="slash">|</span>
+                <a href="###">帮助中心</a>
+                <!-- 已登录 end -->
+            </div>
+        </div>
+    </div>
+    <div class="header-bd w1200">
+        <h1 class="site-top-logo"><a href="/"><img src="static/images/public/logo.png" height="66" width="100"alt="格调装修网" title="格调装修网"></a></h1>
+        <div class="font-family">
+            <img src="static/images/img/images/sy_06.jpg" >
+        </div>
+        <!-- 搜索 -->
+        <div class="head-ad"></div>
+        <!-- 搜索 end -->
+        <div class="font-ewm">
+            <img src="static/images/img/images/sy_03.jpg" alt="">
+            <p><a href="#">下载装修管家</a></p>
+        </div>
+    </div>
+    <div class="header-ft">
+        <div class="w1200">
+            <!-- 主导航 -->
+            <ul class="mainNav clearfix" id="J_mainNav">
+                <li class="mainNav-item"><a href="/" class="mainNav-item-topLevel home">首页</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >招标大厅</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >户型图</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >素材库</a></li>
+                <li class="mainNav-item on"><a href="###" class="mainNav-item-topLevel">加入我们</a></li>
+                <li class="mainNav-item"><a href="###" class="mainNav-item-topLevel" >交流论坛</a></li>
+            </ul>
+            <!-- 主导航 end -->
+        </div>
+    </div>
+</div>
+<!-- 头部 end -->
+<!-- 内容区 -->
+<div class="content">
+    <div class="content-map">
+        <p>联系我们 Contact Us</p>
+        <div id="map" style="display: inline-block">
+            <div style="width: 590px; height: 525px;" id="allmap"></div>
+        </div>
+        <div class="map-r">
+            <div class="map-r-sz">
+                <div class="map-r-div">
+                    <img src="static/images/img/we/images/we%20(11).png">
+                    <p>总部（深圳）</p>
+                </div>
+
+                <ul>
+                    <li>深圳格调网络运营有限公司</li>
+                    <li>电话：<span>400-843-3345</span></li>
+                    <li>地址：深圳市龙岗区龙岗大道7150号佳得宝F楼</li>
+                </ul>
+            </div>
+            <div class="map-r-hz">
+                <div class="map-r-div">
+                    <img src="static/images/img/we/images/we%20(12).png">
+                    <p>浙江分公司</p>
+                </div>
+                <ul>
+                    <li>浙江格之调网络科技有限公司</li>
+                    <li>电话：<span>400-843-3345</span></li>
+                    <li>地址：浙江省嘉兴市嘉善区高铁新城新西塘孔雀城1座</li>
+                </ul>
+            </div>
+            <div class="custom">
+                <p class="custom-p1">客服中心</p>
+                <p class="custom-p2"><img src="static/images/img/we/images/we%20(13).png" alt=""><span>电话：<span>400-843-3345</span></span></p>
+                <p class="custom-p3"><img src="static/images/img/we/images/we%20(14).png" alt=""><span>地址：<span>深圳市前海湾合作区前湾一路1号A栋201室</span></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 内容区 end -->
+<!-- 页脚 -->
+<div id="footer">
+    <!-- 装修服务 -->
+    <div class="site-bot-services w1200 clearfix">
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">格调网官方微博</p>
+                <p class="lh44">随时随地看装修</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl clearfix">
+            <img class="fl" src="static/images/public/ico_btmweibo.jpg" />
+            <div class="txt fl">
+                <p class="lh44">官方微信</p>
+                <p class="lh44">扫描二维码即可关注我们！</p>
+            </div>
+        </div>
+        <div class="site-bot-service fl">
+            <p class="footer-p1">400-788-4288</p>
+            <p class="footer-p2">周一至周日: 9:00-22:00</p>
+            <button class="footer-btn"><img class="zx-footer-img" src="static/images/img/images/sy_47.jpg" alt="">在线咨询</button>
+        </div>
+    </div>
+    <!-- 装修服务 end -->
+    <!-- 底部导航 -->
+    <div class="site-bot-nav w1200">
+        <a href="###" target="_blank">关于格调</a><em>|</em><a href="###" target="_blank">联系我们</a><em>|</em><a href="###" target="_blank">友情链接</a><em>|</em><a href="###" target="_blank">装修中心</a><em>|</em><a href="###" target="_blank">意见反馈</a><em>|</em><a href="###" target="_blank">法律声明</a>
+    </div>
+    <!-- copyright -->
+    <div class="site-bot-copyright w1200">
+        <p>Copyright © 2015-2018，深圳佳得宝网络科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15049752号</a></p>
+    </div>
+    <!-- copyright end -->
+</div>
+<!-- 页脚 end-->
+<!--[if lt IE 9]>
+<script src="static/js/html5shiv.min.js"></script>
+<![endif]-->
+<!--弹出-->
+<div class="manager-constructor">
+    <div class="constructor"><a href="加入我们————设计师及登录页面-wkx.html"><img src="static/images/img/we/images/we%20(15).jpg" alt=""></a><p>我是设计师</p></div>
+    <div class="manager"><a href="加入我们-项目经理.html"><img src="static/images/img/we/images/we%20(3).png"></a><p>我是项目经理</p></div>
+</div>
+<!---->
+<script type="text/javascript" src="static/js/public-2016.js"></script>
+<script type="text/javascript" src="static/js/widget/layer/layer.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=67jMQ5DmYTe1TLMBKFUTcZAR"></script>
+<script type="text/javascript" src="static/js/newchange/change-P.js"></script>
+
+<script>
+    $(".join-we").click(function() {
+        layer.open({
+            type: 1,
+            title:false,
+            shade: .5,
+            shift: 2,
+            move: false,
+            area: ["500px", '320px'],
+            content: $(".manager-constructor")
+        })
+    });
+    //百度地图
+    $(function () {
+        ShowMap('114.288867,22.752658', '佳得宝家居建材博览中心', '佳得宝建材城', '86-0755－88888688', '86-755-84886333', '20');
+
+    });
+    function getInfo(id) {
+        $.ajax({
+            type: "POST",
+            url: "WebUserControl/Contact/GetInfo.ashx",
+            cache: false,
+            async: false,
+            data: { ID: id },
+            success: function (data) {
+                data = eval(data);
+                var length = data.length;
+                if (length > 0) {
+                    ShowMap(data[0]["Image"], data[0]["NewsTitle"], data[0]["Address"], data[0]["Phone"], data[0]["NewsTags"], data[0]["NewsNum"]);
+                }
+            }
+        });
+    }
+    function ShowMap(zuobiao, name, addrsee, phone, chuanzhen, zoom) {
+        var arrzuobiao = zuobiao.split(',');
+        var map = new BMap.Map("allmap");
+        map.centerAndZoom(new BMap.Point(arrzuobiao[0], arrzuobiao[1]), zoom);
+        map.addControl(new BMap.NavigationControl());
+        var marker = new BMap.Marker(new BMap.Point(arrzuobiao[0], arrzuobiao[1]));
+        map.addOverlay(marker);
+        var infoWindow = new BMap.InfoWindow('<p style="color: #bf0008;font-size:14px;">' + name + '</p><p>地址：' + addrsee + '</p><p>电话：' + phone + '</p><p>传真：' + chuanzhen + '</p>');
+        marker.addEventListener("click", function () {
+            this.openInfoWindow(infoWindow);
+        });
+        marker.openInfoWindow(infoWindow);
+        map.enableScrollWheelZoom();
+        map.enableKeyboard();
+    }
+//    $(function(){
+//        $('#tangram-suggestion--TANGRAM__2z-input').siblings().css("padding",'0!important')
+//    });
+
+</script>
+</body>
+</html>

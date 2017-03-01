@@ -1,0 +1,322 @@
+/*通用样式——登录注册*/
+.current_content{ position: relative;  }
+.header-log{  position: absolute;  top: 0;  left: 75px;  }
+.register_case{  width: 500px;  height: 280px;  background-color: #ffffff;  position:fixed; left: 50%;  top: 50%;  margin-top: -140px;  margin-left: -250px;}
+.register_case h2{  margin: 20px 100px 5px 100px;  }
+.content-img{display: block;margin: 0 auto}
+.register_case h2 a{ font-size: 1.2em;  font-weight: bold;  padding-right: 30px;  }
+.register_case .register_case_div1{  border-top: 1px solid #e5e5e5;  margin: 0 100px 5px 100px;  }
+.register_case .register_case_div2{  margin: 0 100px 5px 100px;  }
+.register_case_div2 span{  margin: 5px 40px 5px 0; display: inline-block }
+.register_case_div2 span input{ vertical-align:middle; margin-bottom: 2px; *margin-bottom:2px;   color: #e61d4c;}
+#login-form-1th .txt-ul{margin-top: 10px}
+.content-img-2{position: absolute;top: 0;right: 0}
+/*.current_content .header-log .site-top-logo { position: absolute;left: 25px;top: 15px }*/
+
+.form-box a:hover{color:#ff7300}
+.form-box .form-welcome{height:53px;line-height:52px;border-bottom:1px solid #ccc;color:#333;font-size:14px;font-weight:700}
+.form-box .txt-ul{margin-top:5px}
+.form-box .txt-ul li{width:300px;height:40px;margin-bottom:20px;position:relative}
+.form-box .txt-ul li input{width:300px;border:1px solid #e5e5e5;padding:4px;padding-left:94px;height:40px;line-height: 30px}
+.ico-user-yz{width:170px;border:1px solid #e5e5e5;padding:4px;text-indent:10px;height:40px;line-height:30px;color:#777}
+/*.form-box .txt-ul li input.ico-user{background-position:0 -528px}*/
+/*.form-box .txt-ul li input.ico-pwd{background-position:0 -568px}*/
+/*.ico{background: url("../../images/ico_login.png") no-repeat}*/
+.txt-ul-l1{position: relative}
+.txt-ul-d1{width: 55px;
+    height: 26px;
+    background: url("../../images/ico_login.png") no-repeat -14px -16px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    border-right: 1px solid #ccc;}
+.txt-ul-d2{width: 55px;
+    height: 26px;
+    background: url("../../images/ico_login.png") no-repeat -14px -63px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    border-right: 1px solid #ccc;}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.site-top-logo-1{float: left;
+    margin-top: 25px;
+    margin-right: 15px;}
+.form-box .login-automatic input,#login-form .login-automatic label{display:inline-block;color:gray;vertical-align:middle}
+.form-box .login-automatic label{margin-left:8px}
+.form-box .login-automatic .forget-pwd{height:14px;line-height:14px}
+.form-box #btn-login-1th,#btn-login-2th{height:40px;width:100%;color:#fff;border:1px solid #e5e5e5;border-radius:5px;background:#e61d4c;margin-top:20px;display:block}
+.form-box #btn-login-1th:active,#btn-login-2th:active{background:#ec292c}
+.form-box .login-quick{margin-top:20px;line-height:14px;color:gray;font-size: 1.2em;font-weight: bold}
+.form-box .login-quick a{margin-left:22px;padding:11.5px 20px}
+.form-box .login-quick .login-ico-wx{background: url("../../images/user/ico_user_currency.png") no-repeat 0 -171px}
+.form-box .login-quick .login-ico-qq{background: url("../../images/user/ico_user_currency.png") no-repeat 0 -237px}
+#login-form-2th{display: none}
+
+
+/************************找回密码*************************/
+.bgccc{background-color: #cccccc}
+.get-back_password{  width: 800px;  height: 400px;  background-color: #ffffff;  position:fixed;left: 50%;  top: 50%;  margin-top: -200px;  margin-left: -400px;}
+.get-back_password h3{  margin: 20px;  font-size: 14px;  font-family: "黑体";  font-weight: bold;  }
+.get-back_password-1th{  margin: 30px 180px;  }
+.get-back_password-1th span {  line-height: 30px;  }
+.get-back_password-1th span:first-child{  margin-right: 140px;  }
+.get-back_password-1th .span-last-child{  margin-left: 152px;}
+.get-back_password-1,.get-back_password-2,.get-back_password-3{  text-align: center;  color: #ffffff;  line-height: 44px;  font-size: 14px;  font-weight: bold;  display: inline-block;  }
+.get-back_password-line-1,.get-back_password-line-2{ width: 150px;  height: 4px; display: inline-block;  margin: 4px -4px;  }
+.get-back_password-img{ display: inline-block;  padding: 22px 45px 23px 0;  background-color: blue;  position: absolute;  background: url("../../images/ico_login.png") no-repeat -3px -340px ;  }
+.radius45{ width:44px;  height:44px;border-radius: 50%}
+.border700{border-top: 1px solid #cccccc;width: 700px; margin: 0 auto 20px auto;}
+.get-back_password h1{text-align: center; font-size: 16px; font-family: 黑体; font-weight: bold;}
+.get-back_password h1 span{color: #e61d4c;font-weight: bold;}
+.get-back_password-footer{ font-size: 14px;text-align: center;margin-top: 40px;}
+.get-back_password-footer a:first-child { border-right: 1px solid #cccccc;padding-right: 10px;  }
+.get-back_password-footer .a-last-child{ padding-left: 10px; }
+.get-back_password-1th-form{text-align: right;width: 570px;font-size: 14px}
+.get-back_password-1th-form-text{width:250px;border:1px solid #e5e5e5;padding:4px;text-indent:10px;height:40px;line-height:40px;color:#777;margin:0 20px 20px}
+.get-back_password-1th-form-num{width:140px;border:1px solid #e5e5e5;padding:4px;text-indent:10px;height:40px;line-height:40px;color:#777;margin-left:20px}
+.get-back_password-1th-form .get-back_password-1th-form-btn1{height: 40px; width: 100px;   color: #fff;  border: 1px solid #e5e5e5;  border-radius: 5px;  background: #e61d4c;  margin-right: 20px;  margin-left: 10px;  }
+.get-back_password-1th-form p{color: #aaa;margin-top:5px }
+.get-back_password-1th-form .get-back_password-1th-form-btn2,#get-back_password-2th-form .get-back_password-2th-form-btn{height: 40px; width: 200px;   color: #fff;  border: 1px solid #e5e5e5;  border-radius: 5px;  background: #e61d4c;  margin-right: 50px;margin-top: 20px}
+.set-phone-num{width:100%;border-bottom: 1px solid #cccccc;margin-top: 20px}
+.set-phone-num a{font-size:14px;display: inline-block;line-height: 30px;margin:0 10px -2px 10px;padding: 0 5px}
+.set-phone-num-red{border-bottom: 3px solid #e61d4c;color: #e61d4c}
+.set-phone-num-form .set-phone-num-input{width:200px;height: 25px;border: 1px solid #e5e5e5;padding: 4px;text-indent: 10px;margin: 10px 20px}
+.set-phone-num-form{margin:10px 20px }
+.set-phone-num-form .set-phone-num-btn{height: 40px; width: 100px;  color: #fff;  border: 1px solid #e5e5e5;  background: #e61d4c;  margin-top:10px  }
+
+/*通用部分账户管理安全中心*/
+
+.AccouSecur{ margin-top: -25px;  }
+.SecurityCenter{ border: 1px solid #e5e5e5;  margin-left: 35px; margin-right: 35px;  }
+
+.SecurCenterCont>li{ border-bottom: 1px solid #e5e5e5; }
+.SecurCenterCont li h1{ font-size: 15px; line-height: 35px; padding-left: 20px; }
+.SecurCenterCont .SecurityLevel{ height: 70px; line-height: 70px; padding-left: 20px; }
+.SecurityLevel .Level{ font-size: 25px;}
+.ModifySet{ margin-left: 70px; }
+.ModifySet li{ margin-top: 35px; margin-bottom: 35px; }
+.ModifySet .imgTxtSet{ padding-left: 40px;background: url("../../images/user/ico_user_currency.png") no-repeat 0% 25%;}
+.ModifySet .safetProblem{ margin-left: 200px; margin-top: -20px; width: 315px;  }
+.ModifySet .safetModify{  margin-left: 620px; margin-top: -20px;  }
+.ModifySet .Verificat p{ margin-left: 85px; margin-top: -18px; }
+.ModifySet .MailboxVerificat{ background: url("../../images/user/ico_user_currency.png") no-repeat 0% 38%; padding-top: 5px; }
+.SecureBinding .SecureBind{ margin-left: 110px; padding-top: 20px; padding-bottom: 20px;  }
+
+.SecureBind li{  display: inline-block;  }
+.ThirdAccount{  height: 70px;  line-height: 70px;  border-right: 1px solid #e5e5e5;  padding-right: 25px;  }
+.SecureBind .WeChat{  background: url("../../images/user/qqwx_big.jpg") no-repeat 0% 116%;  padding: 24px 0 30px 65px;  margin-left: 40px;  }
+.SecureBind .BindQQ{  background: url("../../images/user/qqwx_big.jpg") no-repeat 0% -6%;  padding: 24px 0 30px 65px;  margin-left: 65px;  }
+.SecurCenterCont .SafetyTips{  padding: 20px 110px 20px 20px;  border: none;  }
+.cl2b3{color: #23b313;}
+.cl80{color: #808080;}
+.SecurityCenter{margin-top: 12px}
+
+/*************************通用部分——保证金管理***************************/
+
+.user-my-owner{margin: 20px}
+.coverage-a{margin:0 20px 20px 20px ;}
+.coverage-btn1,.coverage-btn2{background-color: #e61d4c;height: 24px;border: 1px solid #e5e5e5;color: #ffffff;font-size: 12px;margin-left: 20px}
+.coverage-b{margin:0 20px 20px 20px ;}
+.coverage-b p{width:100%;border-bottom: 1px solid #cccccc;margin-bottom: 20px}
+.coverage-b h1{font-size: 15px ;font-weight: bold}
+.coverage-b span{line-height: 25px}
+
+/*************************通用部分——我的钱包********************/
+.user-right-my_wallet-top{border:1px solid #cccccc}
+.user-right-my_wallet-top-img{margin: 20px;display: inline-block}
+.user-right-my_wallet-top div{display: inline-block;margin-top: 40px;}
+.user-right-my_wallet-top div h1 span{font-size: 16px;font-weight: bold}
+.user-right-my_wallet-top div p {line-height: 20px}
+.user-right-my_wallet-top button{width: 100px;height: 40px;border: 1px solid #e5e5e5;background-color: #e61d4c;color: #ffffff}
+.user-right-my_wallet-top-btn{position: relative;top: -30px;left: 20px}
+.user-right-my_wallet-top-btn a{margin-left: 10px}
+.user-right-my_wallet-btm{margin-top: 20px}
+.user-right-my_wallet-btm>p{width: 100%;border-bottom: 1px solid #cccccc;margin: 10px 0;}
+.user-right-my_wallet-btm-a1{display:inline-block;width: 60px;height: 20px;text-align: center;margin-bottom: 20px;border-bottom-left-radius: 20px;border-top-left-radius: 20px;border-bottom-right-radius: 20px;border-top-right-radius: 20px;}
+.user-right-my_wallet-btm-a1:hover{background-color: #e61d4c;color: #ffffff;}
+.user-right-my_wallet-btm-active{background-color: #e61d4c;color: #ffffff;}
+.user-right-my_wallet-btm-tb{text-align: center;border: 1px solid #e5e5e5}
+.user-right-my_wallet-btm-tb thead tr{background-color: #cccccc;border: 1px solid #e5e5e5}
+.user-right-my_wallet-btm-tb thead tr th{height: 40px;line-height: 40px;border: 1px solid #e5e5e5}
+.user-right-my_wallet-btm-tb tbody tr td{height: 60px; line-height: 60px;border: 1px solid #e5e5e5}
+.user-right-my_wallet-btm-tb .user-right-my_wallet-btm-tb-td2{height: 30px;line-height: 30px}
+
+/*************************通用部分——我的钱包——充值********************/
+.wallet-user-recharge{width:930px;padding:10px 18px;margin-top:10px;padding-bottom: 150px;}
+.wallet-user-recharge-type{padding-top:15px;padding-bottom:10px}
+.wallet-user-recharge-type li{height:24px;margin-right:20px}
+.wallet-user-recharge-type li a{display:block;line-height:22px;border-bottom:2px solid #fff}
+.wallet-user-recharge-type li a:hover{border-bottom-color:#e61d4c}
+.wallet-user-recharge-type li.cur a{border-bottom-color:#e61d4c;color:#e61d4c;}
+.wallet-user-recharge-bank{height:150px;padding-top:50px;background:#fafafa}
+.wallet-user-recharge-bankul li{float: left;margin-right: 9px;margin-bottom: 20px;}
+.wallet-user-recharge-bankul li label,.wallet-user-recharge-bankul li input{float:left}
+.wallet-user-recharge-bankul li label{width: 195px;height: 40px;}
+.wallet-user-recharge-bankul li label img{margin-right: 30px;}
+.wallet-user-recharge-bankul li input{margin:10px 0;}
+.wallet-user-recharge-bankul li label.cur{border:1px solid #e5e5e5}
+.wallet-user-recharge-bank .recharge-bank-more{margin-left:100px}
+.recharge-bank-more{width:48px;line-height:15px;text-align:center}
+.recharge-bank-more p{line-height:15px;width: 100px}
+.recharge-bank-more a{margin-top:-10px}
+.wallet-user-zfb-p1 input{width: 240px;font-size: 15px;  height: 40px;  border: 1px solid #E5E5E5;  margin-left: 10px;  margin-right: 10px;}
+.wallet-user-zfb-p1{text-align: center;margin-top: 20px}
+.wallet-user-zfb-p2{text-align: center;margin-top: 20px}
+.wallet-user-zfb-p2 input{width: 240px;  height: 40px;  border: 1px solid #E5E5E5;  color: #fff;  background: #e61d4c;  border-radius: 4px;  margin-left: 48px;  margin-top: 20px;}
+.wallet-user-wx-p1 input{width: 240px;font-size: 15px;  height: 40px;  border: 1px solid #E5E5E5;  margin-left: 10px;  margin-right: 10px;}
+.wallet-user-wx-p1{text-align: center;margin-top: 20px}
+.wallet-user-wx-p2{text-align: center;margin-top: 20px}
+.wallet-user-wx-p2 input{width: 240px;  height: 40px;  border: 1px solid #E5E5E5;  color: #fff;  background: #e61d4c;  border-radius: 4px;  margin-left: 48px;  margin-top: 20px;}
+.wallet-user-recharge-pay .btn-bank-next{margin:20px 405px}
+.btn-bank-next{width:80px!important;display:inline-block}
+.wallet-user-recharge-balance{padding:10px 0}
+.wallet-user-recharge-balance li{color:gray}
+.wallet-user-recharge-balance li .balancename{width:168px;height:40px;line-height:40px;text-align:right;padding-right:10px}
+.wallet-user-recharge-balance li .balancetext{width:715px;line-height:40px}
+.wallet-user-recharge-balance li .balancetext img{position: relative; top: 10px;;margin-bottom:10px}
+.wallet-user-recharge-balance li .balancetext .blankExplain{padding-top:18px;border-top:1px dashed #878787;width:600px}
+.wallet-user-recharge-balance li input{height:40px;color:gray}
+.wallet-user-recharge-balance li input[type=text]{text-indent:10px}
+.wallet-user-recharge-balance li .txtPrice{width:240px;line-height:35px;font-size:13px;}
+.wallet-user-recharge-balance li .txtCode{width:116px;line-height:35px;font-size:13px;}
+.wallet-user-recharge-balance li .btnCode{width:114px;border-radius:5px;background:#fafafa}
+.wallet-user-recharge-balance li .vm{vertical-align:middle}
+.btn-balance-ok{width:240px!important;margin:0 168px 20px}
+.btn-withdraw-next{width:80px!important;margin:0 168px 20px}
+.btn-withdraw-ok{width:80px!important;margin:0 168px 20px}
+.recharge-balance-table{width:500px}
+.recharge-balance-table ul{height:26px;border-top:1px solid #e5e5e5}
+.recharge-balance-table ul.head{border-top:0;width:498px;}
+.recharge-balance-table ul.head li{font-size: 10px;text-align:center;line-height:26px;height:26px;}
+.recharge-balance-table ul.body li{line-height:25px;text-align:center}
+.recharge-balance-table ul.body li.last{text-align:left;text-indent:5px}
+.recharge-balance-table ul li{width:103px;border-right:1px solid #e5e5e5;margin:0;float:left}
+.recharge-balance-table ul li.last{width:150px;border-right:0}
+#rechargesucess{text-align:center}
+#rechargesucess .title{margin-top:124px}
+#rechargesucess .title{background:url(../../images/true.png) 0 -2% no-repeat;height:32px;line-height:32px;display:inline-block;padding-left:57px;font-size:16px;color:#333;font-weight:700;padding-bottom: 50px;padding-top: 5px;}
+#rechargesucess .title span{color:#d00;font-weight:700}
+#rechargesucess h2{color:gray;text-indent:120px;margin-left: 18px;}
+#rechargesucess a{color:#3aaae0;margin:5px 10px}
+#U_D_ShowBank{ width:700px;}
+#U_D_ShowBank .show-info-box{ padding:0px 4px}
+#U_D_ShowBank .btn-bank-next{ margin:20px 305px;}
+#U_D_ShowBank .btn-business-imgok{ width:60px; height:30px; border-radius:3px; margin-bottom:36px;}
+#U_D_ShowBank .show-info-title{ height:40px; line-height:40px;}
+.wallet-user-recharge-bankul li input{margin:10px 0;}
+.wallet-user-recharge-bankul li label.cur{border:1px solid #e5e5e5}
+.bankChose label{padding-left: 5px;border:1px solid #cccccc;padding-top: 5px}
+.bankChose input{margin: 5px 0 0 0}
+.wallet-user-recharge-bankul li:before{border: 1px solid #e61d4c}
+.icon-sort-down:before{content:"\f0dd";padding:10px 45px 0}
+.ipt-btn-y{height:40px;line-height:38px;background:#e61d4c;color:#fff;border-radius:5px}
+.show-info{min-height:150px;background:#fff;border:1px solid #e5e5e5;margin:0 auto;-moz-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888;display:none}
+.clear,.clearfix:after,#content:after,.wrap:after{clear:both;*zoom:1}.clearfix:before,#content:before,.wrap:before,.clearfix:after,#content:after,.wrap:after{content:"";display:table}
+.show-info-box .choseBank{  margin-top: 20px;  margin-left: 20px;  }
+#ShowBank{  left: 0.26px !important;  top: 39.927px !important; }
+.btn-bank-next{margin:20px 310px}
+.btn-bank-next{width:80px!important;display:inline-block}
+.bankChose .banks{padding: 0}
+.PayBank{display: inline-block;  border: 1px solid #e61d4c;  width: 200px;}
+.blankExplain{margin-top: 10px}
+.PayBank span{margin-left: 20px}
+
+/***************************通用部分账户管理 提现到银行卡******************************/
+.currency-user-main-title{height:20px;line-height:20px;color:#333;font-weight:700;border-left:4px solid #e61d4c;text-indent:6px;font-size: 14px}
+.currency-user-main-title a{font-size:12px;font-weight:400}
+.bankImg{display: inline-block;  border: 1px solid #e61d4c;  width: 200px;margin-bottom: 10px}
+.bankImg span{margin-left: 20px}
+.BankCard{display: inline-block;  border: 1px solid #e61d4c;  width: 200px;margin-bottom: 10px;line-height: 40px}
+.BankCard img{margin-top: 10px}
+.BankCard span{margin-left: 20px}
+#rechargesucess .ContinueRecha{
+    margin-left: -55px;
+    margin-top: 25px;
+}
+
+
+.head{width:800px;height:40px;line-height:40px;font-size:16px;padding-left:10px;background: #E5E5E5;position: relative;}
+.h-close{width:15px;height:15px;background:url("../../images/public/ico_close.png");position: absolute;right:12.5px;top:12.5px;cursor: pointer;}
+.l-body{width:800px;height:360px;padding-top: 40px;}
+/*修改密码  弹出框*/
+.layout-changepass{width:800px;height:400px;background: #fff;display: none;}
+.layout-changepaypass{width:800px;height:400px;background: #fff;display: none;}
+.ch-row{width:300px;height:40px;margin:0 auto 20px;text-align:right;line-height: 40px;}
+.ch-row .ipt-txt{width:240px;height:40px;border:1px solid #ccc;line-height:28px;}
+.ch-row .ipt-sub{width:240px;height:40px;background:#FF7300;text-align:center;line-height:40px;color:#fff;border:none;border-radius:2px;margin-left:60px;cursor:pointer;}
+
+.ipt-sub-success{display: none;width:270px;height:110px;line-height:48px;text-align:center;margin:115px auto 0;}
+.ipt-sub-success .success-msg{font-weight:bold;font-size:15px;}
+.ipt-sub-success .suc-sure{width:80px;height:30px;border:1px solid #ccc;margin-top:60px;}
+
+
+/*手机验证  弹出框*/
+.layout-changephone{width:800px;height:430px;background: #fff;display: none;}
+.ml-13{margin:0 13px 0 -13px;}
+.bgcc{background: #ccc;}
+.lineing{width:500px;height:55px;padding:9px 0;margin:0 auto;}
+.lineing ul li{float:left;position: relative;}
+.lineing ul li.on{background:#FF7300;color:#fff;}
+.first{width:135px;height:5px;}
+.first .circle{left:0;}
+.second{width:230px;height:5px;}
+.plr104{padding:0 104px;}
+.third{width:135px;height:5px;}
+.third .circle{right:0;}
+.circle{display:inline-block;width:22px;height:22px;background: #ccc;text-align: center;line-height:20px;border-radius:50%;position: absolute;top:-8px;}
+.circle.ch{background: #ff7300;color:#fff;}
+
+	/*第一步*/
+.inpt{width:500px;height:200px;margin:0 auto;}
+.phnum{margin: 20px 0px 10px 50px;}
+.phcheck{margin-left:26px;}
+.phone-ipt{width: 115px;height: 40px;border: 1px solid rgb(204, 204, 204);text-indent: 0.5em;line-height:37px;}
+.getmsg{width:115px;height:40px;vertical-align: middle;margin-left: 5px;border: 1px solid #ccc;}
+.check-msg{margin-left:108px;display: none;}
+.checknum{margin-left:86px;margin-top: 10px;}
+.checkipt{width:115px;height:40px;border:1px solid #ccc;text-indent:0.5em;line-height: 37px;}
+.numimg{display: inline-block;vertical-align:middle;width:115px;height:40px;margin-left:5px;background: url("../../images/public/checkmsg.png");}
+.changebtn{color:#3DAAE0;}
+.checksubmit{width:230px;height:40px;background:#FF7300;margin:20px 0 20px 135px;border:none;border-radius:2px;color:#fff}
+.cuemsg{width:500px;height:50px;margin:0 auto;}
+.bold{font-weight: bold;color:#000;}
+
+	/*第二步*/
+.second-step{display: none;}
+.bind-phone{width:500px;height:250px;margin:0 auto;}
+.new-phone-num{margin-top:20px;margin-left:2px;}
+.new-phone-num .check-msg{margin-left:131px;}
+.new-phone-checknum{margin-top:10px;margin-left:38px;}
+.new-phone-ipt{width:240px;height:40px;border:1px solid #ccc;vertical-align: center;text-indent: 0.5em;}
+	/*第三步*/
+.third-step{margin-top:50px;}
+
+/*绑定邮箱*/
+.layout-mail{width:800px;height:430px;background: #fff;display: none;}
+.new-email-check{margin-left:33px;}
+.email-checknum{margin-left:57px;}
+
+/*修改支付密码*/
+.layout-changepaypass{width:800px;height:430px;background: #fff;display: none;}
+.usernam{width:300px;height:40px;margin:0 0 5px 262px;text-align:left;line-height: 40px;}
+
+
+/*解除绑定QQ*/
+.layout-unbindQQ{width:500px;height:280px;display:none;}
+.unbind-head{width:500px;height:40px;background:#e5e5e5;position:relative;text-align: center;line-height: 40px;font-size:20px;}
+.unbind-close{width:15px;height:15px;background:url("../../images/public/ico_close.png");position: absolute;right:12.5px;top:12.5px;cursor: pointer;}
+.unbind-body{width:500px;height:240px;padding:40px 0;}
+.unbind-ipt{width:340px;height:115px;margin:0 auto;}
+.unbind-checkipt{width:115px;height:40px;text-indent: 0.5em;line-height: 38px;border:1px solid #ccc;vertical-align: middle;}
+.p-1{margin:0 0 20px 12px;}
+.unbind-surebtn{width:115px;height:40px;margin:0 auto;text-align: center;line-height: 40px;color:#fff;border-radius: 2px;background:#ff7300;cursor: pointer;}
+.unbind-getchecknum{display:inline-block;width:115px;height:40px;text-align: center;line-height: 40px;margin-left:5px;border:1px solid #ccc;cursor: pointer;vertical-align: middle;}
+
+/*解绑微信*/
+.layout-unbind-webchat{width:500px;height:280px;display:none;}
+.unbind-webchat-ipt{width:345px;height:115px;margin:0 auto;}
+.p-2{margin:0 0 20px 36px;}

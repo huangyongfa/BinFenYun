@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		ul li{list-style:none;}
+		.clearfix::after{content:"";display:block;clear:both;}
+		.project-wrapper{width:700px;height:300px;margin:0 auto;}
+		.project-wrapper h2{font-size:20px;font-weight:bold;text-align:center;}
+		.project-wrapper ul{padding-left:0;}
+		.project-wrapper ul li{width:175px;height:100px;float:left;text-align:center;position:relative;}
+		.project-wrapper ul li .step{width:50px;height:50px;position:absolute;left:50%;margin-left:-25px;}
+		.project-wrapper ul li .num{position:absolute;left:50%;top:50%;margin:-9px 0 0 -5px;color:#fff;}
+		.step-line-r{display:inline-block;width:62.5px;height:2px;background:#e61d4e;position:absolute;top:50%;left:50px;margin-top:-1px;}
+		.step-line-l{display:inline-block;width:62.5px;height:2px;background:#e61d4e;position:absolute;top:50%;right:50px;margin-top:-1px;}
+		.project-wrapper ul li p{text-align: center;color:#e61d4e;margin-top:60px;}
+		.pay-btn{width:50px;height:20px;color:#fff;background:#e61d4e;border:none;cursor:pointer;}
+		.yet{background:#C7C5C5;}
+	</style>
+</head>
+<body>
+	<div class="project-wrapper">
+		<h2>工程总款 80000.00元</h2>
+		<ul class="clearfix">
+			<li>
+				<div class="step">
+					<img src="static/images/public/y1.png">
+					<span class="num">1</span>
+					<span class="step-line-r"></span>
+				</div>
+				<p>8000.00元</p>
+				<button type="button" class="pay-btn yet">已付</button>
+			</li>
+			<li>
+				<div class="step">
+					<img src="static/images/public/y1.png">
+					<span class="num">2</span>
+					<span class="step-line-l"></span>
+					<span class="step-line-r"></span>
+				</div>
+				<p>16000.00元</p>
+				<button type="button" class="pay-btn">催款</button>
+			</li>
+			<li>
+				<div class="step">
+					<img src="static/images/public/y1.png">
+					<span class="num">3</span>
+					<span class="step-line-l"></span>
+					<span class="step-line-r"></span>
+				</div>
+				<p>24000.00元</p>
+				<button type="button" class="pay-btn">催款</button>
+			</li>
+			<li>
+				<div class="step">
+					<img src="static/images/public/y1.png">
+					<span class="num">4</span>
+					<span class="step-line-l"></span>
+				</div>
+				<p>32000.00元</p>
+				<button type="button" class="pay-btn">待付</button>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
